@@ -2,24 +2,24 @@
 
 <!-- Please use one of these items per category by removing the comment tag at the beginning and end of the line. -->
 
-* Length of text: 
-<!-- :page_with_curl: short ( `:page_with_curl:` ) -->
-<!-- :book:  long ( `:book:` ) -->
+#### Length of text ####
+<!-- :page_with_curl: short -->
+<!-- :book:  long -->
 
-* Difficulty to read: 
-<!-- :mouse:  light ( `:mouse:` ) -->
-<!-- :elephant:  heavy  ( `:elephant:` ) -->
+####  Difficulty to read ####
+<!-- :mouse:  light -->
+<!-- :elephant:  heavy -->
 
-* Difficulty to understand:
-<!-- :school_satchel:  easy ( `:school_satchel:` ) -->
-<!-- :mortar_board:  difficult ( `:mortar_board:` ) -->
+####  Difficulty to understand #### 
+<!-- :school_satchel:  easy -->
+<!-- :mortar_board:  difficult -->
 
-* Type of text:
-<!-- :laughing:  funny ( `:laughing:` ) -->
-<!-- :bowtie:  informative ( `:bowtie:` ) -->
-<!-- :sunglasses:  catchy ( `:sunglasses:` ) -->
+####  Type of text #### 
+<!-- :laughing:  funny -->
+<!-- :bowtie:  informative -->
+<!-- :sunglasses:  catchy -->
 
-* Type of header:
-<!-- :santa:  funny ( `:santa:` ) --> 
-<!-- :bulb:  informative ( `:bulb:` ) -->
-<!-- :boom:  catchy ( `:boom:` ) -->
+####  Type of header #### 
+<!-- :santa:  funny --> 
+<!-- :bulb:  informative -->
+<!-- :boom:  catchy -->
