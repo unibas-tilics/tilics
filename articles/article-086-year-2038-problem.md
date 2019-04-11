@@ -3,15 +3,18 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-The most common way to represent time in computer systems, is Unix time. It is expressed as the number of seconds elapsed since 00:00:00 Thursday, 1 January 1970 (UTC). 
+The most common way to represent time in computer systems, is Unix time. It is expressed as the number of seconds elapsed since Thursday, 1 January 1970, 00:00:00 (UTC). 
 
-Unix timestamps are stored as a string of 32 0's and 1's (bits). The leftmost bit indicates the sign of the timestamp. The remaining positions act as a binary counter. Every second, the counter is incremented by one. Negative timestamps represent dates before the beginning of unix time.
+Unix timestamps are stored in binary format as a string of 0's and 1's (bits). This string acts as a counter. Every second, it is incremented by one. A sign bit indicates whether the counter is negative, representing dates before 01.01.1970, or positive for dates after the beginning of Unix time.
 
-Thus, timestamps from '10000000000000000000000000000' which corresponds to 20:45:52 Friday, 13 December 1901 to '0111111111111111111111111111' which stands for 03:14:07 Tuesday, 19 January 2038 can be stored. Incrementing to the latter will cause the leftmost bit to wrap around and the counter would be reset to the most negative value. This phenomenon is know as the 'Year 2038 Problem'. Systems that are not updated with a larger counter by then, will indicate wrong timestamps from 03:14:07 Tuesday, 19 January 2038 on. In some cases this can have severe consequences.
+Since the counter has a fixed number of positions, it will reset once it has reached its largest value. This will also cause the sign bit to flip around, making the timestamp negative. In many systems the counter has a size of 32 bits. Thus, on Tuesday, 19 January 2038 at 03:14:08, time will reset to Friday, 13 December 1901, 20:45:52. 
+
+To avoid the so-called 'Year 2038 Problem', systems have to be updated with a larger counter before 2038. 
+
 <!-- END BODY -->
 
 
-![Image title](../images/image-086-year-2038-problem.svg)
+![Image title](../images/image-086-year-2038-problem.jpeg)
 
 
 ## Optional text
