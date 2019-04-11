@@ -9,12 +9,13 @@ colleagues that these machines can do more.
 
 The picture is hers and shows how a computer program can produce
 another computer program. She even coined the term that is still use
-today: a compiler.
+today: a **compiler**.
 
 Nowadays we have many more of these translation and transformation
-machines, with names as funny as the picture: cross-compilers,
-transpilers and compiler-compilers (cocos). Their mission is
-translate program code from one computer language to another.
+machines, with names as funny as the picture: _cross-compilers_,
+_transpilers_ and _compiler-compilers_ (cocos). Their mission is to
+translate from one computer language to another, for example a C
+program to machine code, but also JavaScript6 to Javascript5.
 <!-- END BODY -->
 
 ![Grace Hopper's compiler robot](../images/image-112-compiler.png)
