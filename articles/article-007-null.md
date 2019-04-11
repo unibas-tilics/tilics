@@ -11,10 +11,10 @@ it does make a different if a patient has not a disease (0) or is not yet diagno
 <!-- END BODY -->
 
 
-![NUll](figures/image-007-null.png)
+![NUll](../images/image-007-null.png)
 
 
-## Optional text
+
 <!-- BEGIN OPTIONAL -->
 
 <!-- END OPTIONAL -->
