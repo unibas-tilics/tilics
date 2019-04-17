@@ -10,10 +10,10 @@ reset to zero.  The time the computer is not running is called
 
 When running a service, such as a website, we want it to be available
 at all times.  This means that the server the website is running on
-has to be available all the time.  However, computers also need to be
-updated from time to time, which usually involves a reboot, or they
-may simply crash.  Thus, a high uptime is a sign for a highly
-available service.
+has to be available all the time.  However, computers sometimes crash,
+and also need to be updated from time to time, which usually involves
+a reboot.  Thus, a high uptime is a sign for a highly available
+service.
 
 To work around this conflict between availability and the need to
 update, we can distribute a service over multiple servers, thereby
@@ -23,12 +23,11 @@ rather than **server uptime**.
 <!-- END BODY -->
 
 
-![Image title](../images/image-1xx-why-uptime-matters.svg)
+![Image title](../images/image-114-why-uptime-matters.png)
 
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
-
 <!-- END OPTIONAL -->
 
 
