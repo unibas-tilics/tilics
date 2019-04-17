@@ -1,11 +1,13 @@
 <!-- BEGIN TITLE -->
-# Livelock
+# Oops! My Computer keeps freezing, Could it be a livelock?
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-Suppose there are two gentlemen in front of each other in a narrow pathway and would like to pass to the other side. The first is on the right side and asks the other to move to the left so he can pass. At the same time, the second who is on the left side asks the first to move to the right. They move from right to left and from left to right, and then the same situation happens again, and they cannot pass. So, they repeat their questions and keep swaying in the narrow path without passing. 
+Yes, It could be. A livelock is one of the reasons that might freeze your system. But, what is livelock?  
 
-This situation could happen in operating systems and is called livelocks. Really!? Yes, suppose you have two running processes A and B, and each holds a resource R1 and R2 respectively. A requires R2 to complete its job and B requires R1 to complete its job. A requested R2 from B, and at the same time, B requested R1 from A. So, they swap their resources. Now, each process has again only one resource and requests the other one. They will keep exchanging the resources without doing the computation. 
+Suppose two gentlemen facing each other in a narrow pathway and would like to pass to the other side as in picture. The first asks the second to move to the left, and at the same time, the second asks the first to move to the right. They move from right to left and from left to right, but the situation happens again, and they cannot move on. So, they repeat their requests and keep swaying in the passage without passing.
+
+This situation could happen in operating systems as well. When process A holds resource R1 and requires resource R2 which is held by process B. They request the required resource from each other. Then, they exchange the resources and keep exchanging them without completing their tasks.  
 <!-- END BODY -->
 
 
