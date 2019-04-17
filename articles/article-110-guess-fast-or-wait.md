@@ -6,7 +6,7 @@
 Imagine you're in an unfamiliar city and trying to find a new place.
 Also, you're using your smartphone for navigation.  And because you
 have a good sense of direction, you already start walking the way you
-think is correct while your phone is searching for a route.
+think is correct while looking up the way on your phone.
 
 If you guessed the direction correctly, you didn't waste any time
 waiting for the result, and can continue on your way.  If your guess
@@ -21,12 +21,11 @@ the actions it has done in error.
 <!-- END BODY -->
 
 
-![Image title](../images/image-1xx-guess-fast-or-wait.svg)
+![Image title](../images/image-110-guess-fast-or-wait.png)
 
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
-
 <!-- END OPTIONAL -->
 
 
