@@ -12,7 +12,7 @@ In between, there is a compiler which is a computer program that can understand 
 <!-- END BODY -->
 
 
-![Image title](../images/image-28.svg)
+![Image title](../images/image-28.JPG)
 
 
 ## Author
