@@ -11,7 +11,7 @@ There is no general rule when to use recursion and when not to. For any given pr
 <!-- END BODY -->
 
 
-![Fibonacci recursion vs iteration](../images/image-108-recursion-vs-iteration.jpg)
+![Fibonacci recursion vs iteration](../images/image-108-recursion-vs-iteration.svg)
 
 
 
