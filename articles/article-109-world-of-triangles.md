@@ -10,7 +10,7 @@ The more triangles are used the more detailed a surface is. Where a simple objec
 <!-- END BODY -->
 
 
-![Image title](../images/image-109-world-of-triangles.jpg)
+![Image title](../images/image-109-world-of-triangles.svg)
 
 
 ## Optional text
