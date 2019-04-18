@@ -11,7 +11,7 @@ A skilled reverse engineer can still use this information to gain knowledge abou
 
 <!-- END BODY -->
 
-![Reverse Engineering Flow](../images/image-063-reverse-engineering.jpeg)
+![Reverse Engineering Flow](../images/image-063-reverse-engineering.svg)
 
 
 ## Optional text
