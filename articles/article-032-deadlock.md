@@ -11,7 +11,7 @@ Since computer processes cannot hand wave at ech other, clear rules are needed t
 <!-- END BODY -->
 
 
-![Deadlocked intersection](../images/image-032-deadlock.jpeg)
+![Deadlocked intersection](../images/image-032-deadlock.svg)
 
 
 ## Optional text
