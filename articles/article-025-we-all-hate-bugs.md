@@ -9,7 +9,7 @@ A bug in software is usually a behavior of the software which is not intended. S
 Often while fixing software bugs the programmer accidentally adds another bug. The cicle is endless.
 <!-- END BODY -->
 
-![Bugs](../images/image-025-we-all-hate-bugs.jpeg)
+![Bugs](../images/image-025-we-all-hate-bugs.svg)
 
 ## Optional
 <!-- BEGIN OPTIONAL -->
