@@ -7,7 +7,7 @@ Normally you count with your fingers by stretching them out one after another. Y
 <!-- END BODY -->
 
 
-![Image title](../images/image-111-counting-to-more-than-ten-with-two-hands.jpg)
+![Image title](../images/image-111-counting-to-more-than-ten-with-two-hands.svg)
 
 
 ## Optional text
