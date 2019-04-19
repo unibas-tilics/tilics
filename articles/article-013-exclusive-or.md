@@ -7,10 +7,15 @@ The question whether a "or" can be interpreted as an "and" is a common sense of 
 
 In mathematical logic, the foundation of Computer Science, it is therefore distinguished between "or" and "exclusive or". The latter is often abbreviated as XOR. In English, we can express a XOR by using an either … or construction.
 
-The OR operator is always defined as an "and/or". It is fulfilled if at least one of its conditions is fulfilled. An exclusive or on the other hand is fulfilled if (and only if) exactly one of the conditions is fulfilled. If both of its conditions are met, the exclusive or is no longer fulfilled.
+The OR operator is always defined as an "and/or". It is fulfilled if at least one of its conditions is fulfilled. It is therefore also called "inclusive or". An exclusive or on the other hand is fulfilled if (and only if) exactly one of the conditions is fulfilled. If both of its conditions are met, the exclusive or is no longer fulfilled.
 <!-- END BODY -->
 
 
+<br/>
+
+![Truth Table](../images/image-013-exclusive-or.svg)
+
+<br/>
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
