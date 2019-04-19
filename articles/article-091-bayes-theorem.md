@@ -6,7 +6,7 @@
 One might argue that our standard way of reasoning consists of two basic elements: 
 The initial belief we have about a topic and the step of updating this belief when we observe something new. 
 
-For example, you at first expect a set of dice to be fair when playing a game of Yahtzee. But after observing multiple five-of-a-kind in a row, it is natural to believe that the dice are loaded.
+For example, at first you would expect a set of dice to be fair when playing a game of Yahtzee. But after observing multiple five-of-a-kind in a row, it is natural to believe that the dice are loaded.
 And if you actually expected the other players to be sketchy beforehand, you would come to that conclusion  way faster.
 
 This simple idea is formalized in Bayes' Theorem, forming the foundation of many Statistics and Machine Learning methods.
