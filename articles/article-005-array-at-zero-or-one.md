@@ -5,9 +5,9 @@
 
 <!-- BEGIN BODY -->
 An array is a data structure to store some elements with an index for each. 
-This coins the question: 'what is the smalles index?'
+This coins the question: 'what is the smallest index?'
 
-Most programming languages start the array with the index 0 but there are some rare outliers that start with index 1. 
+Most programming languages start an array at index 0 but there are some rare outliers that start with index 1. 
 
 If you want to figure out whether the person in front of you is a computer scientist or not, there is one easy way to find it out: 
 Show a bunch of things an let him count them. The true computer scientist will start to count with a zero.
