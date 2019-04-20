@@ -16,9 +16,6 @@ A skilled reverse engineer can still use this information to gain knowledge abou
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
-Maybe explain graphic in text.
-Maybe change "behavior" to "flow" to make graphic more clear.
-Maybe use JMP instruction for graphic instead of flow diagramm.
 <!-- END OPTIONAL -->
 
 
