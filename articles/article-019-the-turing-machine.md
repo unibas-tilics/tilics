@@ -1,5 +1,5 @@
 <!-- BEGIN TITLE -->
-# The Turing Machine
+# The Essence of Computation: The Turing Machine
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
