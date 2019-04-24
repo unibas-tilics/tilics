@@ -11,7 +11,7 @@ But when to stop? Recursion only works if there are certain smallest problems fo
 <!-- END BODY -->
 
 
-![Fibonacci spiral](../images/image-029-recursion.jpg)
+![Fibonacci spiral](../images/image-029-recursion.svg)
 
 
 
