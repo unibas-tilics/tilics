@@ -15,7 +15,7 @@ In contrast, many models exclusively use data, which might be rather scarce and 
 And even if the used expert knowledge is not totally correct, the model will still be able to overcome that as long as enough data is observed.
 <!-- END BODY -->
 
-
+![Bayes Dice](../images/image-091-bayes-theorem.svg)
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
