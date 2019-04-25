@@ -10,7 +10,7 @@ One problem that often arises when writing code is the name of variables. Often 
 <!-- END BODY -->
 
 
-![Image title](../images/image-003-camel-case.png) 
+![Image title](../images/image-002-camel-case.png) 
 
 
 ## Optional text
