@@ -1,3 +1,4 @@
+
 <!-- BEGIN TITLE -->
 # CamelCase, or why coding conventions matter
 <!-- END TITLE -->
@@ -15,7 +16,7 @@ One problem that often arises when writing code is the name of variables. Often 
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
-I could mentioon other styles like in Python, hello_world
+I could mention other styles like in Python, hello_world
 <!-- END OPTIONAL -->
 
 
