@@ -12,8 +12,8 @@ Multiply the ratio by 4 and you get Pi, well an approximation. If you are not ha
 This is one example for the Monte Carlo method. Key is to avoid complicated analytical calculations by using random samples in a clever way.
 <!-- END BODY -->
 
-
-![Image title](../images/image-104-monte-carlo-methods.jpg)
+                         
+![Rice in a quatercircle in a square](../images/image-104-monte-carlo-methods.jpeg)
 
 
 ## Optional text
