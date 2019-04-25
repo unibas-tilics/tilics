@@ -15,7 +15,7 @@ Even better, multiple people can simultaneously work on one file and then easily
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
-Trivia: The whole writing and reviewing process of this book was actually managed with a VCS.
+Trivia: The whole writing and reviewing process of this book was actually managed with a VCS called 'Git'.
 <!-- END OPTIONAL -->
 
 
