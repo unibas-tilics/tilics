@@ -1,11 +1,13 @@
 <!-- BEGIN TITLE -->
-# DRAFT: Why do programmers need forks?
+# Why do programmers need forks?
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-Software development is teamwork. Many people work together to create a software program. In the case of open-source projects, the code of the software is openly available. Everyone can look at it, and propose extensions or adjustments. Usually, software projects are happy to receive feedback from the community. 
+Software development is a continuous process. Programmers, engineers, and users, work together to improve the current version of a software project. 
 
-Sometimes, the suggested changes deviate too much from the goal of the project. In that case, developers can decide to copy the current source code and start a new independent software project. This "branching-out" is also called a "fork".
+In the case of open-source projects, the source code of the software is openly available. Everyone can look at it and submit their own contributions. Usually, software projects are happy to receive feedback from the community. 
+
+Sometimes, the suggested changes deviate too much from the goal of the project. Developers can decide to copy the source code and start a new independent project. This deviation from the original project is also called a "fork".
 <!-- END BODY --> 
 
 <br/>
