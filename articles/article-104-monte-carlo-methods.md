@@ -13,7 +13,7 @@ This is one example for the Monte Carlo method. Key is to avoid complicated anal
 <!-- END BODY -->
 
 
-![Image title](../images/image-117-monte-carlo-methods.jpg)
+![Image title](../images/image-104-monte-carlo-methods.jpg)
 
 
 ## Optional text
