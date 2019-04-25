@@ -11,8 +11,7 @@ And if you actually expected the other players to be sketchy beforehand, you wou
 
 This simple idea is formalized in Bayes' Theorem, forming the foundation of many Statistics and Machine Learning methods.
 The theorem makes it possible to include expert knowledge into a mathematical model.
-In contrast, many models exclusively use data, which might be rather scarce and hard to obtain.
-And even if the used expert knowledge is not totally correct, the model will still be able to overcome that as long as enough data is observed.
+And even if the used expert knowledge is not totally correct, the model will still be able to overcome that - as long as enough data is observed.
 <!-- END BODY -->
 
 ![Bayes Dice](../images/image-091-bayes-theorem.svg)
