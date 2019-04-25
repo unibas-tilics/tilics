@@ -8,7 +8,7 @@ However, keeping a lot of slightly renamed versions of your files for every litt
 
 Version Control Systems (VCS) allow not only to back up your files, 
 but more importantly help you to keep track of the different versions and what changed in each of them. 
-Even better, multiple people can work at the time on one file and then easily combine the different changes.
+Even better, multiple people can simultaneously work on one file and then easily combine the different changes.
 <!-- END BODY -->
 
 
