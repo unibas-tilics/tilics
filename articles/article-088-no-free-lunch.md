@@ -14,7 +14,7 @@ That is, there is always a cost associated with selecting a method and unfortuna
 
 
 
-![Performance of Different Methods](../images/image-0-88-no-free-lunch.png)
+![Performance of Different Methods](../images/image-088-no-free-lunch.svg)
 
 
 ## Optional text
