@@ -13,7 +13,7 @@ to the old and buggy program.
 Now go and find the differences: Did we spot them all?
 <!-- END BODY -->
 
-![spot the diff](../images/image-052-patch.png)
+![spot the diff](../images/image-052-patch.svg)
 
 ## Author
 <!-- BEGIN AUTHOR -->
