@@ -7,7 +7,7 @@ FLOPS is a performance measurement indicating how many **fl**oating point **op**
 
 <!-- END BODY -->
 
-![1 FLOP](../images/image-023-flops.jpg)
+![1 FLOP](../images/image-023-flops.svg)
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
