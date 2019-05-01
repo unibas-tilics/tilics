@@ -11,7 +11,7 @@ This situation could happen in operating systems as well. When process A holds r
 <!-- END BODY -->
 
 
-![Image title](../images/image-105-livelock.jpg)
+![Image title](../images/image-105-livelock.svg)
 
 ## Author
 <!-- BEGIN AUTHOR -->
