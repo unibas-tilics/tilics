@@ -1,11 +1,13 @@
 <!-- BEGIN TITLE -->
-# 2147483647 + 1 = -2147483648
+# Overflow
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-In a computer every number has a fixed number of bits it can use to store its value. In the case of a signed number, one of these bits is used to indicate whether the number is positive or negative.
+Imagine an odometer of a car, there are six spaces each of which can display a one digit number. Therefore, the highest number that can be represented is 999'999, after which the odometer turns to 000'000 again.
 
-If the number already has all the bits filled
+The same thing can happen in a computer. Every number has a fixed amount of bits it can use to store its value. As soon as all of these bits are set, increasing the number again will cause an overflow, meaning that the number will wrap around to its smallest value.
+
+This behavior has led to notorious bugs, such as the software of the Ariane 5 rocket malfunctioning due to an unexpected overflow. This caused a crash shortly after takeoff, costing several hundred million dollars.
 <!-- END BODY -->
 
 ![Overflow](../images/image-046-overflow.jpeg)
@@ -13,6 +15,7 @@ If the number already has all the bits filled
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
+![Overflow(Optional)](../images/image-046-overflow(optional).jpeg)
 <!-- END OPTIONAL -->
 
 
