@@ -7,7 +7,7 @@
 An array is a data structure to store some elements with an index for each. 
 This coins the question: 'what is the smallest index?'
 
-Most programming languages start an array at index 0 because it is the smallest value a binary number can represent. But there are some rare outliers that start with index 1. 
+Most programming languages start an array at index 0 because it is the smallest natural number that can be represented in a binary system. But there are some rare outliers that start with index 1. 
 
 If you want to figure out whether the person in front of you is a computer scientist or not, there is one easy way to find it out: 
 Show a bunch of things an let they count them. The true computer scientist will start to count with a zero.
