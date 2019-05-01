@@ -9,7 +9,7 @@ When analysing the complexity of an algorithm, it is important to think about th
 <!-- END BODY -->
 
 
-![Big O Notation](../images/image-030-big-o-notation.jpg)
+![Big O Notation](../images/image-030-big-o-notation.svg)
 
 
 
