@@ -9,7 +9,7 @@ In Fibonacci series for instance, while calculating Fib(5), we know that Fib(0)=
 <!-- END BODY -->
 
 
-![Image title](../images/image-NUMBER-NAME-OF-ARTICLE.svg)
+![Image title](../images/image-123-dynamic-programming.jpg)
 
 
 ## Optional text
