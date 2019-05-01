@@ -13,7 +13,7 @@ This is one example for the Monte Carlo method. Key is to avoid computing a comp
 <!-- END BODY -->
 
                          
-![Rice in a quatercircle in a square](../images/image-104-monte-carlo-methods.jpeg)
+![Rice in a quatercircle in a square](../images/image-104-monte-carlo-methods.svg)
 
 
 ## Optional text
