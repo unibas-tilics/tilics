@@ -1,5 +1,5 @@
 <!-- BEGIN TITLE -->
-# How do we now, how good the solution was
+# How do we know, how good the solution was
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
