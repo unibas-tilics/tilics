@@ -10,7 +10,7 @@ The same thing can happen in a computer. As soon as a file gets changed from two
 While in rail traffic this can be solved by having a *semaphore* to only ever allow one train to pass the intersection, the same is done in computers. Here, a *semaphore* only ever allows one source to access a *critical section*. Everyone else has to wait, thus preventing any unintended behavior or crashes
 <!-- END BODY -->
 
-![Mutex](../images/image-058-mutex.jpeg)
+![Mutex](../images/image-058-mutex.svg)
 
 
 ## Optional text
