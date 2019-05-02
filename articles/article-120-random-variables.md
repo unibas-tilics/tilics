@@ -9,7 +9,7 @@ To be able to do some mathematics on these outcomes, we need to define a value f
 <!-- END BODY -->
 
 
-![Image title](../images/image-120-random-variables.jpg)
+![Image title](../images/image-120-random-variables.svg)
 
 
 
