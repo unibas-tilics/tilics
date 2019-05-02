@@ -13,7 +13,7 @@ Often while fixing software bugs the programmer accidentally adds another bug. T
 
 ## Optional
 <!-- BEGIN OPTIONAL -->
-Some People say they spend more then 50% of their work with debugging.
+Some People say they spend more than 50% of their work with debugging.
 <!-- END OPTIONAL -->
 
 ## Author
