@@ -12,7 +12,7 @@ It is possible to write any program with this language the question solely is if
 <!-- END BODY -->
 
 
-![Image title](../images/Image-116-esoteric-programming-languages.png)
+![Image title](../images/image-116-esoteric-programming-languages.svg)
 
 
 ## Optional text
