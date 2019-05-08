@@ -13,7 +13,7 @@ The well-known picture according to this Sequence is the Fibonacci spiral.
 <!-- END BODY -->
 
 
-![Image title](../images/image-117-why-stick-to-one-example.jpg)
+![Image title](../images/image-117-why-stick-to-one-example.svg)
 
 
 ## Optional text
