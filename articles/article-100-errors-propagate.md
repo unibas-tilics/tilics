@@ -12,7 +12,7 @@ leading to unhoped-for results.
 <!-- END BODY -->
 
 
-![Image title](../images/image-100-errors-propagate.jpg)
+![Image title](../images/image-100-errors-propagate.svg)
 
 
 ## Optional text
