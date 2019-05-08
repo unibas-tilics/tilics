@@ -15,7 +15,7 @@ Show a bunch of things an let they count them. The true computer scientist will 
 <!-- END BODY -->
 
 
-![funny comic](../images/image-005-array-at-zero-or-one.jpeg)
+![funny comic](../images/image-005-array-at-zero-or-one.svg)
 
 
 ## Optional text
