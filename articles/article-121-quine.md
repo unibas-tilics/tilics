@@ -18,7 +18,7 @@ One could also call this the fixpoint of life, as any lifeform must
 master this trick.
 <!-- END BODY -->
 
-![speech bubble](../images/image-121-quine.png)
+![speech bubble](../images/image-121-quine.svg)
 
 ## Author
 <!-- BEGIN AUTHOR -->
