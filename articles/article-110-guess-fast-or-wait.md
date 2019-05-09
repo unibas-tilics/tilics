@@ -13,11 +13,12 @@ waiting for the result, and can continue on your way.  If your guess
 was wrong, you have to turn around.
 
 A modern CPU does this as well: When its course of action depends on a
-result it would have to wait for, it tries to guess the result and
+result it would have to wait for, it makes an educated guess and
 continues along this path.  This is called **speculative execution**.
-If the guess turns out to be correct, the CPU just gained a little
-speed boost.  However, if the guess was wrong, the CPU has to undo all
-the actions it has done in error.
+If the guess was wrong, the CPU has to discard all the actions it has
+done in error.  It did not waste any time though, as it would have
+spent the time waiting instead.  However, if the guess turns out to be
+correct, the CPU just gained a little speed boost.
 <!-- END BODY -->
 
 
