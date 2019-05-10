@@ -10,12 +10,12 @@ The same thing can happen in a computer. Every number has a fixed amount of bits
 This behavior has led to notorious bugs, such as the software of the Ariane 5 rocket malfunctioning due to an unexpected overflow. This caused a crash shortly after takeoff, costing several hundred million dollars.
 <!-- END BODY -->
 
-![Overflow](../images/image-046-overflow.jpeg)
+![Overflow](../images/image-046-overflow.svg)
 
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
-![Overflow(Optional)](../images/image-046-overflow(optional).jpeg)
+
 <!-- END OPTIONAL -->
 
 
