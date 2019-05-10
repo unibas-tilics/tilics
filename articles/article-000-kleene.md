@@ -8,7 +8,8 @@ Computer are great at repetitive tasks. The most beautiful and concise
 way of expressing repetition is Kleene's star, namely the symbol "*" which
 stands for **zero or more repetitions**.
 
-For example, the letter A followed by the Kleene Star, __"A*"__, either means
+For example, in Computer Science theory, the letter A followed by the
+Kleene Star, __"A*"__, either means
 * '' (the word of length 0), or
 * 'A' (the word consisting of one A), or
 * 'AA' (the word consisting of exactly two As),
