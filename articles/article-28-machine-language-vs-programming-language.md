@@ -1,13 +1,11 @@
 <!-- BEGIN TITLE -->
-# Machine Language vs. Programming Language and Compiling
+# Machine Language vs. Programming Language
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-A programming language is a high-level language that programmers can write, read and understand. There are many programming languages such as Java, C++, Fortran, and many more.
+A programming language is a language that programmers use to develop applications. It is also called high-level language as they are more human readable.  Examples of such programming language include -but not limited to- C++, Java, and Fortran.
 
-A machine language is a low-level language that the machines can read, and understand. It is just one language which is a stream of 0's and 1's.
-
-In between, there is a compiler which is a computer program that can understand both languages high-/low-level languages and interpret one to another.
+On the other hand, machine language is a low-level language, because the computer can understand and process directly without any transformations. It is only one language which is a stream of 0's and 1's.
 
 <!-- END BODY -->
 
