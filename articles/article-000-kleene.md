@@ -4,7 +4,7 @@
 
 <!-- BEGIN BODY -->
 
-Computer are great at repetitive tasks. The most beautiful and concise
+Computers are great at repetitive tasks. The most beautiful and concise
 way of expressing repetition is Kleene's star, namely the symbol "*" which
 stands for **zero or more repetitions**.
 
