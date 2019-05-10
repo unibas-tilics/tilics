@@ -12,7 +12,7 @@ Sometimes, the suggested changes deviate too much from the goal of the project. 
 
 <br/>
 
-![Fork](../images/image-079-fork.jpeg)
+![Fork](../images/image-079-fork.svg)
 
 <br/>
 
