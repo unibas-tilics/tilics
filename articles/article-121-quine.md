@@ -14,8 +14,10 @@ needs code, this self-description must be somehow compressed.
 
 But once written, such a program (also called a ``Quine'') reproduces
 itself each time it is run, and this in turn is called a fixpoint.
-One could also call this the fixpoint of life, as any lifeform must
-master this trick.
+One could call this the fixpoint of life, because any lifeform must
+master this trick, including robots if they wanted to build themselves
+and become a lifeform.
+
 <!-- END BODY -->
 
 ![speech bubble](../images/image-121-quine.svg)
