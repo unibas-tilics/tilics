@@ -4,14 +4,21 @@
 
 <!-- BEGIN BODY -->
 
-By meticulously mincing and blending a file's bytes several time one
-can extract a byte pattern --called a hash value-- that is for all
-practical purposes unique to that file.
+By thoroughly mincing and blending a file's content several times,
+each time keeping only a small part of it, one can extract a bit
+pattern called a hash. For all practical purposes, such a hash value
+is unique to the underlying data.
 
-What makes a good hashing function is not fully understand, though,
-and a final theory of hashing is still pending - so it's really an
-art! But one can not overstate the importance of hash functions for
-cryptographc algorithms and for efficient data management.
+One can not overstate the importance of hash computations for
+cryptographic algorithms as well as for efficient data management.
+
+In cryptography, hashing yields a hard to forge "fingerprint" so that
+an attacker cannot change the terms of an electronic contract without
+also changing the fingerprint value, for example.
+
+In data management, hashing serves to "spread out" items in space,
+like assigning a unique slot number to arbitrary data items,
+with a low chance of assigning that number twice.
 
 <!-- END BODY -->
 
