@@ -1,5 +1,5 @@
 <!-- BEGIN TITLE -->
-# Machines within Machines: Compilers
+# We have Machines within Machines
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
@@ -14,11 +14,9 @@ today: a **compiler**.
 Nowadays we have many more of these translation and transformation
 machines, with names as funny as the picture: _cross-compilers_,
 _transpilers_ and _compiler-compilers_ (cocos). Their mission is to
-translate from one computer language to another, for example a
-human-written C
-program to machine code. But they can also be used to "transpile"
-from a new version of a programming language to the old one, like e.g.,
-JavaScript6 to JavaScript5.
+translate from one computer language to another, for example
+to "compile" a human-written program to machine code, or to
+"transpile" from a new version of a programming language to the old one.
 <!-- END BODY -->
 
 ![Grace Hopper's compiler robot](../images/image-112-compiler.png)
