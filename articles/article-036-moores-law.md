@@ -3,10 +3,11 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-In 1965, the technological progress lead Gordon E. Moore to formulate his rule of thumb that became famous under the name "Moore's Law". It states that the production costs of microchips used in electronic circuits would fall, leading to smaller and more powerful microchips at a lower overall cost. He estimated, the number of components on a single chip to double roughly every 12 months.
+In 1965, the technological progress lead Gordon E. Moore to formulate his rule of thumb that became famous under the name "Moore's Law". It states that the production costs of microchips used in electronic circuits would fall, leading to smaller and more powerful microchips at a lower overall cost. He estimated, the number of components on a single chip to double roughly every 12 months. 
 
-This law has been updated several times over the following decades. First the increase in the number of transistors used in a single chip was the driving force behind the exponential progress. Since the mid-1990s, and until the early 2000s, the continuation of the trend was mostly due to the downscaling of the components themselves. Today, as the manufacturing process is hitting physical limits, there is a development towards integrating functions, that until now were provided by separate components, into a single chip.
+Initially the increase in the number of transistors used in a single chip was responsible for this exponential growth. Later, the downscaling of the components themselves was the driving force. 
 
+However, it is unlikely that technological progress will follow Moore's Law forever. As components get smaller and microchips get denser, the manufacturing process will inevitably hit physical limits at some point.
 <!-- END BODY -->
 
 
