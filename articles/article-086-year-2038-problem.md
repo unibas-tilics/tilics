@@ -1,24 +1,34 @@
 <!-- BEGIN TITLE -->
-# Year 2038 Problem 
+# No Mercy: The Year 2038 Problem
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-The most common way to represent time in computer systems, is Unix time. It is expressed as the number of seconds elapsed since Thursday, 1 January 1970, 00:00:00 (UTC). 
+The date of Jan 1, 1970 is to UNIX developpers what year 0 is for
+Christians, just that in UNIX time you count in seconds, not in days
+as we do with calendars.
 
-A *Unix* timestamp is stored in binary format as a string of 0's and 1's (bits). This string acts as a counter. Every second, it is incremented by one. A sign bit indicates whether the counter is negative, representing dates before 01.01.1970, or positive for dates after the beginning of Unix time.
+Now here is a problem:
+* in UNIX time, two billion seconds _after_ Jan 1, 1970 is Jan 19, 2038
+* in UNIX time, two billion seconds _before_ Jan 1, 1970 is Dec 13, 1901
 
-Since the counter has a fixed number of positions, it will reset once it has reached its largest value. This will also cause the sign bit to flip around, making the timestamp negative. In many systems the counter has a size of 32 bits. Thus, on Tuesday, 19 January 2038 at 03:14:08, time will reset to Friday, 13 December 1901, 20:45:52. 
+Many UNIX systems can hold time values only up to four billions, and
+then values start to "wrap around". This means that on Jan 19, 2038,
+these UNIX systems will think it is the year 1901!
 
-To avoid the so-called 'Year 2038 Problem', systems have to be updated with a larger counter before 2038. 
+The clock is now ticking for finding all these old UNIX systems and to
+update their software, giving them more bits for storing UNIX
+time. For sure, some systems will be missed and some systems will be
+too old to be fixed. Real time will have no mercy ...
 
 <!-- END BODY -->
 
 
-![Image title](../images/image-086-year-2038-problem.jpeg)
+![time ribbon](../images/image-086-year-2038-problem_BIS.png)
 
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
+BIS version by cft
 <!-- END OPTIONAL -->
 
 
