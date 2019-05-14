@@ -8,12 +8,12 @@ female programmer around then, had a hard time to convince her
 colleagues that these machines can do more.
 
 The picture is hers and shows how a computer program can translate
-one computer program into another one. She even coined the term that is still use
+one computer program into another one. She even coined the term that is still in use
 today: a **compiler**.
 
-Nowadays we have many more of these translation and transformation
+Nowadays, we have many more of these translation and transformation
 machines, with names as funny as the picture: _cross-compilers_,
-_transpilers_ and _compiler-compilers_ (cocos). Their mission is to
+_transpilers_, and _compiler-compilers_ (cocos). Their mission is to
 translate from one computer language to another, for example
 to "compile" a human-written program to machine code, or to
 "transpile" from a new version of a programming language to the old one.
