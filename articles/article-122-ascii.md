@@ -3,8 +3,8 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-If letters are represented in computers there are stored as numbers. To encode them every letter got is own decimal number between 0 and 127. The "H", for example, is encoded as the 72.
-The string "Hello World" is stored as a sequence of numbers.
+If letters are represented in computers they are stored as numbers. To encode them every letter got its own decimal number between 0 and 127. The "H", for example, is encoded as the 72.
+The string "Hello world" is stored as a sequence of numbers.
 
 ```
  H  e   l   l   o  space  w   o   r   l   d
