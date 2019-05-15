@@ -4,7 +4,7 @@
 
 <!-- BEGIN BODY -->
 *Reverse Engineering* describes the process of analyzing an existing apparatus to figure out how it works and how it was made.
-The same can be done for a computer program, but instead of looking at screws and cogwheels we are looking at the machine instructions.
+The same can be done for a computer program, but instead of looking at screws and cogwheels, we are looking at the machine instructions.
 These are effectively the 0's and 1's that tell the computer what to do.
 This is obviously much harder to understand than the code that was used to generate the program.
 A skilled reverse engineer can still use this information to gain knowledge about the software. 
