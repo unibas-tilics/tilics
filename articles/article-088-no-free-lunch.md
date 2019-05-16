@@ -8,8 +8,8 @@ We might for example try to find some 'optimal' solution for a search problem, b
 Hence, it is only natural to think about algorithms that could always provide us the best solution, regardless of the problems subtleties.
 
 However, even though a method might result in higher performance for one problem, this comes with the price of diminishing performance for other problems.
-This phenomenon is formalized in the so-called 'No Free Lunch' theorems, which state that no single method works better than any other for all possible problems.
-In practice, it is therefore necessary to carefully select a method for the individual problem or data at hand.
+This is formalized in the so-called 'No Free Lunch' theorems, which state that no single method works better than any other for all possible problems.
+In practice, it is therefore necessary to carefully select a method for the individual problem at hand.
 
 In other words, there is always a cost associated with selecting a method and unfortunately there is no such thing as a free lunch.
 
@@ -18,13 +18,6 @@ In other words, there is always a cost associated with selecting a method and un
 
 
 ![Performance of Different Methods](../images/image-088-no-free-lunch.svg)
-
-
-## Optional text
-<!-- BEGIN OPTIONAL -->
-<!-- END OPTIONAL -->
-
-
 
 ## Author
 <!-- BEGIN AUTHOR -->
