@@ -14,7 +14,7 @@ Luckily, there are other prizes that are equivalent to the Nobel prize for compu
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
-Myth: The reason there is no Nobel Prize for Mathematics is that Alfred Nobel’s fiancée wife had an affair with a mathematician.
+Myth: The reason there is no Nobel Prize for Mathematics is that Alfred Nobel’s fiancée had an affair with a mathematician.
 An image could be a person holding a trophy.
 <!-- END OPTIONAL -->
 
