@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-Are a sure it is a human answering your question in the chat support of your favorite online store? If not, how you find out? What sounds like an easy question turns out to be rather difficult. 
+Are you sure it is a human answering your question in the chat support of your favorite online store? If not, how you find out? What sounds like an easy question turns out to be rather difficult. 
 
 In 1950, a long time before the first online stores opened, the computer science pioneer Alan Turing already thought about this problem and presented the Turing test. The test is passed if a human judge interviewing a human and a machine is unable to distinguish between them based on their answers. The first program that managed pass the Turing test was ELIZA. It managed to mimic a psychotherapist by reflecting the questions back to the questioner. 
 
