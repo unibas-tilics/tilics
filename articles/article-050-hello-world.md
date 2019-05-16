@@ -7,8 +7,7 @@ The first piece of code you usually find in a programming book or tutorial is a 
 <!-- END BODY -->
 
 
-![Image title](../images/image-050-hello-world.png)
-
+<img src="../images/image-050-hello-world.png" width="400">
 
 
 ## Author
