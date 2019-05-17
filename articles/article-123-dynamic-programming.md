@@ -10,7 +10,7 @@ In **Fib**onacci series for instance, while calculating Fib(5), we know that Fib
 <!-- END BODY -->
 
 
-![Image title](../images/image-123-dynamic-programming.jpg)
+![Image title](../images/image-123-dynamic-programming.svg)
 
 
 ## Optional text
