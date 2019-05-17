@@ -11,7 +11,7 @@ The Turing machine is a quite simple concept but it turns out, it contains the e
 <!-- END BODY -->
 
 
-![Image title](../images/image-019-the-turing-machine.jpg)
+![Image title](../images/image-019-the-turing-machine.svg)
 
 
 ## Optional text
