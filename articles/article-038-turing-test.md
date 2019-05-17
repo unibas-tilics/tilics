@@ -11,7 +11,7 @@ However, the next time someone in the chat support of your ISP tries to calm you
 <!-- END BODY -->
 
 
-![Image title](../images/image-038-turing-test.png)
+![Image title](../images/image-038-turing-test.svg)
 
 
 ## Comment
