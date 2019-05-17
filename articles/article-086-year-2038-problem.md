@@ -23,7 +23,7 @@ too old to be fixed. Real time will have no mercy ...
 <!-- END BODY -->
 
 
-![time ribbon](../images/image-086-year-2038-problem_BIS.png)
+![time ribbon](../images/image-086-year-2038-problem.svg)
 
 
 ## Optional text
