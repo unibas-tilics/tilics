@@ -21,3 +21,9 @@ Good programmers are diligent in order to be lazy. Or with other words: They are
 <!-- BEGIN AUTHOR -->
 Marco Vogt
 <!-- END AUTHOR -->
+
+
+## Slug
+<!-- BEGIN SLUG -->
+lazy
+<!-- END SLUG -->
