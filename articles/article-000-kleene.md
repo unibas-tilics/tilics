@@ -22,7 +22,7 @@ daily life, but wildcards are: A prominent example is "blah blah".
 
 <!-- END BODY -->
 
-![daffy duck, starred](../images/image-000-kleene.png)
+![apples](../images/image-000-kleene.svg)
 
 Image: use a bath duck
 
