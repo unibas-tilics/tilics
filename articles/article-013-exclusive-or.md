@@ -28,3 +28,9 @@ While it is crucial for computer systems to rely on a clearly defined set of ope
 <!-- BEGIN AUTHOR -->
 Marco Vogt
 <!-- END AUTHOR -->
+
+
+## Slug
+<!-- BEGIN SLUG -->
+xor
+<!-- END SLUG -->
