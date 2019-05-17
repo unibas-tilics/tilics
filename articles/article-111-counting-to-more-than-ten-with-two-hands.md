@@ -21,3 +21,9 @@ Normally you count with your fingers by stretching them out one after another. Y
 <!-- BEGIN AUTHOR -->
 Simon Dold
 <!-- END AUTHOR -->
+
+
+## Slug
+<!-- BEGIN SLUG -->
+counting
+<!-- END SLUG -->
