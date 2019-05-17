@@ -16,8 +16,8 @@ this also means that we can interchange the hidden information easily as long as
 
 
  
-## Figure
-* A vending machine from the side, where we can see the interface(the button and a coin slit, and then the complexity of the inside)
+![Vending Machine](../images/image-065-information-hiding.svg)
+
 
 
 
