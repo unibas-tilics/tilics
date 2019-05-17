@@ -26,3 +26,8 @@ and become a lifeform.
 <!-- BEGIN AUTHOR -->
 cft
 <!-- END AUTHOR -->
+
+# Slug
+<!-- BEGIN SLUG -->
+quine
+<!-- END SLUG -->
