@@ -7,7 +7,7 @@ A computer stores everything with 1s and 0s. To encode any number as a string of
 <!-- END BODY -->
 
 
-![Image title](../images/image-039-computer-scientist-confuse-halloween.jpeg)
+![Image title](../images/image-039-computer-scientist-confuse-halloween.svg)
 
 
 ## Optional text
