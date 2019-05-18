@@ -7,7 +7,7 @@ There are thousands of programming languages. But some of them are just laboriou
 
 <  > + -  . , [ ]
 
-There are more comments needed to explain the code than the size of the code itself.
+To be able to understand the code, more comments are needed to explain the code than the size of the code itself.
 It is possible to write any program with this language the question solely is if one wants to.
 <!-- END BODY -->
 
