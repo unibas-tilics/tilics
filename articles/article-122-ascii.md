@@ -15,6 +15,8 @@ Since things are stored binary in computers, those numbers are translated in bin
 In this way are not just the capital letters encoded but also the lowercase letters, the digits 0-9 and punctuation symbols.
 
 This very common character encoding is called ASCII (American Standard Code for Information Interchange).
+Today, the international standard for encoding is called Unicode. It is way bigger than ASCII, such that (in some days) every possible character of every language will have its own digital code.
+
 <!-- END BODY -->
 
 
