@@ -17,7 +17,7 @@ interruptions.
 <!-- END BODY -->
 
 
-![Image title](../images/image-114-why-uptime-matters.png)
+![Image title](../images/image-114-why-uptime-matters.svg)
 
 
 ## Optional text
