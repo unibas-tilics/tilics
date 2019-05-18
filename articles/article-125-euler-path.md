@@ -8,7 +8,7 @@ But what is this route? Leonard Euler showed with graphtheory that unfortunately
 <!-- END BODY -->
 
 
-<img src="../images/image-125-euler-path.png" width="400">
+<img src="../images/image-125-euler-path.svg">
 
 
 ## Author
