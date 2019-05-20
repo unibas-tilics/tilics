@@ -11,7 +11,7 @@ Most of the commonly used programming languages are Turing complete. But there a
 <!-- END BODY -->
 
 
-![Image title](../images/image-055-turing-completeness.png)
+![Image title](../images/image-055-turing-completeness.svg)
 
 
 ## Optional text
