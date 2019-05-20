@@ -1,5 +1,5 @@
 <!-- BEGIN TITLE -->
-# Why are you hiding?
+# Why are you hiding this?
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
@@ -7,7 +7,7 @@ The idea for information hiding is to reduce complexity and to interact not with
 but only indirectly via an interface. But why would we do this? Suppose we want to get a drink  from a vending machine,
 we need to select only, which drink we want and then pay for this, we never see the real work  and the logic behind the vending machine.
 This is the same for computer program, we use interfaces to hide  information/methods,
-this also means that we can interchange the hidden information easily as long as we do not change the interface.
+this also means that we can interchange the hidden information easily as long as we do not change the interface. Furthermore, if we cannot see into the program or the machine, we will have a harder time to manipulate it, as we do not know how exactly it works.
 <!-- END BODY -->
 
 
@@ -20,12 +20,8 @@ this also means that we can interchange the hidden information easily as long as
 
 
 
-
-## Optional text
 <!-- BEGIN OPTIONAL -->
-* Here only the interface information hiding is mentioned and not  on the  packages  level( more user to program and not program to program).
-But I do not know how to explain the package protection, without getting to complex or need to much to explain 
-* Maybe change the vending machine to a cash machine, for complexity
+
 <!-- END OPTIONAL -->
 
 
