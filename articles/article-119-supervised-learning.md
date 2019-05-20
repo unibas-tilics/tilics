@@ -1,5 +1,5 @@
 <!-- BEGIN TITLE -->
-# How do we know, how good the solution was
+# How to find a solution through learning
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
@@ -9,24 +9,17 @@ where we do now the results, like for example finding the labels of different po
 Through this training we know how good the solutions of the program are and can adjust the program for efficiency,
 and can then use it for the same kind of problem where we do not know the solution. 
 
-A downside of this method is that it needs a lot of known information and is prone to overfitting,
-where we build the program so good to our known problem, that it does not solve the problem in general and only in these specific cases. 
 
 <!-- END BODY -->
 
 <img src="../images/image-119-supervised-learning.svg">
 
-## Figure
-* A simple classification graph, some points and then the separating line (maybe to difficult for understanding)
-* A teacher computer, who teachs some smaller computer with a blackboard
+
 
 
 
 <!-- BEGIN OPTIONAL -->
-## Remark
-* Remove the overfitting part.
-* Maybe a not computer science examples or a easier word for label
-* Exchange the known information to prior knowledge
+
 <!-- END OPTIONAL -->
 
 
