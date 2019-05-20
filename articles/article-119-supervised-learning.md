@@ -14,6 +14,7 @@ where we build the program so good to our known problem, that it does not solve 
 
 <!-- END BODY -->
 
+<img src="../images/image-119-supervised-learning.svg">
 
 ## Figure
 * A simple classification graph, some points and then the separating line (maybe to difficult for understanding)
