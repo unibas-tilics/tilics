@@ -20,7 +20,7 @@ Today, the international standard for encoding is called Unicode. It is way bigg
 <!-- END BODY -->
 
 
-![Image title](../images/image-122-ascii.png)
+![Image title](../images/image-122-ascii.svg)
 
 
 ## Optional text
