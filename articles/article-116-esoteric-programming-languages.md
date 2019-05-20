@@ -25,3 +25,9 @@ It is possible to write any program with this language. But the question is, if 
 <!-- BEGIN AUTHOR -->
 Rebecca Dold
 <!-- END AUTHOR -->
+
+
+## Slug
+<!-- BEGIN SLUG -->
+esoteric-science
+<!-- END SLUG -->
