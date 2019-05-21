@@ -3,9 +3,11 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-Because, Alfred Nobel wasn't interested in Mathematics, and computer science is a part of the Mathematics field. He was interested only in Physics, Chemistry, Medicine, Literature, and Peace.
+Some people say it is because that Alfred Nobel’s fiancée had an affair with a mathematician, others say because he was more interested in Physics, Chemistry, Medicine, Literature, and Peace than in Mathematics, and computer science is a part of the Mathematics field. 
 
-Luckily, there are other prizes that are equivalent to the Nobel prize for computer scientists and are provided annually as well. Such as Turing Award that is given by The Association for Computing Machinery (ACM), John von Neumann Medal that is provided by IEEE, and John von Neumann Theory Prize that is given by the Institute for Operations Research and the Management Sciences (INFORMS).
+Luckily, there is a "Nobel Prize of Computing" which is the A.M. Turing Award. It is an annual prize given by the Association for Computing Machinery (ACM) to an individual who makes (a) major contribution(s) to the computer field. The award is named after Alan Mathison Turing, who was a mathematician and computer scientist. The first award was at 1966 and went to Alan J. Perlis for his achievements in advanced computer programming techniques and compiler construction. And, the last one was at 2018, and went to Yoshua Bengio, Geoffrey Hintonor, and Yann LeCun together, for their improvements in the deep neural networks. 
+
+
 <!-- END BODY -->
 
 
