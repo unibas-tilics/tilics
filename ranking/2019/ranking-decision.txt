@@ -1,0 +1,65 @@
+** 32 articles: (not in presentation order)
+
+Article 050: Hello World
+Article 124: Counting systems
+Article 038: Turing Test
+Article 060: Handshake
+
+Article 065: Information hiding
+Article 031: Greedy algorithm
+Article 046: Overflow
+Article 122: ASCII
+
+Article 121: Quine
+Article 100: Errors propagate!
+Article 104: Monte Carlo Methods
+Article 058: Mutex
+
+Article 002: Camel Case
+Article 079: Why do programmers need forks?
+Article 030: Big O Notation
+Article 118: State Machines
+
+Article 019: The Turing Machine
+Article 076: Always use a VCS
+Article 114: Why Uptime Matters
+Article 039: computer scientists confuse halloween
+
+Article 110: Guess Fast or Wait (Speculative Execution)
+Article 086: year 2038 problem
+Article 052: patch
+Article 033: brute force
+
+Article 007: null
+Article 111: counting to more than ten with two hands
+Article 109: world of triangles
+Article 032: Deadlock
+
+Article 083: Being lazy is a good thing
+Article 063: Reverse Engineering
+Article 025: We all hate Bugs
+Article 013: Exclusive OR final16 final32 
+
+** 16 articles: (not in presentation order)
+
+Article 050: Hello World
+Article 104: Monte Carlo Methods
+Article 002: Camel Case
+Article 118: State Machines
+
+Article 019: The Turing Machine
+Article 076: Always use a VCS
+Article 114: Why Uptime Matters
+Article 086: year 2038 problem
+
+Article 007: null
+Article 111: counting to more than ten with two hands
+Article 109: world of triangles
+Article 032: Deadlock
+
+Article 083: Being lazy is a good thing
+Article 063: Reverse Engineering
+Article 025: We all hate Bugs
+Article 013: Exclusive OR
+
+** eof

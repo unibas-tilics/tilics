@@ -1,0 +1,30 @@
+\mytopic{No Mercy: The Year 2038 Problem}
+
+The date of \fbox{Jan 1, 1970} is to UNIX developpers what year 0 is for
+Christians, just that in UNIX time you count in seconds, not in days
+as we do with calendars.
+
+\vskip 0.5em
+\noindent Now here is a problem:
+\begin{itemize}
+        \labelsep 0.5em%
+        \labelwidth \leftmargini%
+        \addtolength\labelwidth{-\labelsep}
+        % \listparindent 5em%   
+        \itemindent 1.5em%\leftmargini
+        %\advance\leftmargini 1.5em
+\item in UNIX time, two billion seconds \emph{after} \fbox{Jan 1, 1970} is \fbox{Jan 19, 2038}
+\item in UNIX time, two billion seconds \emph{before} \fbox{Jan 1, 1970} is \fbox{Dec 13, 1901}
+\end{itemize}
+
+\vskip 0.5em
+\noindent Many UNIX systems can hold time values only up to four billions, and
+then values start to ``wrap around''. This means that on \fbox{Jan 19, 2038},
+these UNIX systems will think it is the year 1901!
+
+The clock is now ticking for finding all these old UNIX systems and to
+update their software, giving them more bits for storing {\em UNIX}
+time. For sure, some systems will be missed and some systems will be
+too old to be fixed.\\
+{\em Real} time will have no mercy \ldots
+

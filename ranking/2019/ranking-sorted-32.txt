@@ -1,0 +1,74 @@
+# ranking-sorted-32.txt
+
+13  article-124-counting-systems
+13  article-111-Counting-to-more-than-ten-with-two-hands
+13  article-050-hello-world
+13  article-025-we-all-hate-bugs
+
+12  article-118-state-machines
+12  article-104-monte-carlo-methods
+12  article-083-being-lazy-is-a-good-thing
+12  article-019-the-turing-machine
+
+# --8
+
+12  article-007-null
+12  article-002-camel-case
+11  article-114-why-uptime-matters
+11  article-086-year-2038-problem_BIS
+
+11  article-076-VCS
+11  article-063-reverse-engineering
+11  article-013-exclusive-or
+10  article-121-quine
+
+# --16
+
+10  article-109-world-of-triangles
+10  article-100-errors-propagate
+10  article-032-deadlock
+9  article-046-overflow
+
+9  article-031-greedy-algorithm
+8  article-122-ascii
+8  article-110-guess-fast-or-wait
+8  article-065-Information-hiding
+
+# --24
+
+8  article-060-handshake
+8  article-058-mutex
+8  article-052-patch
+8  article-039-computer-scientis--confuse-halloween
+
+8  article-038-turing-test
+8  article-033-brute_force
+8  article-030-big-o-notation
+
+# one of:
+7  article-116-esoteric-programming-languages
+7  article-079-fork
+7  article-047-game-of-life
+7  article-005-array-at-zero-or-one
+
+
+6  article-119-superised-learning
+6  article-088-no-free-lunch
+6  article-010-hash_fct
+5  article-112-compiler
+5  article-093-rices-theorem
+5  article-023-flops
+5  article-000-kleene
+4  article-105-livelock
+3  article-125-euler-path
+3  article-091-bayes-theorem
+3  article-084-turing-award
+3  article-055-turing-completeness
+2  article-117-why-stick-to-one-example
+1  article-123-dynamic-programming
+1  article-120-random-variables
+1  article-036-moores-law
+1  article-029-recursion
+
+1  article-028-machine-language-vs-programming-language-and-compiling
+0  article-108-recursion-vs-iteration
