@@ -4,13 +4,22 @@
 
 \documentclass{tilics}
 
-\newcommand{\artcount}{5}
+% \minibooklettrue
+
+\ifminibooklet
+  \newcommand{\artcount}{4}
+  \setlength{\pdelta}{4.6mm}
+\else
+  \newcommand{\artcount}{5}
+  \setlength{\pdelta}{2.3mm}
+\fi
+
 
 % ----------------------------------------------------------------------
 \begin{document}
   % \pagecolor{yellow}
   \pagecolor{UnibasMint}
-  \hfill\includegraphics{figs/start-notext-scaled.pdf}
+  \hfill\includegraphics{figs/019-turing-machine.pdf}
 
   \vspace*{\fill}{\color{UnibasRed}
     \noindent{\Huge\bf 2\raisebox{0.5em}{\LARGE\artcount} Things I Learned}
@@ -65,14 +74,52 @@
   \vspace*{-8mm}
  
   
-  % 6rd page (even) with Author's Note
+  % 4th page (even) with Author's Note, a
   \newpage\rightBar %\vspace*{\fill}
 
   \vspace*{1cm}
   \noindent{\Large Author's Note}
   \vskip 5mm\small
-  \noindent \input{intro.tex}%\blindtext
-  \vspace*{\fill}
+  \noindent
+Studying Computer Science is like taking a deep dive into an endless
+ocean of ideas, concepts, and tools. It is a vast ecosystem where
+everything is interconnected, where exploring one thing opens doors to
+a plethora of other, equally interesting, things. It is easy to get
+lost in this wide landscape, even more so if it is not one's main
+field of expertise.
+
+This is why Computer Science students of the University of Basel set
+out to identify the essential concepts and ideas they discovered
+during their studies. The intention was to go beyond the scope of
+traditional textbooks and also include the pecularities that are not
+formally part of a usual Computer Science curriculum. Finally, the
+goal was to present the fruit of this work to people outside of our
+field.
+
+  % 5th page (odd) with Author's Note, b
+  \newpage
+  \leftBar
+\vspace*{2cm}
+The creation of this booklet was organized in the form of a Master's
+level seminar, which had its first iteration during the spring
+semester 2019. We have listed the participants on the inside back cover.
+
+The result is
+{\bf 2\raisebox{0.3em}{\hspace{1pt}\artcount} Things I Learned in Computer Science},
+a collection of short illustrated articles. It is available in the
+form of this small booklet, and online on the companion website
+$[$1$]$. Due to the success and the positive feedback, we will continue
+this work and are now planning for a next edition of the seminar.
+
+\vskip 0.5em\noindent{\raggedleft\hfill
+We hope that you enjoy these info bytes\\
+\hfill and that you pass them on to your friends!}
+
+{\raggedright
+\vspace*{\fill}\noindent
+{\small\tt $[$1$]$ https://tilics.dmi.unibas.ch/}}
+
+\vspace*{\fill}
 
 %  % 7th page (odd) with continuation of Author's Note
 %  \newpage\leftBar\vspace*{\fill}
@@ -82,21 +129,21 @@
   \newcommand{\tilicsArtNum}{???}
   
   % loop over all article
-  \foreach \n in {1,...,101}{
-     \IfFileExists{articles/\n/fig.pdf}{
+  \foreach \n in {0,...,31}{
+     \IfFileExists{articles/\artcount .\n/fig.pdf}{
        \typeout{Article \n  ...}
 
        % left side (even page):
-       \inputFig{articles/\n/fig.pdf}
+       \inputFig{articles/\artcount .\n/fig.pdf}
 
        % right side (odd page):
-       \input{articles/\n/num.tex}
-       \inputText{articles/\n/txt.tex}
+       \input{articles/\artcount .\n/num.tex}
+       \inputText{articles/\artcount .\n/txt.tex}
      }{}
   }
 
   % index page
-  \newpage\leftBar
+  \newpage\rightBar
 
   \vspace*{-0.5em}
   \noindent
@@ -104,28 +151,41 @@
 
   \vskip 2em
   \noindent
-  \begin{tabular}{rp{1em}lp{3em}rp{1em}l}
-    0 && Hello world &&    16 && Hello world \\
-    1 && Hello world &&    17 && Hello world \\
-    2 && Hello world &&    18 && Hello world \\
-    3 && Hello world &&    19 && Hello world \\
-    4 && Hello world &&    20 && Hello world \\
-    5 && Hello world &&    21 && Hello world \\
-    6 && Hello world &&    22 && Hello world \\
-    7 && Hello world &&    23 && Hello world \\
-    8 && Hello world &&    24 && Hello world \\
-    9 && Hello world &&    25 && Hello world \\
-    10 && Hello world &&    26 && Hello world \\
-    11 && Hello world &&    27 && Hello world \\
-    12 && Hello world &&    28 && Hello world \\
-    13 && Hello world &&    29 && Hello world \\
-    14 && Hello world &&    30 && Hello world \\
-    15 && Hello world &&    31 && Hello world \\
-  \end{tabular}
-  \vspace*{-1.5em}
+  \ifminibooklet
+    \begin{tabular}{rp{1em}lp{3em}rp{1em}l}
+    0 && Hello World           &&    8 &&  Monte Carlo method\\
+    1 && Automation            &&    9 && System vs service uptime \\
+    2 && Binary system         &&    10 && Camel case \\
+    3 && Finite state machine  &&    11 && Programming bugs \\
+    4 && Turing machine        &&    12 && Version control systems \\
+    5 && Polygon mesh          &&    13 && Deadlock \\
+    6 && XOR                   &&    14 && Year 2038 problem \\
+    7 && Zero vs Null          &&    15 && Reverse engineering \\
+    \end{tabular}
+  \else
+    \begin{tabular}{rp{1em}lp{3em}rp{1em}l}
+    0 && Hello World           &&    16 && Programming bugs \\
+    1 && Handshake             &&    17 && Patching \\
+    2 && Automation            &&    18 && Octal system \\
+    3 && Binary system         &&    19 && 25\_dec = 31\_oct \\
+    4 && Run time complexity   &&    20 && Version control systems \\
+    5 && Finite state machine  &&    21 && Interface in software engineering \\
+    6 && Turing machine        &&    22 && Deadlock \\
+    7 && Polygon mesh          &&    23 && Numeric precision \\
+    8 && XOR                   &&    24 && Mutex \\
+    9 && Monte Carlo method    &&    25 && Quine \\
+    10 && Turing test          &&    26 && Greedy algorithms \\
+    11 && ASCII                &&    27 && Speculative execution \\
+    12 && System vs service uptime &&    28 && Reverse engineering \\
+    13 && Overflow             &&    29 && Brute force attack \\
+    14 && Camel case           &&    30 && Year 2038 problem \\
+    15 && Zero vs Null         &&    31 && Forking open source projects\\
+    \end{tabular}
+    \vspace*{-1.5em}
+  \fi
 
   % contributors
-  \newpage\rightBar%\vspace*{\fill}
+  \newpage\leftBar%\vspace*{\fill}
 
   \vspace*{-0.5em}
   \noindent{\Large\bf Seminar participants (spring semester 2019)}
@@ -147,7 +207,7 @@
 
   \vspace*{\fill}
   \vspace*{72mm}
-  \hspace*{1em}{\small\tt https://tilics.dmi.unibas.ch/}
+  \noindent{\small\tt https://tilics.dmi.unibas.ch/}
 
 \end{document}
 

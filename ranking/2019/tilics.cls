@@ -95,10 +95,10 @@
   \addtolength{\poffs}{\thetopic\pdelta}%
   \leftBar%
   % article number to the right
-  \begin{textblock*}{5cm}(13.1cm,\poffs) % {block width} (coords) 
+  \begin{textblock*}{5cm}(13.4cm,\poffs) % {block width} (coords) 
     {\tikz \fill [black] (0.1,0.1) rectangle (3,1.2);}%
-    %    \hspace*{-2.7cm}\raisebox{2.5mm}{\textcolor{white}{\Huge\bf \thetopic}}
-    \hspace*{-2.7cm}\raisebox{2.5mm}{\textcolor{white}{\Huge\bf \tilicsArtNum}}    
+    \hspace*{-2.7cm}\raisebox{2.5mm}{\textcolor{white}{\Huge\bf \thetopic}}%
+    % \hspace*{-2.7cm}\raisebox{2.5mm}{\textcolor{white}{\Huge\bf \tilicsArtNum}}    
   \end{textblock*}%
 %
   \topic*{#1}\stepcounter{topic}\small
@@ -152,5 +152,8 @@
 
 \thispagestyle{empty}
 \parindent 1em
+
+\newif\ifminibooklet
+\minibookletfalse
 
 % eof
