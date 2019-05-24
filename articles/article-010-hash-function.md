@@ -22,7 +22,7 @@ with a low chance of assigning that number twice.
 
 <!-- END BODY -->
 
-![sequende of blenders](../images/image-010-hash-fct.svg)
+![sequende of blenders](../images/image-010-hash-function.svg)
 
 ## Author
 <!-- BEGIN AUTHOR -->
