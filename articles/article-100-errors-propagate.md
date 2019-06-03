@@ -8,7 +8,7 @@ In daily life it is common to neglect small inaccuracies, be it rounding up chan
 However, the world of computing is less forgiving.
 Due to the representation of (floating-point) numbers, there nearly always is a little bit of inaccuracy present and careless computations can increase it substantially.
 Depending on the problem the errors can increase explosively for each step of an algorithm
-leading to unexpectedly wrong results. 
+leading to unfortunate results. 
 <!-- END BODY -->
 
 
