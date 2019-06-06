@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-Software development is a continuous process. Programmers, engineers, and users, work together to improve the current version of a software. 
+Software development is a continuous process. Programmers, engineers, and users work together to improve the current version of a software. 
 
 In open-source projects, the source code of the software is openly available. Everyone can look at it and submit their own contributions. Usually, software projects are happy to receive feedback from the community. 
 
