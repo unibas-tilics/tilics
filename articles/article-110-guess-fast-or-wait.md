@@ -22,7 +22,7 @@ correct, the CPU just gained a little speed boost.
 <!-- END BODY -->
 
 
-![Image title](../images/image-110-guess-fast-or-wait.png)
+![Image title](../images/image-110-guess-fast-or-wait.svg)
 
 
 ## Optional text
