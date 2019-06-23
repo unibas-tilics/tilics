@@ -1,9 +1,14 @@
 <!-- BEGIN TITLE -->
-# “Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration.” 
--Stan Kelly-Bootle
+# Should array indices start at 0 or 1?
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
+
+
+> “Should array indices start at 0 or 1? 
+> My compromise of 0.5 was rejected without, I thought, proper consideration.” 
+> -Stan Kelly-Bootle
+
 An array is a data structure to store some elements with an index for each. 
 This coins the question: 'what is the smallest index?'
 
