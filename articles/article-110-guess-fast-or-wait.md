@@ -3,10 +3,10 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-Imagine you're in an unfamiliar city and trying to find a new place.
-Also, you're using your smartphone for navigation.  And because you
-have a good sense of direction, you already start walking the way you
-think is correct while looking up the way on your phone.
+Imagine you're in an unfamiliar city, trying to find a place to stay.
+You decide to use your phone to navigate. Since you have a good sense
+of direction, you already start walking, while looking up the way on
+your phone.
 
 If you guessed the direction correctly, you didn't waste any time
 waiting for the result, and can continue on your way.  If your guess
