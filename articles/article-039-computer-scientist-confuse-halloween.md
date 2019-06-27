@@ -1,5 +1,5 @@
 <!-- BEGIN TITLE -->
-# why does the computer scientist confuse halloween and christmas? Because 25_dec= 31_oct
+# Why does the computer scientist confuse halloween and christmas? Because 25_dec = 31_oct
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
