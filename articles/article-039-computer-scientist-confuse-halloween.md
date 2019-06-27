@@ -21,3 +21,8 @@ Don't worry. The 101 in the title was in decimal. We are not done yet.
 <!-- BEGIN AUTHOR -->
 Rebecca Dold and Simon Dold
 <!-- END AUTHOR -->
+
+## Slug
+<!-- BEGIN SLUG -->
+halloween-christmas
+<!-- END SLUG -->
