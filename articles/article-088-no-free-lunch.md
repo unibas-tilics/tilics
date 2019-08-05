@@ -4,7 +4,7 @@
 
 <!-- BEGIN BODY -->
 In computer science, we have  a wide range of very different problems and many approaches to tackle them.
-We might for example try to find some 'optimal' solution for a search problem, but it is unclear which specific algorithm one should use.
+We might for example try to find some optimal solution for a search problem, but it is unclear which algorithm one should use.
 Hence, it is only natural to think about algorithms that could always provide us the best solution, regardless of the problems subtleties.
 
 However, even though a method might result in higher performance for one problem, this comes with the price of diminishing performance for other problems.
