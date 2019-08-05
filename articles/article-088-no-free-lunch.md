@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-In Computer Science we have  a wide range of very different problems and accordingly many approaches to tackle them.
+In computer science, we have  a wide range of very different problems and many approaches to tackle them.
 We might for example try to find some 'optimal' solution for a search problem, but it is unclear which specific algorithm one should use.
 Hence, it is only natural to think about algorithms that could always provide us the best solution, regardless of the problems subtleties.
 
