@@ -3,13 +3,13 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-Using the same example, again and again, seems to be quite boring without any added benefit.
-In some instances, however, this can be used for some positive effect. Using a known example to show different things (like methods or algorithms) saves time, as the people don't have to think about the example used in much detail.
-In this book, the common example is the Fibonacci Sequence which starts with 0 and 1. Every next number is the sum of their two predecessors. 
+Using the same example, again and again, seems to be quite boring and without any added benefit.
+In some cases, a common example can be used for positive effect. Using a known example saves time, since people can draw upon older methods or algorithms to understand new ideas.
+In this book, the common example is the Fibonacci Sequence which starts with 0 and 1. Every next number is the sum of its two predecessors.
 
 0, 1, 1, 2, 3, 5, 8, 13, 21,... 
 
-The well-known picture according to this Sequence is the Fibonacci spiral.
+A well-known picture using this sequence is the Fibonacci spiral.
 <!-- END BODY -->
 
 
