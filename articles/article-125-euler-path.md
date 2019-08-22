@@ -3,8 +3,8 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-The city of Königsberg is split by a river into 4 land masses. Those are connected by 7 lovely bridges that invite to a walk. The best route is of course the one which crosses each bridge exactly once.
-But what is this route? Leonard Euler showed that unfortunately no such route exists in Königsberg, thereby he introduced the world to graphtheory, a tool to study one of the most important structures in computer science.
+The city of Königsberg is split by a river into four separate land masses. They are connected by seven lovely bridges, which are pedestrian friendly. The best route would be to cross each bridge exactly once of course.
+But what is this route? Leonard Euler showed that unfortunately no such route exists in Königsberg, thereby introducing to the world graph theory, a tool to study one of the most important structures in computer science.
 <!-- END BODY -->
 
 
