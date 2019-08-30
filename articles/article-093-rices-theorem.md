@@ -8,14 +8,14 @@ problems**.  A decision problem is called **decidable** if we can
 write a program that can always find an answer for such a problem.
 
 An example for such a decision problem is "does this program contain a
-computer virus".  If this problem was decidable, there could be
+computer virus?".  If this problem was decidable, there could be
 another program that could always correctly answer this question with
-"Yes" or "No".  A mathematician called Henry Gordon Rice showed that
+"yes" or "no".  A mathematician named Henry Gordon Rice showed that
 such decision problems about the behavior of another program are
 always undecidable, unless the answer is **always** the same.
 
-As most viruses are hidden inside other software and do not always
-expose their real nature, this decision problem can't be solved
+As most viruses are hidden inside other software and don't always
+expose their true intentions, this decision problem can't be solved
 according to Rice's theorem.
 <!-- END BODY -->
 
