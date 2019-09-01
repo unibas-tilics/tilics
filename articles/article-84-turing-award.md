@@ -1,11 +1,11 @@
 <!-- BEGIN TITLE -->
-# Why no Nobel prize for computer scienctists?
+# Why is there no Nobel prize for computer scientists?
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-Some people say it is because that Alfred Nobel’s fiancée had an affair with a mathematician, others say because he was more interested in Physics, Chemistry, Medicine, Literature, and Peace than in Mathematics, and computer science is a part of the Mathematics field. 
+Some say it was because Alfred Nobel's fiancé had an affair with a mathematician, which can be considered the foundation of computer science, while others believe Nobel was just more interested in physics, chemistry, medicine, literature, and peace than in mathematics.
 
-Luckily, there is a "Nobel Prize of Computing" which is the A.M. Turing Award. It is an annual prize given by the Association for Computing Machinery (ACM) to an individual who makes (a) major contribution(s) to the computer field. The award is named after Alan Mathison Turing, who was a mathematician and computer scientist. The first award was at 1966 and went to Alan J. Perlis for his achievements in advanced computer programming techniques and compiler construction. And, the last one was at 2018, and went to Yoshua Bengio, Geoffrey Hintonor, and Yann LeCun together, for their improvements in the deep neural networks. 
+Luckily, there is a "Nobel Prize of Computing" which is the A.M. Turing Award. It is an annual prize given by the Association for Computing Machinery to an individual who makes significant contributions to the computer field. The award is named after Alan Mathison Turing, who was a mathematician and computer scientist. In 1966, Alan J. Perlis received the first Turing award for his achievements in advanced computer programming techniques and compiler construction. Most recently, in 2018, Yoshua Bengio, Geoffrey Hintonor, and Yann LeCun received the award for improving deep neural networks. 
 
 
 <!-- END BODY -->
