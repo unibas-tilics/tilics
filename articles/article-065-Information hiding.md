@@ -3,11 +3,11 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-The idea for information hiding is to reduce complexity and to interact not with the information/data directly,
-but only indirectly via an interface. But why would we do this? Suppose we want to get a drink  from a vending machine,
-we need to select only, which drink we want and then pay for this, we never see the real work  and the logic behind the vending machine.
-This is the same for computer program, we use interfaces to hide  information/methods,
-this also means that we can interchange the hidden information easily as long as we do not change the interface. Furthermore, if we cannot see into the program or the machine, we will have a harder time to manipulate it, as we do not know how exactly it works.
+The idea for information hiding is to reduce complexity and indirectly interact with the information/data using an interface. But why would we do this?
+Suppose we want to get a drink from a vending machine. We only need to select the drink we want and then pay for it. We never need to see the inner workings or the logic behind the vending machine.
+This is the same for computer program. We use interfaces to hide the information/methods.
+This also means that we can interchange the hidden information easily as long as we
+do not change the interface. Furthermore, since we do not know exactly how the programs or machines work, we will have a harder time to manipulate them.
 <!-- END BODY -->
 
 
