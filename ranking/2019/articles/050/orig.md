@@ -1,0 +1,1 @@
+../../../../articles/article-050-hello-world.md

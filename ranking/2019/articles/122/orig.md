@@ -1,0 +1,1 @@
+../../../../articles/article-122-ascii.md

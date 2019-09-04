@@ -1,0 +1,1 @@
+../../../../articles/article-110-guess-fast-or-wait.md

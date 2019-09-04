@@ -1,0 +1,1 @@
+../../../../articles/article-047-game-of-life.md

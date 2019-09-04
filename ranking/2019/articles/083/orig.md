@@ -1,0 +1,1 @@
+../../../../articles/article-083-being-lazy-is-a-good-thing.md
