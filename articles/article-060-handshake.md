@@ -3,10 +3,10 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-In every society there is some sort of formal introduction when people meet each other for the first time. This is such a fundamental process that it even finds application in computer science, where we call this the handshake. This is the time, where the different processes agree to communicate with each other and clearly state their protocol. Sometimes the handshake is also used to identify each other by means of private keys or passwords.
+When people meet each other for the first time, there is usually some sort of formal introduction. This fundamental process also applies to computer science and is called a handshake. During a handshake, different processes agree to communicate with each other based on a set of rules, known as a protocol. Sometimes the protocol involves identifying each other using private keys or passwords.
 <!-- END BODY -->
 
-![1 FLOP](../images/image-060-handshake.svg)
+![Handshake](../images/image-060-handshake.svg)
 
 ## Optional text
 <!-- BEGIN OPTIONAL -->
