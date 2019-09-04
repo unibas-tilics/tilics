@@ -3,8 +3,8 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-If you have a buggy version of a program and a corrected one: why
-send the whole program instead of just the small differences?
+If you have a corrected version of a buggy program, why send the whole
+program again instead of just the small differences?
 
 This is how updates for your smartphone work: you will receive the
 set of differences --a so called _patch_-- that your smartphone applies
