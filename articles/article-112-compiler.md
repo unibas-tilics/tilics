@@ -3,13 +3,13 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-In 1954, computers just computed numbers. Grace Hopper, a famous
-female programmer around then, had a hard time to convince her
+In 1954, computers just computed numbers. Grace Hopper,
+then a famous female programmer, had a hard time convincing her
 colleagues that these machines can do more.
 
-The picture is hers and shows how a computer program can translate
-one computer program into another one. She even coined the term that is still in use
-today: a **compiler**.
+She made the picture below illustrating how a computer program can
+translate one computer program into another one. She even coined the
+term that is still in use today: a **compiler**.
 
 Nowadays, we have many more of these translation and transformation
 machines, with names as funny as the picture: _cross-compilers_,
