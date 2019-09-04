@@ -4,7 +4,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-One problem that often arises when writing code is the naming of variables. Often multi-word names are used for variables but in most programming languages it is not possible to use spaces in a variable name. One programming style that tries to structure this is called CamelCase. It is the practice of writing each word in the middle of a phrase with a Capital letter.
+One problem that often arises when writing code is the naming of variables. Often multi-word names are used for variables, but in most programming languages it is not possible to use spaces in a variable name. One programming style that tries to structure this is called CamelCase. It is the practice of writing each word in the middle of a phrase with a capital letter.
 thisGreatlyImprovesReadabilityComparedTowhenwewouldusenocapitalizationatall.
 <!-- END BODY -->
 
