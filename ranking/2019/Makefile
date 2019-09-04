@@ -2,12 +2,15 @@
 
 all:	main.pdf
 
-main.pdf: main.tex tilics.cls
+main.pdf: main.tex intro.tex tilics.cls
 	pdflatex main
 	pdflatex main
 
 start.pdf: start.svg
 	inkscape -D -z --file=start.svg --export-pdf=start.pdf --export-latex
+
+main-cropped.pdf: main.pdf
+	pdfcrop --margin '-0.25 -29.5 -0.25 -29' main.pdf main-cropped.pdf
 
 clean:
 	rm -rf *.aux *.log *~

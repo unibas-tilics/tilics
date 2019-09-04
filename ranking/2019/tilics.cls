@@ -69,6 +69,7 @@
                \itemsep \parsep}%
    \belowdisplayskip \abovedisplayskip
 }
+\newcommand\footnotesize{\@setfontsize\tiny\@viipt\@viipt}
 \newcommand\tiny{\@setfontsize\tiny\@vpt\@vipt}
 \newcommand\large{\@setfontsize\large\@xiipt{14}}
 \newcommand\Large{\@setfontsize\Large\@xivpt{18}}

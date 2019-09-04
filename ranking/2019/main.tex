@@ -4,12 +4,12 @@
 
 \documentclass{tilics}
 
-% \minibooklettrue
+%\minibooklettrue
 
-\ifminibooklet
+\ifminibooklet % 2^4
   \newcommand{\artcount}{4}
   \setlength{\pdelta}{4.6mm}
-\else
+\else % 2^5
   \newcommand{\artcount}{5}
   \setlength{\pdelta}{2.3mm}
 \fi
@@ -31,8 +31,29 @@
     University of Basel, Dept of Mathematics and Computer Science
   }
 
-  % 2nd page (even) with affiliation
-  \newpage\pagecolor{white}\rightBar
+  % 2nd page (even) -- empty
+  \newpage\pagecolor{white}
+  \ 
+
+  % 3rd page (odd) with booklet title
+  \newpage
+  \newgeometry{left=2cm,right=2cm}
+  \voffset 0.4in%\hoffset 0.1in
+
+  %\leftBar
+  \vspace*{\fill}
+  \noindent\hfil{\Huge\bf 2\raisebox{0.5em}{\LARGE\artcount} Things I Learned}
+  \vskip 1mm
+  \noindent\hfil{\Huge\bf in Computer Science}
+
+  \vskip 8pt
+  \noindent\hfil{\large Department of Mathematics and Computer Science}
+  \vskip 30mm
+  \noindent\hfil\includegraphics{figs/UniBas_Logo_EN_Schwarz_Trans_RGB_65.pdf}
+  \vspace*{-8mm}
+ 
+  % 4th page (even) with copyright notice
+  \newpage\rightBar
 
   \noindent
   {\small\copyright\ 2019
@@ -56,99 +77,63 @@
  {\small\tt https://creativecommons.org/licenses/by-sa/4.0/legalcode}
   % {\small University of Basel, Dept of Mathematics and Computer Science}
 
-  % 3rd page (odd) with (?author and) title
-  \newpage
-  \newgeometry{left=2cm,right=2cm}
-  \voffset 0.4in%\hoffset 0.1in
-
-  \leftBar
-  \vspace*{\fill}
-  \noindent\hfil{\Huge\bf 2\raisebox{0.5em}{\LARGE\artcount} Things I Learned}
-  \vskip 1mm
-  \noindent\hfil{\Huge\bf in Computer Science}
-
-  \vskip 8pt
-  \noindent\hfil{\large Department of Mathematics and Computer Science}
-  \vskip 30mm
-  \noindent\hfil\includegraphics{figs/UniBas_Logo_EN_Schwarz_Trans_RGB_65.pdf}
-  \vspace*{-8mm}
- 
   
-  % 4th page (even) with Author's Note, a
-  \newpage\rightBar %\vspace*{\fill}
+  % 5th page (even) with Author's Note, a
+  \newpage\leftBar%\vspace*{\fill}
 
-  \vspace*{1cm}
+  %\vspace*{-2mm}
   \noindent{\Large Author's Note}
-  \vskip 5mm\small
-  \noindent
-Studying Computer Science is like taking a deep dive into an endless
-ocean of ideas, concepts, and tools. It is a vast ecosystem where
-everything is interconnected, where exploring one thing opens doors to
-a plethora of other, equally interesting, things. It is easy to get
-lost in this wide landscape, even more so if it is not one's main
-field of expertise.
 
-This is why Computer Science students of the University of Basel set
-out to identify the essential concepts and ideas they discovered
-during their studies. The intention was to go beyond the scope of
-traditional textbooks and also include the pecularities that are not
-formally part of a usual Computer Science curriculum. Finally, the
-goal was to present the fruit of this work to people outside of our
-field.
+  \vskip 5mm
+  \small
+  \input{intro.tex}
 
-  % 5th page (odd) with Author's Note, b
-  \newpage
-  \leftBar
-\vspace*{2cm}
-The creation of this booklet was organized in the form of a Master's
-level seminar, which had its first iteration during the spring
-semester 2019. We have listed the participants on the inside back cover.
-
-The result is
-{\bf 2\raisebox{0.3em}{\hspace{1pt}\artcount} Things I Learned in Computer Science},
-a collection of short illustrated articles. It is available in the
-form of this small booklet, and online on the companion website
-$[$1$]$. Due to the success and the positive feedback, we will continue
-this work and are now planning for a next edition of the seminar.
-
-\vskip 0.5em\noindent{\raggedleft\hfill
-We hope that you enjoy these info bytes\\
-\hfill and that you pass them on to your friends!}
-
-{\raggedright
-\vspace*{\fill}\noindent
-{\small\tt $[$1$]$ https://tilics.dmi.unibas.ch/}}
-
-\vspace*{\fill}
-
-%  % 7th page (odd) with continuation of Author's Note
-%  \newpage\leftBar\vspace*{\fill}
-%  \noindent{\small\blindtext}
-%  \vspace*{\fill}
-
+  % here we start with the articles!
   \newcommand{\tilicsArtNum}{???}
   
   % loop over all article
   \foreach \n in {0,...,31}{
-     \IfFileExists{articles/\artcount .\n/fig.pdf}{
+     \IfFileExists{articles/2^\artcount .\n/fig.pdf}{
        \typeout{Article \n  ...}
 
        % left side (even page):
-       \inputFig{articles/\artcount .\n/fig.pdf}
+       \inputFig{articles/2^\artcount .\n/fig.pdf}
 
        % right side (odd page):
-       \input{articles/\artcount .\n/num.tex}
-       \inputText{articles/\artcount .\n/txt.tex}
+       \input{articles/2^\artcount .\n/num.tex}
+       \inputText{articles/2^\artcount .\n/txt.tex}
      }{}
   }
 
   % index page
-  \newpage\rightBar
+  \newpage %\rightBar
+
+  \vspace*{-0.5em}
+  \noindent{\Large\bf Seminar participants (spring semester 2019)}
+  \normalsize
+
+  \vskip 1.5em
+  \noindent\small
+  \begin{tabular}{p{3.8cm}p{3.5cm}p{3.5cm}}
+    Fabricio Arend Torres &  Patrick Kahr         &  Christian Tschudin   \\
+    Nils Bühlmann         &  Marcel Lüthi         &  Marco Vogt           \\ 
+    Rebecca Dold          &  Sebastian Philipps   &  Moira Zuber          \\
+    Simon Dold            &  Linard Schwendener   &  \\
+    Omnia Kahla           &  Tim Steindl          &  \\
+  \end{tabular}
+  \vspace*{\fill}%
+
+  % inner back page
+  \newpage
+  \
+
+  % back page
+  \newpage\pagecolor{UnibasMint}
 
   \vspace*{-0.5em}
   \noindent
-  {\Large\bf List of topics}
-
+  {\Large\bf List of Topics}
+      
   \vskip 2em
   \noindent
   \ifminibooklet
@@ -181,33 +166,15 @@ We hope that you enjoy these info bytes\\
     14 && Camel case           &&    30 && Year 2038 problem \\
     15 && Zero vs Null         &&    31 && Forking open source projects\\
     \end{tabular}
-    \vspace*{-1.5em}
+
+    %\vskip 1em
+    %\noindent{\small\tt\color{UnibasRed} https://tilics.dmi.unibas.ch/}
+
+    %\hspace*{7cm}%
+    %\rotatebox{90}{\color{UnibasRed}\tt https://tilics.dmi.unibas.ch/}
+    
+    \vspace*{-4.5em}
   \fi
-
-  % contributors
-  \newpage\leftBar%\vspace*{\fill}
-
-  \vspace*{-0.5em}
-  \noindent{\Large\bf Seminar participants (spring semester 2019)}
-  \normalsize
-
-  \vskip 1.5em
-  \noindent\small
-  \begin{tabular}{p{3.8cm}p{3.5cm}p{3.5cm}}
-    Fabricio Arend Torres &  Patrick Kahr         &  Christian Tschudin   \\
-    Nils Bühlmann         &  Marcel Lüthi         &  Marco Vogt           \\ 
-    Rebecca Dold          &  Sebastian Philipps   &  Moira Zuber          \\
-    Simon Dold            &  Linard Schwendener   &  \\
-    Omnia Kahla           &  Tim Steindl          &  \\
-  \end{tabular}
-  \vspace*{\fill}%
-
-  % back page
-  \newpage\pagecolor{UnibasMint}
-
-  \vspace*{\fill}
-  \vspace*{72mm}
-  \noindent{\small\tt https://tilics.dmi.unibas.ch/}
 
 \end{document}
 
