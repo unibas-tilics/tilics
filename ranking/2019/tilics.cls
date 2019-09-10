@@ -94,7 +94,7 @@
   \newpage\vspace*{\fill}%
   \setlength{\poffs}{1cm}%
   \addtolength{\poffs}{\thetopic\pdelta}%
-  \leftBar%
+  %\leftBar%
   % article number to the right
   \begin{textblock*}{5cm}(13.4cm,\poffs) % {block width} (coords) 
     {\tikz \fill [black] (0.1,0.1) rectangle (3,1.2);}%
@@ -127,7 +127,7 @@
 }
 
 \newcommand{\inputFig}[1]{%
-  \newpage\topskip 0pt\rightBar
+  \newpage\topskip 0pt%\rightBar
   \vspace*{\fill}%
 
   \noindent\hfill\includegraphics{#1}\hfill
