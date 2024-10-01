@@ -13,7 +13,7 @@ We can compare this to doing laundry: a compiler is like using a washing machine
 <!-- END BODY -->
 
 
-<img src="../article-drafts-20240926/figures/">
+<img src="../article-drafts-20240926/figures/image-1-1-compilers_vs_interpreters.png">
 
 
 ## Authors
