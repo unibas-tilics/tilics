@@ -7,7 +7,7 @@ Ever had that moment where your code was running and working, but you had no ide
 <!-- END BODY -->
 
 
-<img src="../figures/image-1-1-do-not-touch.png">
+<img src="../article-drafts-20240926figures/image-1-1-do-not-touch.png">
 
 
 ## Author
