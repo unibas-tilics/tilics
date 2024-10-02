@@ -4,6 +4,6 @@ Cryptographic hashing is the process of creating a unique "fingerprint" of data.
 The resulting hashing algorithms are different (for example, SHA-256, MD5), they differ in complexity and speed of operation. The more bits in the hash, the more difficult it is to crack, but the hashing process becomes slower.
 <br/>
 
-![Demonstrations](../photos/foto.png)
+![Demonstrations](photos/foto.png)
 
 <br/>
