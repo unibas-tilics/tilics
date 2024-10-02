@@ -6,4 +6,4 @@ The resulting hashing algorithms are different (for example, SHA-256, MD5), they
 
 ![Demonstrations](photos/foto.png)
 
-<br/>
+<br/> 
