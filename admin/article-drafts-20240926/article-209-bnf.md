@@ -12,4 +12,6 @@ terminal symbols, which are the actual characters or tokens in the language (lik
 - `<expression> ::= <number> | <expression> "+" <number>`
 - `<number> ::= "0" | "1" | "2" | "3"`
 
+https://github.com/unibas-tilics/tilics/blob/article-209-bnf/admin/article-drafts-20240926/figures/picture-0.png
+
 Author: Arita Adili, Andrei Faur
