@@ -8,5 +8,5 @@ non-terminal symbols, which act as placeholders (like <expression>)
 terminal symbols, which are the actual characters or tokens in the language (like + or 3).
 
 A simple grammar:
-<expression> ::= <number> | <expression> "+" <number>
-<number> ::= "0" | "1" | "2" | "3"
+expression ::= number | expression "+" number
+number ::= "0" | "1" | "2" | "3"
