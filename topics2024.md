@@ -144,6 +144,12 @@ Infinite Loop (Lifelock)
 - Lazy loading vs Eager Loading
 
 ## Vazhappilly.Ashwin:
+- Saving Your Code Without Commitment: Git Stash 
+- Why Linux is simply better
+- Async/Await: The Smoother Way to Handle Promises
+- Reverse Engineering: Unpacking Software Mysteries 
+- ARM: Agile, Reliable, Mighty Architecture
+- Peer-to-Peer: The Power of Decentralized Networking
 
 
 ## Vieira Ribeiro.André:
