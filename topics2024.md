@@ -22,6 +22,8 @@ To be discussed in the semimar of October 10.
 
 ## Dosku.Serxhio:
 
+- How does indexing work in databases? 
+- Comments are a programmer's love letters
 
 ## Du.Jue:
 
@@ -102,6 +104,5 @@ Infinite Loop (Lifelock)
 - **Supervised vs. Unsupervised Learning**: Compare two AI learning approaches
 
 ## Vutukuri.Likhitha:
-
 
 ---
