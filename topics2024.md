@@ -66,11 +66,11 @@ Infinite Loop (Lifelock)
 
 
 ## Musakhanov.Diyor:
-Linux Processes 
-What is PWN?
-Virtualization vs Containerization
-FTP
-HTTP vs HTTPS
+- Linux Processes 
+- What is PWN?
+- Virtualization vs Containerization
+- FTP
+- HTTP vs HTTPS
 
 ## Nadarajh.Subahini:
 
