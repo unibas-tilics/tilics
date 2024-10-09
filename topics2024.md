@@ -14,8 +14,8 @@ To be discussed in the semimar of October 10.
 
 
 ## Ajorian.Ali:
-- Pipelines
-- Obfuscation
+-  How a 'pipeline' can run computer instructions faster
+- Introducing 'obfuscation' as a technique that enhances our code's resistance to reverse engineering
 
 ## Batsilas.Janni:
 
