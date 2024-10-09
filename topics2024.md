@@ -97,11 +97,11 @@ Infinite Loop (Lifelock)
 - HTTP vs HTTPS
 
 ## Nadarajh.Subahini:
-
+- Art of knowing when to stop (Optimization) 
 
 ## Nguyen.VănTrí:
 
-
+ -
 ## Roozbahani.Matin:
 
 
