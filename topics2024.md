@@ -96,7 +96,12 @@ Infinite Loop (Lifelock)
 
 
 ## Schrenk.Carina:
-
+- Code Smells (Long Method, Duplicated Code, Nested Conditinlas...) / seen in my Software Engineering class)
+- Catchy principles in code design/best practices (KISS - Keep it simple Stupid, YAGNI - you ain't gonna need it, DRY - Don't repeat yourself) / as above
+- The principle of 'divide and conquer' in algorithms, maybe using quicksort as an example
+- Kernel Trick / seen in Slide set 01 TLICS 2024
+- FLOPS / seen in 'TILICS-2019' 
+- Machine Code vs. Programming Languages / seen in 'TILICS-2019' 
 
 ## Shandilya.Parth:
 
