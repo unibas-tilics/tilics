@@ -48,6 +48,11 @@ Infinite Loop (Lifelock)
 
 ## Engist.Laura Maria:
 
+- P vs. NP hard problems (scripts Bachelor)
+- Modulo (%) vs. '%' (when doing calculations % does not necessary mean percentage)
+- Python
+  - Class names: CamelCase (as already in booklet)
+  - Variables and functions: snake_case (lowercase with underscores)
 
 ## Faur.Andrei:
 
