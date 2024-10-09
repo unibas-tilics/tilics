@@ -14,7 +14,8 @@ To be discussed in the semimar of October 10.
 
 
 ## Ajorian.Ali:
-
+- Pipelines
+- Obfuscation
 
 ## Batsilas.Janni:
 
