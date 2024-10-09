@@ -59,6 +59,8 @@ Infinite Loop (Lifelock)
 
 
 ## Liu.Chengrui:
+- **Start your first SQL statement**: How do we communicate with database
+- **Time and Space Complexity**: The Soul of Algorithms
 
 
 ## Macejková.Miroslava:  
