@@ -63,9 +63,10 @@ Infinite Loop (Lifelock)
 
 ## Macejková.Miroslava:  
   - The Power of Inheritance
-  - How does Quantum Computer works
-  - How does GPU work.
-  - Neurons in CS 
+  - How does Quantum Computer work
+  - How does GPU work
+  - Neurons in CS
+  - Importance of adaptability
 
 ## Manaa.Salman:
 
