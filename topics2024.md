@@ -67,6 +67,7 @@ Infinite Loop (Lifelock)
   - How does GPU work
   - Neurons in CS
   - Importance of adaptability
+  - What is OOP
 
 ## Manaa.Salman:
 
