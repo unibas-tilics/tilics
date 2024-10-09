@@ -26,6 +26,10 @@ To be discussed in the semimar of October 10.
 
 
 ## Dudler.Fabian:
+Little-Big Endian
+Performance vs Accuracy
+Loops in general or Recursion
+Infinite Loop (Lifelock)
 
 
 ## Engist.Laura Maria:
