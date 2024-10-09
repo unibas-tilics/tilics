@@ -94,7 +94,12 @@ Infinite Loop (Lifelock)
 
 
 ## Vieira Ribeiro.André:
-
+- **Processes and Threads**: Explain how operating systems manage multitasking through processes and threads. 
+- **The OSI Model**: Explain how data moves across networks using a 7-layer framework.
+- **IP Addresses**: Explain how devices find and communicate with each other on a network.
+- **TCP vs. UDP**: Compares two main protocols for transmitting data.
+- **Firewalls**: Explain how firewalls protect networks by controlling and filtering traffic to block unauthorized access.
+- **Supervised vs. Unsupervised Learning**: Compare two AI learning approaches
 
 ## Vutukuri.Likhitha:
 
