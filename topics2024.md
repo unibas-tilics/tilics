@@ -61,8 +61,11 @@ Infinite Loop (Lifelock)
 ## Liu.Chengrui:
 
 
-## Macejková.Miroslava:
-
+## Macejková.Miroslava:  
+  - The Power of Inheritance
+  - How does Quantum Computer works
+  - How does GPU work.
+  - Neurons in CS 
 
 ## Manaa.Salman:
 
