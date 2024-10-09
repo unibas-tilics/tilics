@@ -49,9 +49,9 @@ Infinite Loop (Lifelock)
 
 
 ## Hyseni.Arbër:
-Difference between concurrency and parallelism
-Cold starts
-Asynchronous programming
+- Difference between concurrency and parallelism
+- Cold starts
+- Asynchronous programming
 
 ## Koca.Erdem:
 
