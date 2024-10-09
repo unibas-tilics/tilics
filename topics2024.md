@@ -8,6 +8,9 @@ To be discussed in the semimar of October 10.
 
 
 ## Adili.Arita:
+- What is an Operating System?
+- Phishing and Social Engineering in Computer Science
+- Frontend vs Backend
 
 
 ## Agolli.Selaudin:
