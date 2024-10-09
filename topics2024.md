@@ -100,8 +100,17 @@ Infinite Loop (Lifelock)
 - Art of knowing when to stop (Optimization) 
 
 ## Nguyen.VănTrí:
+- Explain algebraic data type (A tree is just two trees)
+- Explain the alignment problem in AI
+- The importance of having a type system in software development collaboration
+- Explain emergent behaviour through Boids algorithm
+- Explain zero-knowledge proof
+- Explain Gödel numbering
+- Explain the Curry–Howard correspondence
+- Explain symbolic computation
+- Explain Zooko's triangle
+- Explain Lawvere's fixed-point theorem (or just Turing's argument)
 
- -
 ## Roozbahani.Matin:
 
 
