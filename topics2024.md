@@ -22,6 +22,11 @@ To be discussed in the semimar of October 10.
 
 ## Dosku.Serxhio:
 
+- Sort and Search Algorithms
+- Speaking in Programming Languages (Programming is like learning a new language; Each language has its own quirks. Just like in conversation, choose the right language for the task!)
+
+
+
 ## Du.Jue:
 
 - How does indexing work in databases? 
