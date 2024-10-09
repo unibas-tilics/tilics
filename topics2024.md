@@ -104,7 +104,7 @@ Infinite Loop (Lifelock)
 ## Nadarajh.Subahini:
 - Art of knowing when to stop (Optimization)
 - 0 and 1 in Conflict: Classical Precision vs Quantum Ambiguity
-- P ≠ NP: Why Finding Answers is Hard, but Checking Them is Easy (And That’s a Big Deal)
+- P and NP: Why Finding Answers is Hard, but Checking Them is Easy 
 - You Can’t Have Your Cake and Eat It Too (CAP Theorem)
 
 ## Nguyen.VănTrí:
