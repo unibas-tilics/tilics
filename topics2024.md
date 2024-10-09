@@ -51,9 +51,9 @@ Infinite Loop (Lifelock)
 
 ## Faur.Andrei:
 
-The Architecture of a Computer (John von Neumann)
-Why and how memory caching works (Memory Hierarchy)
-The P vs. NP Problem (Brief Overview)
+-The Architecture of a Computer (John von Neumann)
+-Why and how memory caching works (Memory Hierarchy)
+-The P vs. NP Problem (Brief Overview)
 
 
 ## Firatli.Evrim:
