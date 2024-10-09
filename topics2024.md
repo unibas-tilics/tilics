@@ -80,6 +80,10 @@ Infinite Loop (Lifelock)
 
 ## Shandilya.Parth:
 
+- What is Git rebase?
+- What is SSH tunneling?
+- Explain `ping`!
+- Expalin `traceroute`!
 
 ## Sulima.Ivan:
 
