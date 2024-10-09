@@ -102,6 +102,9 @@ Infinite Loop (Lifelock)
 
 ## Sulima.Ivan:
 
+- Hungarian notation
+- What is Group Theory
+- Lazy loading vs Eager Loading
 
 ## Vazhappilly.Ashwin:
 
