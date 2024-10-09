@@ -11,7 +11,10 @@ To be discussed in the semimar of October 10.
 
 
 ## Agolli.Selaudin:
-
+- **Unit Testing** - Double-Checking Your Code
+- **Software Licensing** - Can we use someones code?
+- **API** - The Connector Between Softwares
+- **Cloud** - Storing Your Data in the Internet Sky
 
 ## Ajorian.Ali:
 -  How a 'pipeline' can run computer instructions faster
