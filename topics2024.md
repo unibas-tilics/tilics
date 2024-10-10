@@ -162,4 +162,6 @@ Infinite Loop (Lifelock)
 
 ## Vutukuri.Likhitha:
 
----
+- **Understanding Binary**: The language of computers
+- **Databases**: The art of storing and accessing information
+- **DataType vs Variable**: What you store vs Where you store it
