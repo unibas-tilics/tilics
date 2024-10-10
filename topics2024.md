@@ -35,7 +35,7 @@ To be discussed in the semimar of October 10.
 
 ## Du.Jue:
 
-- How does indexing work in databases? 
+- Database Index 
 - Comments are a programmer's love letters
 
 ## Dudler.Fabian:
