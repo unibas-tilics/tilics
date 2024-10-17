@@ -4,3 +4,6 @@
 
 # emacs files
 *~
+
+# temp latex files
+toc*.tex

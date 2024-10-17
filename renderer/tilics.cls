@@ -155,6 +155,6 @@
 \parindent 1em
 
 \newif\ifminibooklet
-\minibookletfalse
+\minibooklettrue
 
 % eof
