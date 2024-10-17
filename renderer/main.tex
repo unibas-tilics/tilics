@@ -4,10 +4,14 @@
 
 \documentclass{tilics}
 
+
+\minibookletfalse
 \ifminibooklet % 2^4
+  \newcommand{\lastindex}{15}
   \newcommand{\artcount}{4}
   \setlength{\pdelta}{4.6mm}
 \else % 2^5
+  \newcommand{\lastindex}{31}
   \newcommand{\artcount}{5}
   \setlength{\pdelta}{2.3mm}
 \fi
@@ -89,37 +93,18 @@
   % here we start with the articles!
   \newcommand{\tilicsArtNum}{???}
   
-%   % loop over all article
-%   \foreach \n in {0,...,31}{
-%      \IfFileExists{articles/2^\artcount .\n/fig.pdf}{
-%        \typeout{Article \n  ...}
+  % loop over all article
+  \foreach \n in {0,...,\lastindex}{
+    \typeout{Article \n  ...}
+  
+    % left side (even page):
+    \inputFig{fig.pdf}
+    
+    % right side (odd page):
+    \inputText{txt.tex}
+  }
 
-%        % left side (even page):
-%        \inputFig{articles/2^\artcount .\n/fig.pdf}
-
-%        % right side (odd page):
-%        \input{articles/2^\artcount .\n/num.tex}
-%        \inputText{articles/2^\artcount .\n/txt.tex}
-%      }{}
-%   }
-
-  % index page
-  \newpage %\rightBar
-
-  \vspace*{-0.5em}
-  \noindent{\Large\bf Seminar participants (fall semester 2024)}
-  \normalsize
-
-  \vskip 1.5em
-  \noindent\small
-  \begin{tabular}{p{3.8cm}p{3.5cm}p{3.5cm}}
-    Fabricio Arend Torres &  Patrick Kahr         &  Christian Tschudin   \\
-    Nils Bühlmann         &  Marcel Lüthi         &  Marco Vogt           \\ 
-    Rebecca Dold          &  Sebastian Philipps   &  Moira Zuber          \\
-    Simon Dold            &  Linard Schwendener   &  \\
-    Omnia Kahla           &  Tim Steindl          &  \\
-  \end{tabular}
-  \vspace*{\fill}%
+  \input{participants.tex}
 
   % inner back page
   \newpage
@@ -133,15 +118,14 @@
   {\Large\bf List of Topics}
   \vskip 2em
   \noindent
-  \ifminibooklet
-    \begin{tabular}{rp{1em}lp{3em}rp{1em}l}
-      \input{toc_mini.tex}
-    \end{tabular}
-  \else
-  \begin{tabular}{rp{1em}lp{3em}rp{1em}l} 
+
+  \begin{tabular}{rp{1em}lp{3em}rp{1em}l}
     \input{toc.tex}
   \end{tabular}
 
+  \ifminibooklet
+  
+  \else
     %\vskip 1em
     %\noindent{\small\tt\color{UnibasRed} https://tilics.dmi.unibas.ch/}
 
