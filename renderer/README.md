@@ -17,6 +17,7 @@ make
 - **tilics.cls**: Specifies styling and layout.
 - **participants.tex**: Lists seminar participants.
 - **Makefile**: Defines the rendering process
+- **filter.lua**: Defines how to convert markdown to latex using pandoc
 
 ### Credits
 Original code by Professor [Christian Tschudin](mailto:christian.tschudin@unibas.ch), adapted by Repo Team 2024 for GitHub Actions.

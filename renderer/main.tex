@@ -92,18 +92,7 @@
 
   % here we start with the articles!
   \newcommand{\tilicsArtNum}{???}
-  
-  % loop over all article
-  \foreach \n in {0,...,\lastindex}{
-    \typeout{Article \n  ...}
-  
-    % left side (even page):
-    \inputFig{fig.pdf}
-    
-    % right side (odd page):
-    \inputText{txt.tex}
-  }
-
+  \input{articles.tex}
   \input{participants.tex}
 
   % inner back page

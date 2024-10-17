@@ -1,12 +1,10 @@
-# latex auxiliary & log files
-*.aux
-*.log 
-
 # emacs files
 *~
 
-# temp latex files
+# temp files
 toc*.tex
-
-# others 
+articles*.tex
+svg-inkscape/
+*.aux
+*.log 
 *.pdf

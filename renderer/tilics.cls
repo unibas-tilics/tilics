@@ -34,6 +34,7 @@
 ]{crop}
 \usepackage{framed}
 \usepackage{graphics}
+
 %\usepackage{setspace}
 \usepackage[absolute,overlay]{textpos}
 \usepackage{pgffor}
@@ -63,7 +64,7 @@
    \abovedisplayskip 8.5\p@ \@plus3\p@ \@minus4\p@
    \abovedisplayshortskip \z@ \@plus2\p@
    \belowdisplayshortskip 4\p@ \@plus2\p@ \@minus2\p@
-   \def\@listi{\leftmargin\leftmargini
+   \def\@listi{\leftmargin\rightmargin
                \topsep 4\p@ \@plus2\p@ \@minus2\p@
                \parsep 2\p@ \@plus\p@ \@minus\p@
                \itemsep \parsep}%
@@ -90,7 +91,65 @@
 %\setlength{\pdelta}{2.3mm}
 \setlength{\pdelta}{1.5mm}
 
-\newcommand{\mytopic}[1]{%
+\newenvironment{quote}
+  {\begin{list}{}{\leftmargin=1cm \rightmargin=1cm} \item[]\fontfamily{ptm}\selectfont}
+  {\end{list}}
+  \usepackage{longtable}
+  \usepackage{booktabs}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}
+  \setlength{\parskip}{0pt}
+}
+\setlength{\labelsep}{0.2em}
+
+\usepackage{svg}
+\newcommand{\inputSvg}[1]{%
+  \newpage
+  \topskip 0pt  % Remove any space at the top of the page
+  \vspace*{\fill}  % Fill the space above the image
+  \noindent\hfill\includesvg[width=4in]{#1}\hfill  % Center horizontally
+  \vspace*{\fill}  % Fill the space below the image
+}
+
+% Render codeblock
+\usepackage{fancyvrb}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+\definecolor{shadecolor}{rgb}{0.9, 0.9, 0.9} % Light gray color for shaded backgrounds
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.8,0.0,0.0}{#1}} % Changed to a light red
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textbf{\textit{#1}}}} % Changed to dark blue
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{\textbf{\textit{#1}}}} % Changed to medium green
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textbf{#1}}} % Changed to dark blue
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{\underline{#1}}} % Changed to medium gray
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textit{#1}}} % Changed to dark blue
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.8,0.0,0.0}{\textbf{#1}}} % Changed to light red
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.8,0.5,0.0}{\textbf{#1}}} % Changed to light orange
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textbf{\textit{#1}}}} % Changed to dark blue
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textbf{#1}}} % Changed to dark blue
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.0,0.0,0.0}{#1}} % Changed to black
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textbf{#1}}} % Changed to dark blue
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{#1}} % Changed to dark blue
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.8,0.0,0.0}{\textbf{#1}}} % Changed to light red
+
+
+\newcommand{\section}[1]{%
   \newpage\vspace*{\fill}%
   \setlength{\poffs}{1cm}%
   \addtolength{\poffs}{\thetopic\pdelta}%
@@ -103,7 +162,6 @@
   \end{textblock*}%
 %
   \topic*{#1}\stepcounter{topic}\small
-
 }
 
 \newcommand\topic{%
