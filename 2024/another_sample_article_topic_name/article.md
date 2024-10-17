@@ -1,4 +1,18 @@
 # This is a Draft article
-Here is the content of the article.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This article serves as a test to see if all Markdown features are rendered correctly. Markdown files will be converted into Latex files and compiled into this PDF.
+
+You can **bold text** to emphasize important points or *italicize text* for a softer emphasis. You can also ~~cross out text~~ to indicate removal or edits.
+
+> This is a
+> blockquote that can be used to highlight important quotes or thoughts.
+
+Inline code can be added like this: `const x = 10;`.
+
+
+To include code blocks, use triple backticks:
+```python
+def greet():
+    print("Hello World!")
+```
+

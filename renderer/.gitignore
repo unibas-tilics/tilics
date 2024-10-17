@@ -8,3 +8,4 @@ svg-inkscape/
 *.aux
 *.log 
 *.pdf
+*.out

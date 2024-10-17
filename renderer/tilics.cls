@@ -91,6 +91,11 @@
 %\setlength{\pdelta}{2.3mm}
 \setlength{\pdelta}{1.5mm}
 
+% These commands are used by Pandoc generated latex
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+
+\usepackage{soul}
 \newenvironment{quote}
   {\begin{list}{}{\leftmargin=1cm \rightmargin=1cm} \item[]\fontfamily{ptm}\selectfont}
   {\end{list}}

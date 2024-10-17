@@ -1,4 +1,20 @@
 # This is a Draft article
-Here is the content of the article.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+You can create ordered or unordered lists:
+
+- Item 1
+- Item 2
+
+1. First
+2. Second
+
+Or a table:
+
+| Fruit | Color | Calories |
+|-------|-------|---------|
+| Apple | Red   | 95      |
+| Banana| Yellow| 105     |
+
+Here is a [Link to the TILICS Repo](https://github.com/unibas-tilics/tilics).
+
+Note that, images in will _not_ be shown ![Placeholder](https://upload.wikimedia.org/wikipedia/commons/b/bf/Universit%C3%A4t_Basel_2018_logo.svg).
