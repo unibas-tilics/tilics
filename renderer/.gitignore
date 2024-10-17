@@ -1,5 +1,6 @@
 # latex auxiliary & log files
-*.aux *.log 
+*.aux
+*.log 
 
 # emacs files
 *~
