@@ -1,0 +1,5 @@
+# latex auxiliary & log files
+*.aux *.log 
+
+# emacs files
+*~

@@ -1,0 +1,156 @@
+% tilics/booklet/main.tex
+
+% 2019-05-11 christian.tschudin@unibas.ch
+
+\documentclass{tilics}
+
+\ifminibooklet % 2^4
+  \newcommand{\artcount}{4}
+  \setlength{\pdelta}{4.6mm}
+\else % 2^5
+  \newcommand{\artcount}{5}
+  \setlength{\pdelta}{2.3mm}
+\fi
+
+
+% ----------------------------------------------------------------------
+\begin{document}
+  % \pagecolor{yellow}
+  \pagecolor{UnibasMint}
+  \hfill\includegraphics{figs/cover.pdf}
+
+  \vspace*{\fill}{\color{UnibasRed}
+    \noindent{\Huge\bf 2\raisebox{0.5em}{\LARGE\artcount} Things I Learned}
+    \vskip 1mm
+    \noindent{\Huge\bf in Computer Science}
+  }
+
+  \vskip 4mm\noindent{\large
+    University of Basel, Department of Mathematics and Computer Science
+  }
+
+  % 2nd page (even) -- empty
+  \newpage\pagecolor{white}
+  \ 
+
+  % 3rd page (odd) with booklet title
+  \newpage
+  \newgeometry{left=2cm,right=2cm}
+  \voffset 0.4in%\hoffset 0.1in
+
+  %%\leftBar
+  \vspace*{\fill}
+  \noindent\hfil{\Huge\bf 2\raisebox{0.5em}{\LARGE\artcount} Things I Learned}
+  \vskip 1mm
+  \noindent\hfil{\Huge\bf in Computer Science}
+
+  \vskip 8pt
+  \noindent\hfil{\large Department of Mathematics and Computer Science}
+  \vskip 30mm
+  \noindent\hfil\includegraphics{figs/UniBas_Logo_EN_Schwarz_Trans_RGB_65.pdf}
+  \vspace*{-8mm}
+ 
+  % 4th page (even) with copyright notice
+  \newpage%\rightBar
+
+  \noindent
+  {\small\copyright\ 2019
+  University of Basel, Department of Mathematics and Computer Science}
+
+  \vspace*{-2pt}\noindent
+  {\small Spiegelgasse 1, CH -- 4051 Basel, Switzerland}
+  
+  \vspace*{-3pt}\noindent
+  {\small\tt https://dmi.unibas.ch/}
+  
+  \vspace*{\fill}
+  \noindent
+  \includegraphics{figs/CC-by-sa.pdf}\hspace*{0.4em}
+  \raisebox{1.5em}{\begin{minipage}{8cm}\small\raggedright
+    This work is licensed under a {\em Creative Commons Attribution-ShareAlike 4.0 International License}\\
+    (CC BY-SA 4.0). 
+  \end{minipage}}
+
+  \vspace*{-0.4em}\noindent
+ {\small\tt https://creativecommons.org/licenses/by-sa/4.0/legalcode}
+  % {\small University of Basel, Dept of Mathematics and Computer Science}
+
+  
+  % 5th page (even) with Author's Note, a
+  \newpage%\leftBar%\vspace*{\fill}
+
+  %\vspace*{-2mm}
+  \noindent{\Large Author's Note}
+
+  \vskip 5mm
+  \small
+  \input{intro.tex}
+
+  % here we start with the articles!
+  \newcommand{\tilicsArtNum}{???}
+  
+%   % loop over all article
+%   \foreach \n in {0,...,31}{
+%      \IfFileExists{articles/2^\artcount .\n/fig.pdf}{
+%        \typeout{Article \n  ...}
+
+%        % left side (even page):
+%        \inputFig{articles/2^\artcount .\n/fig.pdf}
+
+%        % right side (odd page):
+%        \input{articles/2^\artcount .\n/num.tex}
+%        \inputText{articles/2^\artcount .\n/txt.tex}
+%      }{}
+%   }
+
+  % index page
+  \newpage %\rightBar
+
+  \vspace*{-0.5em}
+  \noindent{\Large\bf Seminar participants (fall semester 2024)}
+  \normalsize
+
+  \vskip 1.5em
+  \noindent\small
+  \begin{tabular}{p{3.8cm}p{3.5cm}p{3.5cm}}
+    Fabricio Arend Torres &  Patrick Kahr         &  Christian Tschudin   \\
+    Nils Bühlmann         &  Marcel Lüthi         &  Marco Vogt           \\ 
+    Rebecca Dold          &  Sebastian Philipps   &  Moira Zuber          \\
+    Simon Dold            &  Linard Schwendener   &  \\
+    Omnia Kahla           &  Tim Steindl          &  \\
+  \end{tabular}
+  \vspace*{\fill}%
+
+  % inner back page
+  \newpage
+  \
+
+  % back page
+  \newpage\pagecolor{UnibasMint}
+
+  \vspace*{-0.5em}
+  \noindent
+  {\Large\bf List of Topics}
+  \vskip 2em
+  \noindent
+  \ifminibooklet
+    \begin{tabular}{rp{1em}lp{3em}rp{1em}l}
+      \input{toc_mini.tex}
+    \end{tabular}
+  \else
+  \begin{tabular}{rp{1em}lp{3em}rp{1em}l} 
+    \input{toc.tex}
+  \end{tabular}
+
+    %\vskip 1em
+    %\noindent{\small\tt\color{UnibasRed} https://tilics.dmi.unibas.ch/}
+
+    %\hspace*{7cm}%
+    %\rotatebox{90}{\color{UnibasRed}\tt https://tilics.dmi.unibas.ch/}
+    
+    \vspace*{-4.5em}
+  \fi
+
+\end{document}
+
+% eof
