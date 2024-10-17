@@ -4,15 +4,26 @@ The spokesperson is marked with a star (*)
 
 ## C / Content
 
+- Arita Adili
+- Selaudin Agolli (*)
+- Fabian Dudler
+- Gottfrois.Philippe
+- Ivan Sulima
+
 
 ## R / Github Repo
 
-- Jue Du / jue.du@stud.unibas.ch
-- Văn Trí Nguyen / tri.nguyen@stud.unibas.ch
-- Parth Shandilya / parth.shandilya@stud.unibas.ch (*)
+- Jue Du
+- Văn Trí Nguyen
+- Parth Shandilya (*)
 
 
 ## T / Testing
+
+- Liu Chengrui
+- Laura Engist
+- Andrei Faur (*)
+- Evrim Firatli
 
 
 ## Q / Quality
@@ -29,25 +40,18 @@ The spokesperson is marked with a star (*)
 
 ## G / Graphics
 
+- Miroslava Mačejková
+- André Vieira Ribeiro
+- Ashwin Vazhappilly (*)
+
 
 ## Unassigned Names
 
-- Adili.Arita
-- Agolli.Selaudin
 - Batsilas.Janni
-- Dudler.Fabian
-- Engist.Laura Maria
-- Faur.Andrei
-- Firatli.Evrim
-- Gottfrois.Philippe
 - Hashim.Muhammad
 - Koca.Erdem
 - Liu.Chengrui
-- Macejková.Miroslava  
 - Roozbahani.Matin
-- Sulima.Ivan
-- Vazhappilly.Ashwin
-- Vieira Ribeiro.André
 
 
 ---
