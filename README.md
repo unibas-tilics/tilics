@@ -61,7 +61,7 @@ Commit and push to your previously created branch.
 
 Create a pull request from your branch against the `master` branch.  Therefore, please click on "New pull request" and add the description of the pull request.
 
-[pull-request-vedio](../tilics/create-pull-request.mp4 )
+[pull-request-video](../tilics/create-pull-request.mp4 )
 
 ### For Quality Team
 
