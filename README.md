@@ -15,14 +15,81 @@ This is the organisation space for 2024 seminar course.
 
 - [Task Force 2024](/admin/taskforces_2024.md)
 - Use [GitHub Discussion](https://github.com/unibas-tilics/tilics/discussions) for organisational matter.
+  
     > You can tag people to notify them to participate in discussion.
 
 ###  For Authors
 
 #### How to create pull request?
+##### Step 1 : Create a new branch for your article
+Create a new branch off `unibas-tilics/tilics/master` and name it according to the following pattern:
+`article-NNN-short_title`
 
-### For Quality Team
+##### Step 2 : Add your article
+
+Create a folder in the `2024` directory in the branch you just created.  The name of the folder follows the pattern: `articl-topic_name`, such as `article-rices-theorem`.
+
+Then create a Markdown file `article.md`. Please use the template below and keep the `<!-- BEGIN ... -->` and `<!-- END ... -->` lines intact; they are required for making the document more machine-readable.
+
+```markdown
+<!-- BEGIN TITLE -->
+# Put your title here, including the leading pound sign
+<!-- END TITLE -->
+
+<!-- BEGIN BODY -->
+Put your article's text in Markdown here.
+<!-- END BODY -->
+
+## Optional text
+<!-- BEGIN OPTIONAL -->
+If your article has some optional text, add it here.
+<!-- END OPTIONAL -->
+
+![illustration.png](../articl-topic_name/illustration.png)
+
+## Author
+<!-- BEGIN AUTHOR -->
+Put your name (and only your name) here.
+<!-- END AUTHOR -->
+```
+
+Please put your illustration for the artist(s) to the same directory.
+
+Commit and push to your previously created branch.
+
+##### Step 3 : Open a pull request
+
+Create a pull request from your branch against the `master` branch.  Therefore, please click on "New pull request" and add the description of the pull request.
+
+[pull-request-vedio](../tilics/create-pull-request.mp4 )
 
 #### How to use labels for tagging?
 
+```markdown
+##### Step 1: Go to the Pull Request
+- Click on the "Pull requests" tab at the top of the page.
+- Select the specific pull request you want to review.
+
+##### Step 2: Locate the Labels Section
+- On the right-hand side of the pull request page, you will see a section labeled **Labels**.
+
+    Add a Label:
+    - Click on the **Labels** dropdown.
+    - A list of available labels will appear. You can choose the appropriate label.
+    - Click on the desired label(s) to apply them to the pull request.
+    
+    Confirm the Label:
+    - Once the label(s) is added, it will appear on the right side of the pull request, indicating that the label has been successfully applied.
+```
+
 #### How to merge pull request?
+
+```markdown
+##### Step 1 : Review
+In order to be merged, the pull request requires two approvals from the Quality Team.
+Reviewers can add comments in the pull request's comment thread if something should be changed.  When editing your article, simply commit and push the changes to your branch; they are automatically added to the pull request.
+##### Step 2 : Merge
+If everything is ok, the pull request can be merged.  Be sure to
+choose the `Squash and Merge` merge option.
+```
+
