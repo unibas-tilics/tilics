@@ -9,7 +9,6 @@
               [2019/05/11 christian.tschudin@unibas.ch]
 
 \usepackage[english]{babel}
-\usepackage{blindtext}
 
 % \usepackage[paperheight=4in,paperwidth=6in,margin=0.75in,heightrounded,showframe]{geometry}
 % \usepackage[paperheight=4in,paperwidth=6in,margin=1cm,showframe]{geometry}
