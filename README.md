@@ -71,8 +71,8 @@ Commit and push to your previously created branch.
 ##### Step 3 : Open a pull request
 
 Create a pull request from your branch against the `master` branch.  Therefore, please click on "New pull request" and add the description of the pull request.
+![pull-recreat-video](./creat-pull-request.mp4)
 
-<video src="./create-pull-request.mp4" width="320" height="240" controls></video>
 
 ### For Quality Team
 
@@ -98,7 +98,7 @@ Create a pull request from your branch against the `master` branch.  Therefore, 
 
 Currently available labels are as follows:
 
-<img src="./images/labels.png" style="width: 50%;">
+<img src="./images/labels.png" style="width: 80%;">
 
 #### How to merge pull request?
 
