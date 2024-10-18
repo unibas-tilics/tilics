@@ -98,7 +98,7 @@ Create a pull request from your branch against the `master` branch.  Therefore, 
 
 Currently available labels are as follows:
 
-<img src="../images/labels.png" style="width: 50%;">
+<img src="./images/labels.png" style="width: 50%;">
 
 #### How to merge pull request?
 
