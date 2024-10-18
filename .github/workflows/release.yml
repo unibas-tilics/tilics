@@ -1,0 +1,45 @@
+name: Release
+
+on:
+  workflow_run:
+    workflows: ["Generate Booklet PDF files"] # Name of the workflow to listen for
+    branches: [master] # Only run on the master branch
+    types:
+      - completed # Trigger on the completion of the specified workflow
+
+jobs:
+  release:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }} # Only proceed if the previous workflow succeeded
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create Release
+        id: create_release
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const date = new Date().toISOString().split('T')[0]; // Get current date in YYYY-MM-DD format
+            const tagName = `release-${date}`;  // Create tag name using the date
+            const { data: release } = await github.repos.createRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              tag_name: tagName,
+              name: `Release ${tagName}`,
+              body: `Triggered by successful completion of the "Generate Booklet PDF" workflow.`,
+            });
+
+            return release.html_url; // Return the URL of the created release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Release Assets
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: release-${{ github.event.workflow_run.head_commit.timestamp }} # Use the same tag name for the asset
+          files: |
+            ./renderer/*.pdf  # Upload all PDF files from the renderer directory
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

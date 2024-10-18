@@ -32,6 +32,7 @@ define create_articles_latex
 endef
 
 
+all: $(OUTPUT_PDF).pdf cropped
 
 
 # Main PDF generation

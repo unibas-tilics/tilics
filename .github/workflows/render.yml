@@ -1,4 +1,4 @@
-name: Generate PDF from Markdown and SVG
+name: Generate Booklet PDF files
 
 on:
   push:
@@ -37,8 +37,8 @@ jobs:
         run: make
         working-directory: renderer
 
-      - name: Upload PDF as an artifact
+      - name: Upload PDF files as an artifact
         uses: actions/upload-artifact@v3
         with:
-          name: booklet-pdf
-          path: renderer/2024_TILICS.pdf
+          name: booklet-pdfs
+          path: renderer/*.pdf
