@@ -22,7 +22,7 @@ endef
 
 define create_articles_latex
 	@echo "Creating articles.tex..."
-	@rm articles.tex
+	@rm -f articles.tex
 	@touch articles.tex
 	@for dir in $(SRC_DIR)/*/; do \
 		echo "Insert $$dir..."; \
