@@ -1,0 +1,76 @@
+name: Render
+
+on:
+  push:
+    branches:
+      - "**"
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: "Fix cache permissions"
+        run: |
+          sudo chmod aoug+rw -R /var/cache/apt
+
+      - name: Cache apt package lists and downloaded deb files
+        uses: actions/cache@v3
+        with:
+          path: |
+            /var/cache/apt/archives/**.deb
+            !/var/cache/apt/archives/partial
+            !/var/cache/apt/archives/lock
+          key: apt-packages-cache
+          restore-keys: |
+            ${{ runner.os }}-apt
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc inkscape texlive-latex-base texlive-fonts-extra texlive-extra-utils poppler-utils
+
+      - name: Run the PDF rendering script in the renderer folder
+        run: make
+        working-directory: renderer
+
+      - name: Upload PDF files as an artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: booklet
+          path: renderer/*.pdf
+
+  release:
+    needs: render
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Download PDF artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: booklet
+          path: ./renderer
+
+      - name: List downloaded PDF files
+        run: ls -la ./renderer
+
+      - name: Get current date
+        id: current_date
+        run: echo "current_date=$(date +'%d%m%y-%H%M')" >> $GITHUB_ENV
+
+      - name: Create Release and Upload Assets
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: release-${{ env.current_date }}
+          name: Release - ${{ env.current_date }}
+          body: |
+            This release was generated automatically upon a successful merge (new article added).
+          files: ./renderer/*.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
