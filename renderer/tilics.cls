@@ -94,6 +94,7 @@
 \usepackage{hyperref}
 \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
 
+\usepackage[normalem]{ulem}
 \usepackage{soul}
 \newenvironment{quote}
   {\begin{list}{}{\leftmargin=1cm \rightmargin=1cm} \item[]\fontfamily{ptm}\selectfont}
