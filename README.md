@@ -22,7 +22,7 @@ This is the organisation space for 2024 seminar course.
 
 #### How to create pull request?
 ##### Step 1 : Clone the repository
-clone the repository to your local machine :
+Clone the repository to your local machine :
 
 ```
 git clone https://github.com/unibas-tilics/tilics.git
