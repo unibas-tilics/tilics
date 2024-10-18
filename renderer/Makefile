@@ -37,6 +37,7 @@ endef
 # Main PDF generation
 $(OUTPUT_PDF).pdf: main.tex intro.tex tilics.cls toc.tex articles.tex
 	@echo "Generating $(OUTPUT_PDF).pdf..."
+	pdflatex --version
 	pdflatex --enable-pipes --shell-escape main
 	pdflatex --enable-pipes --shell-escape main
 	@mv main.pdf $(OUTPUT_PDF).pdf
