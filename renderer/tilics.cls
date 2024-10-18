@@ -121,37 +121,39 @@
 \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
 \definecolor{shadecolor}{rgb}{0.9, 0.9, 0.9} % Light gray color for shaded backgrounds
 \newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.8,0.0,0.0}{#1}} % Changed to a light red
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textbf{\textit{#1}}}} % Changed to dark blue
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
-\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{\textbf{\textit{#1}}}} % Changed to medium green
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textbf{#1}}} % Changed to dark blue
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{\underline{#1}}} % Changed to medium gray
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textit{#1}}} % Changed to dark blue
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.8,0.0,0.0}{\textbf{#1}}} % Changed to light red
-\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.8,0.5,0.0}{\textbf{#1}}} % Changed to light orange
-\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textbf{\textit{#1}}}} % Changed to dark blue
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textbf{#1}}} % Changed to dark blue
-\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.0,0.0,0.0}{#1}} % Changed to black
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textbf{#1}}} % Changed to dark blue
-\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{#1}} % Changed to dark blue
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}} % Changed to medium gray
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}} % Changed to medium green
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.8,0.0,0.0}{\textbf{#1}}} % Changed to light red
+
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.8,0.0,0.0}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.0,0.0,1.0}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.0,0.5,1.0}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.0,0.7,0.0}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.9,0.4,0.0}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.5,0.0,1.0}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.2,0.8,0.2}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{1.0,0.0,1.0}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.7,0.1,0.1}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.0,0.0,0.7}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.3,0.6,1.0}{\underline{#1}}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.0,0.7,0.0}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.0,0.0,1.0}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.0,0.0,0.0}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.5,0.5,0.0}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{1.0,0.5,0.0}{\textbf{#1}}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.9,0.2,0.5}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.0,0.0,1.0}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.1,0.1,0.8}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.3,0.3,0.3}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.0,0.0,0.0}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.9,0.0,0.0}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.0,0.0,1.0}{\textbf{#1}}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.5,0.2,0.5}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.0,0.7,0.0}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.0,0.0,1.0}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.5,0.5,0.5}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.0,0.5,0.0}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{1.0,0.0,0.0}{\textbf{#1}}}
+
 
 
 \newcommand{\section}[1]{%
