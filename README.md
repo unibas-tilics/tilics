@@ -21,13 +21,15 @@ This is the organisation space for 2024 seminar course.
 ###  For Authors
 
 #### How to create pull request?
-##### Step 1 : Create a new branch for your article
-Create a new branch off `unibas-tilics/tilics/master` and name it according to the following pattern:
-`article-NNN-short_title`
+##### Step 1 : Clone the repository
+clone the repository to your local machine:
+   
+   ```bash
+   git clone https://github.com/unibas-tilics/tilics.git
 
 ##### Step 2 : Add your article
 
-Create a folder in the `2024` directory in the branch you just created.  The name of the folder follows the pattern: `articl-topic_name`, such as `article-rices-theorem`.
+Create a folder in the `2024` directory.  The name of the folder follows the pattern: `topic-name`, such as `rices-theorem`.
 
 Then create a Markdown file `article.md`. Please use the template below and keep the `<!-- BEGIN ... -->` and `<!-- END ... -->` lines intact; they are required for making the document more machine-readable.
 
@@ -55,7 +57,7 @@ Put your name (and only your name) here.
 
 Please put your illustration for the artist(s) to the same directory.
 
-Commit and push to your previously created branch.
+Commit and push your changes to the repository.
 
 ##### Step 3 : Open a pull request
 
