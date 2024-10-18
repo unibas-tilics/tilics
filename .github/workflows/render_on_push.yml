@@ -1,0 +1,10 @@
+name: Render On Push
+
+on:
+  push:
+    branches:
+      - "**"
+
+jobs:
+  render:
+    uses: ./.github/workflows/render.yml
