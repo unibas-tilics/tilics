@@ -21,7 +21,7 @@ jobs:
         with:
           # Cache apt package lists and downloaded package files
           path: |
-             /var/cache/apt/archives/**.deb
+            /var/cache/apt/archives/**.deb
             !/var/cache/apt/archives/partial
             !/var/cache/apt/archives/lock
           key: apt-packages-cache
