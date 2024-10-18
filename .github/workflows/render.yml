@@ -18,6 +18,7 @@ jobs:
         run: |
           # Your PDF generation logic here
           echo "pdf_file=path/to/your/pdf/file.pdf" >> $GITHUB_ENV
+          echo ${{ steps.pdf.outputs.pdf_file }}
 
     outputs:
       pdf_file: ${{ steps.pdf.outputs.pdf_file }}
