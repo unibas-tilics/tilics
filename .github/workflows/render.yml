@@ -1,0 +1,34 @@
+name: Generate PDF from Markdown and SVG
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc inkscape
+
+      - name: Go to the renderer folder
+        run: cd renderer
+
+      - name: Run the PDF rendering script
+        run: make
+
+      - name: Upload PDF as an artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: booklet-pdf
+          path: 2024_booklet.pdf
