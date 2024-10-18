@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc inkscape
+          sudo apt-get install -y pandoc inkscape textlive
 
       - name: Run the PDF rendering script in the renderer folder
         run: make
