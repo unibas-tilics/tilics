@@ -8,9 +8,8 @@ make
 
 ### Rendering Process
 1. Convert markdown files to LaTeX.
-2. Convert images to PDF.
-3. Generate a Table of Contents.
-4. Compile everything into the final PDF.
+2. Generate a Table of Contents.
+3. Compile everything into the final PDF.
 
 ### Key Files
 - **main.tex**: Defines the PDF structure.
@@ -20,4 +19,4 @@ make
 - **filter.lua**: Defines how to convert markdown to latex using pandoc
 
 ### Credits
-Original code by Professor [Christian Tschudin](mailto:christian.tschudin@unibas.ch), adapted by Repo Team 2024 for GitHub Actions.
+Original code by Professor [Christian Tschudin](mailto:christian.tschudin@unibas.ch), adapted by Repo Team 2024 for GitHub Action.
