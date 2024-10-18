@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc inkscape texlive-latex-base texlive-fonts-extra texlive-extra-utils
+          sudo apt-get install -y pandoc inkscape texlive-latex-base texlive-fonts-extra texlive-extra-utils poppler-utils
 
       - name: Run the PDF rendering script in the renderer folder
         run: make

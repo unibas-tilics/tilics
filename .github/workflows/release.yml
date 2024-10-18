@@ -31,15 +31,40 @@ jobs:
               body: `Triggered by successful completion of the "Generate Booklet PDF" workflow.`,
             });
 
-            return release.html_url; // Return the URL of the created release
+            return { url: release.html_url, tagName }; // Return the URL and tag name of the created release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload Release Assets
-        uses: softprops/action-gh-release@v1
+        id: upload_assets
+        uses: actions/github-script@v6
         with:
-          tag_name: release-${{ github.event.workflow_run.head_commit.timestamp }} # Use the same tag name for the asset
-          files: |
-            ./renderer/*.pdf  # Upload all PDF files from the renderer directory
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const { tagName } = await github.repos.getRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              release_id: '${{ steps.create_release.outputs.id }}'
+            });
+
+            const files = fs.readdirSync('./renderer').filter(file => file.endsWith('.pdf')); // Get PDF files from the renderer directory
+
+            for (const file of files) {
+              const filePath = path.join('./renderer', file);
+              const fileContent = fs.readFileSync(filePath);
+              
+              await github.repos.uploadReleaseAsset({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                release_id: tagName.id,
+                name: file,
+                data: fileContent,
+                headers: {
+                  'content-type': 'application/pdf',
+                  'content-length': fileContent.length
+                }
+              });
+            }
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
