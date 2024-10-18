@@ -16,21 +16,25 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Download PDF artifacts
-        uses: actions/download-artifact@v3
-        with:
-          name: booklet-pdfs # Ensure this matches the name used in the upload step
+      - name: Use Outputs from Previous Workflow
+        run: |
+          echo "PDF File from previous workflow: ${{ github.event.workflow_run.outputs.pdf_file }}"
 
-      - name: List downloaded PDF files
-        run: ls -la ./renderer
+      # - name: Download PDF artifacts
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     name: booklet-pdfs # Ensure this matches the name used in the upload step
 
-      - name: Create Release and Upload Assets
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: release-${{ github.run_id }} # Create a unique tag name
-          name: Release ${{ github.run_id }} # Name of the release
-          body: |
-            This release was generated automatically upon a successful merge (new article added).
-          files: ./renderer/*.pdf # Path to the downloaded PDF files
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: List downloaded PDF files
+      #   run: ls -la ./renderer
+
+      # - name: Create Release and Upload Assets
+      #   uses: softprops/action-gh-release@v1
+      #   with:
+      #     tag_name: release-${{ github.run_id }} # Create a unique tag name
+      #     name: Release ${{ github.run_id }} # Name of the release
+      #     body: |
+      #       This release was generated automatically upon a successful merge (new article added).
+      #     files: ./renderer/*.pdf # Path to the downloaded PDF files
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
