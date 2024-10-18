@@ -1,7 +1,7 @@
 <!-- BEGIN TITLE -->
 # Put your title here, including the leading pound sign
 <!-- END TITLE -->
-![illustration.png](../illustration.jpg)
+![illustration.png](../article-rices-theorem/illustration.jpg)
 
 <!-- BEGIN BODY -->
 Put your article's text in Markdown here.
