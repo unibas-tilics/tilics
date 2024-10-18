@@ -16,55 +16,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Create Release
-        id: create_release
-        uses: actions/github-script@v6
+      - name: Create Release and Upload Assets
+        uses: softprops/action-gh-release@v1
         with:
-          script: |
-            const date = new Date().toISOString().split('T')[0]; // Get current date in YYYY-MM-DD format
-            const tagName = `release-${date}`;  // Create tag name using the date
-            const { data: release } = await github.repos.createRelease({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              tag_name: tagName,
-              name: `Release ${tagName}`,
-              body: `Triggered by successful completion of the "Generate Booklet PDF" workflow.`,
-            });
-
-            return { url: release.html_url, tagName }; // Return the URL and tag name of the created release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload Release Assets
-        id: upload_assets
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const fs = require('fs');
-            const path = require('path');
-            const { tagName } = await github.repos.getRelease({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              release_id: '${{ steps.create_release.outputs.id }}'
-            });
-
-            const files = fs.readdirSync('./renderer').filter(file => file.endsWith('.pdf')); // Get PDF files from the renderer directory
-
-            for (const file of files) {
-              const filePath = path.join('./renderer', file);
-              const fileContent = fs.readFileSync(filePath);
-              
-              await github.repos.uploadReleaseAsset({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                release_id: tagName.id,
-                name: file,
-                data: fileContent,
-                headers: {
-                  'content-type': 'application/pdf',
-                  'content-length': fileContent.length
-                }
-              });
-            }
+          tag_name: release-${{ github.run_id }} # Create a unique tag name
+          name: Release ${{ github.run_id }} # Name of the release
+          body: |
+            This release was generated automatically upon a successful merge (new article added).
+          files: ./renderer/*.pdf # Path to the PDF files to upload
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
