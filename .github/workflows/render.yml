@@ -16,19 +16,28 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Cache apt package lists and downloaded deb files
+        uses: actions/cache@v3
+        with:
+          # Cache apt package lists and downloaded package files
+          path: |
+            /var/cache/apt
+            /var/lib/apt/lists
+          key: apt-packages-cache
+          restore-keys: |
+            apt-packages-cache
+
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc inkscape
 
-      - name: Go to the renderer folder
-        run: cd renderer && ls
-
-      - name: Run the PDF rendering script
+      - name: Run the PDF rendering script in the renderer folder
         run: make
+        working-directory: renderer
 
       - name: Upload PDF as an artifact
         uses: actions/upload-artifact@v3
         with:
           name: booklet-pdf
-          path: 2024_booklet.pdf
+          path: renderer/2024_booklet.pdf
