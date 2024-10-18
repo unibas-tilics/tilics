@@ -22,9 +22,9 @@ jobs:
 
       - name: Download PDF artifacts
         uses: actions/download-artifact@v4
-        path: ./renderer
         with:
           name: booklet-pdfs
+          path: ./renderer
 
       - name: List downloaded PDF files
         run: ls -la ./renderer
