@@ -68,7 +68,7 @@ Please put your illustration for the artist(s) to the same directory.
 
 Commit and push to your previously created branch.
 
-##### Step 3 : Open a pull request
+##### Step 4 : Open a pull request
 
 Create a pull request from your branch against the `master` branch.  Therefore, please click on "New pull request" and add the description of the pull request.
 ![pull-recreat-video](./create-pull-request.mp4)
