@@ -21,11 +21,12 @@ jobs:
         with:
           # Cache apt package lists and downloaded package files
           path: |
-            /var/cache/apt
-            /var/lib/apt/lists
+             /var/cache/apt/archives/**.deb
+            !/var/cache/apt/archives/partial
+            !/var/cache/apt/archives/lock
           key: apt-packages-cache
           restore-keys: |
-            apt-packages-cache
+            ${{ runner.os }}-apt
 
       - name: Install dependencies
         run: |
@@ -40,4 +41,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: booklet-pdf
-          path: renderer/2024_booklet.pdf
+          path: renderer/2024_TILICS.pdf
