@@ -16,10 +16,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Cache apt package lists and downloaded deb files
+        uses: actions/cache@v3
+        with:
+          # Cache apt package lists and downloaded package files
+          path: |
+            /var/cache/apt
+            /var/lib/apt/lists
+          key: apt-packages-cache
+          restore-keys: |
+            apt-packages-cache
+
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc inkscape textlive
+          sudo apt-get install -y pandoc inkscape texlive
 
       - name: Run the PDF rendering script in the renderer folder
         run: make
