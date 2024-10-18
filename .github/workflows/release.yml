@@ -22,6 +22,7 @@ jobs:
 
       - name: Download PDF artifacts
         uses: actions/download-artifact@v4
+        path: ./renderer
         with:
           name: booklet-pdfs
 
