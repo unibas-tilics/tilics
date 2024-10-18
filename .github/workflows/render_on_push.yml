@@ -1,0 +1,9 @@
+name: Render On Push
+
+on:
+  pull_request:
+    branches:
+      - master
+jobs:
+  render:
+    uses: ./.github/workflows/render.yml
