@@ -22,18 +22,27 @@ This is the organisation space for 2024 seminar course.
 
 #### How to create pull request?
 ##### Step 1 : Clone the repository
-clone the repository to your local machine:
-   
-   ```bash
-   git clone https://github.com/unibas-tilics/tilics.git
+clone the repository to your local machine :
 
-##### Step 2 : Add your article
+```
+git clone https://github.com/unibas-tilics/tilics.git
+```
+
+##### Step 2 : Create a new branch
+
+ Run the following command to create and switch to a new branch : 
+
+```
+git checkout -b <new-branch-name>
+```
+
+##### Step 3 : Add your article
 
 Create a folder in the `2024` directory.  The name of the folder follows the pattern: `topic-name`, such as `rices-theorem`.
 
 Then create a Markdown file `article.md`. Please use the template below and keep the `<!-- BEGIN ... -->` and `<!-- END ... -->` lines intact; they are required for making the document more machine-readable.
 
-```markdown
+   ```markdown
 <!-- BEGIN TITLE -->
 # Put your title here, including the leading pound sign
 <!-- END TITLE -->
@@ -53,17 +62,17 @@ If your article has some optional text, add it here.
 <!-- BEGIN AUTHOR -->
 Put your name (and only your name) here.
 <!-- END AUTHOR -->
-```
+   ```
 
 Please put your illustration for the artist(s) to the same directory.
 
-Commit and push your changes to the repository.
+Commit and push to your previously created branch.
 
 ##### Step 3 : Open a pull request
 
 Create a pull request from your branch against the `master` branch.  Therefore, please click on "New pull request" and add the description of the pull request.
 
-[pull-request-video](./create-pull-request.mp4 )
+<video src="./create-pull-request.mp4" width="320" height="240" controls></video>
 
 ### For Quality Team
 
@@ -84,7 +93,12 @@ Create a pull request from your branch against the `master` branch.  Therefore, 
     
     Confirm the Label:
     - Once the label(s) is added, it will appear on the right side of the pull request, indicating that the label has been successfully applied.
+    
 ```
+
+Currently available labels are as follows:
+
+<img src="../images/labels.png" style="width: 50%;">
 
 #### How to merge pull request?
 
