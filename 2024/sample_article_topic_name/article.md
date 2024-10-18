@@ -17,4 +17,4 @@ Or a table:
 
 Here is a [Link to the TILICS Repo](https://github.com/unibas-tilics/tilics).
 
-Note that, images in will _not_ be shown ![Placeholder](https://upload.wikimedia.org/wikipedia/commons/b/bf/Universit%C3%A4t_Basel_2018_logo.svg).
+Note that, images will _not_ be shown ![Placeholder](https://upload.wikimedia.org/wikipedia/commons/b/bf/Universit%C3%A4t_Basel_2018_logo.svg).

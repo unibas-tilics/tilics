@@ -62,7 +62,7 @@ jobs:
 
       - name: Get current date
         id: current_date
-        run: echo "current_date=$(date +'%d%m%y-%H%M')" >> $GITHUB_ENV
+        run: echo "current_date=$(date +'%d%m%y - %H%M')" >> $GITHUB_ENV
 
       - name: Create Release and Upload Assets
         uses: softprops/action-gh-release@v1

@@ -9,6 +9,8 @@ You can **bold text** to emphasize important points or *italicize text* for a so
 
 Inline code can be added like this: `const x = 10;`.
 
+To include math block, use dollar signs: 
+$$a^2 + b^2 = c^2$$
 
 To include code blocks, use triple backticks:
 ```python
