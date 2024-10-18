@@ -22,7 +22,7 @@ jobs:
           sudo apt-get install -y pandoc inkscape
 
       - name: Go to the renderer folder
-        run: cd renderer
+        run: cd renderer && ls
 
       - name: Run the PDF rendering script
         run: make
