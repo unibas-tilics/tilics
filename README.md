@@ -76,7 +76,7 @@ git checkout -b <new-branch-name>
 
 Create a pull request from your branch against the `master` branch.  Therefore, please click on `New Pull Request` button and add the description of the pull request.
 
-<video src="./admin/tooling/create-pull-request.mp4" width="320" height="240" controls></video>
+[Watch the video tutorial](./admin/tooling/create-pull-request.mp4)
 
 ### For Quality Team
 
