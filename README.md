@@ -19,7 +19,7 @@ This is the organisation space for 2024 seminar course.
 
 ###  For Authors
 
-#### How to create pull request?
+#### How to create a pull request
 
 ##### Step 1 : Clone the repository
 
@@ -39,11 +39,8 @@ git checkout -b <new-branch-name>
 
 ##### Step 3 : Add your article
 
-1. Create a folder in the `2024` directory.
-
-2. The name of the folder follows the pattern: `topic-name`, such as `rices-theorem`.
-
-3. Then create a Markdown file (exactly named `article.md`).
+1. Create a folder in the `2024` directory with the same name as your topic (e.g. `/2024/rices_theorem`).
+2. Create a Markdown file (exactly named `article.md`) (e.g. `/2024/rices_theorem/article.md`).
    - 💡 Please use the template below. **The format is required for making the document more machine-readable.**
 
     ```markdown
@@ -58,7 +55,7 @@ git checkout -b <new-branch-name>
         - Bob
     ```
 
-    - Don't link the illustration image in the markdown file. Instead, put your illustration (exactly named `illustration.svg`) to your article directory (e.g. at `/2024/rices-theorem/illustration.svg`).
+    - Don't link the illustration image in the markdown file. Instead, put your illustration (exactly named `illustration.svg`) to your article directory (e.g. at `/2024/rices_theorem/illustration.svg`).
 
     - Commit and push to your previously created branch.
 
