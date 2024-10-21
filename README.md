@@ -43,32 +43,22 @@ git checkout -b <new-branch-name>
 
 2. The name of the folder follows the pattern: `topic-name`, such as `rices-theorem`.
 
-3. Then create a Markdown file `article.md`.
-   - 💡 Please use the template below and keep the `<!-- BEGIN ... -->` and `<!-- END ... -->` lines intact. **The format is required for making the document more machine-readable.**
+3. Then create a Markdown file (exactly named `article.md`).
+   - 💡 Please use the template below. **The format is required for making the document more machine-readable.**
 
     ```markdown
-        <!-- BEGIN TITLE -->
         # Put your title here, including the leading pound sign
-        <!-- END TITLE -->
-
-        <!-- BEGIN BODY -->
-        Put your article's text in Markdown here.
-        <!-- END BODY -->
+        
+        Put your article's text in Markdown here. Text before the second-level header (e.g., ## Optional text) will be included in the PDF.
 
         ## Optional text
-        <!-- BEGIN OPTIONAL -->
-        If your article has some optional text, add it here.
-        <!-- END OPTIONAL -->
+        Any text following a second-level header (## Optional text) won't be included
 
+        Images linked will also not be included in the final PDF
         ![illustration.png](../articl-topic_name/illustration.png)
-
-        ## Author
-        <!-- BEGIN AUTHOR -->
-        Put your name (and only your name) here.
-        <!-- END AUTHOR -->
     ```
 
-    - Please put your illustration for the artist(s) to the same directory.
+    - Please put your illustration (exactly named `illustration.svg`) to the same directory.
 
     - Commit and push to your previously created branch.
 
