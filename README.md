@@ -47,18 +47,18 @@ git checkout -b <new-branch-name>
    - 💡 Please use the template below. **The format is required for making the document more machine-readable.**
 
     ```markdown
-        # Put your title here, including the leading pound sign
+        # Put your title here as a first-level header (use `#` sign)
         
-        Put your article's text in Markdown here. Text before the second-level header (e.g., ## Optional text) will be included in the PDF.
+        Put your article's text in Markdown here.
+        Text before the first second-level header (## Authors) will be included in the final PDF.
 
-        ## Optional text
-        Any text following a second-level header (## Optional text) won't be included
-
-        Images linked will also not be included in the final PDF
-        ![illustration.png](../articl-topic_name/illustration.png)
+        ## Authors
+        Any text after the first second-level header won't be included in the final PDF. This is useful for adding metadata, such as author information.
+        - Alice
+        - Bob
     ```
 
-    - Please put your illustration (exactly named `illustration.svg`) to the same directory.
+    - Don't link the illustration image in the markdown file. Instead, put your illustration (exactly named `illustration.svg`) to your article directory (e.g. at `/2024/rices-theorem/illustration.svg`).
 
     - Commit and push to your previously created branch.
 
