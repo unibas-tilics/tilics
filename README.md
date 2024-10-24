@@ -19,7 +19,7 @@ This is the organisation space for 2024 seminar course.
 
 ###  For Authors
 
-#### How to create pull request?
+#### How to create a pull request
 
 ##### Step 1 : Clone the repository
 
@@ -39,36 +39,23 @@ git checkout -b <new-branch-name>
 
 ##### Step 3 : Add your article
 
-1. Create a folder in the `2024` directory.
-
-2. The name of the folder follows the pattern: `topic-name`, such as `rices-theorem`.
-
-3. Then create a Markdown file `article.md`.
-   - 💡 Please use the template below and keep the `<!-- BEGIN ... -->` and `<!-- END ... -->` lines intact. **The format is required for making the document more machine-readable.**
+1. Create a folder in the `2024` directory with the same name as your topic (e.g. `/2024/rices_theorem`).
+2. Create a Markdown file (exactly named `article.md`) (e.g. `/2024/rices_theorem/article.md`).
+   - 💡 Please use the template below. **The format is required for making the document more machine-readable.**
 
     ```markdown
-        <!-- BEGIN TITLE -->
-        # Put your title here, including the leading pound sign
-        <!-- END TITLE -->
-
-        <!-- BEGIN BODY -->
+        # Put your title here as a first-level header (use `#` sign)
+        
         Put your article's text in Markdown here.
-        <!-- END BODY -->
+        Text before the first second-level header (## Authors) will be included in the final PDF.
 
-        ## Optional text
-        <!-- BEGIN OPTIONAL -->
-        If your article has some optional text, add it here.
-        <!-- END OPTIONAL -->
-
-        ![illustration.png](../articl-topic_name/illustration.png)
-
-        ## Author
-        <!-- BEGIN AUTHOR -->
-        Put your name (and only your name) here.
-        <!-- END AUTHOR -->
+        ## Authors
+        Any text after the first second-level header won't be included in the final PDF. This is useful for adding metadata, such as author information.
+        - Alice
+        - Bob
     ```
 
-    - Please put your illustration for the artist(s) to the same directory.
+    - Don't link the illustration image in the markdown file. Instead, put your illustration (exactly named `illustration.svg`) to your article directory (e.g. at `/2024/rices_theorem/illustration.svg`).
 
     - Commit and push to your previously created branch.
 
