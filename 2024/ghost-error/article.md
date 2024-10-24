@@ -10,7 +10,7 @@ This "phantom" error can feel impossible to fix, but is usually caused by a simp
 This and many other pitfalls are what make Computer Science an interesting journey, rather than a lecture-driven odyssey.
 <!-- END BODY -->
 
-![Sample Image](./illustration.svg)
+![Sample Image](./image-0-077-error-line-42.svg)
 
 # Author
 <!-- BEGIN AUTHOR -->
