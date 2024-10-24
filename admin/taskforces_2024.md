@@ -7,7 +7,7 @@ The spokesperson is marked with a star (*)
 - Arita Adili
 - Selaudin Agolli (*)
 - Fabian Dudler
-- Gottfrois.Philippe
+- Philippe Gottfrois
 - Ivan Sulima
 
 
@@ -21,8 +21,8 @@ The spokesperson is marked with a star (*)
 ## T / Testing
 
 - Liu Chengrui
-- Laura Engist
-- Andrei Faur (*)
+- Laura Engist (*)
+- Andrei Faur
 - Evrim Firatli
 
 
