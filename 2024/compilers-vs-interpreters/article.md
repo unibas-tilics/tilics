@@ -12,10 +12,6 @@ Before we can run our JavaScript or C++ code on the computer, it first needs to 
 We can compare this to doing laundry: a compiler is like using a washing machine, handling all the clothes at once, while an interpreter is like washing clothes by hand, one piece at a time.
 <!-- END BODY -->
 
-
-![compilers_vs_interpreters.png](../compilers-vs-interpreters/compilers_vs_interpreters.png)
-
-
 ## Authors
 <!-- BEGIN AUTHOR -->
 Evrim Firatli & André Vieira Ribeiro
