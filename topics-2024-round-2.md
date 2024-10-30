@@ -11,7 +11,10 @@ To be discussed in the seminar of November 7.
 
 
 ## Agolli.Selaudin:
-
+- Data Lakes vs. Data Warehouses
+- Internet of Things - The Connected World 
+- NLP - Teaching Computers to Understand Human Language
+- Reinforcement Learning - Learning through rewards or penalties
 
 ## Ajorian.Ali:
 
