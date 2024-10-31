@@ -80,6 +80,9 @@ To be discussed in the seminar of November 7.
 
 
 ## Shandilya.Parth:
+- Describing the difference of A in `CAP` vs A in `ACID`
+- What is a URL?
+- What is web accessibility?
 
 
 ## Sulima.Ivan:
