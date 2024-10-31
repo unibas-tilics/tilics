@@ -26,7 +26,10 @@ To be discussed in the seminar of November 7.
 
 
 ## Du.Jue:
-
+- What is a Compiler? (Translating Code into Machine Language)
+- Compiled vs Interpreted Languages (How Code Gets Executed)
+- Browser/Server Framework (Explain the B/S Model in Web Applications)
+- How Search Engines Work (Crawling, Indexing, and Ranking)
 
 ## Dudler.Fabian:
 
