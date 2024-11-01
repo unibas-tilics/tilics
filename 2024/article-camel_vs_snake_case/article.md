@@ -9,7 +9,7 @@ On the contrary, python differentiates itself by crawling (lower case) and addin
 <!-- END BODY -->
 
 
-<img src="../article-camel_case_vs_snake_case/illustration.png">
+<img src="../illustration.png">
 
 
 ## Author
