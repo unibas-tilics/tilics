@@ -37,7 +37,8 @@ To be discussed in the seminar of November 7.
 
 
 ## Engist.Laura Maria:
-
+- Algorithms are just recipes
+- Non-cooperative game theory: prisoners dilemma --> best local decision is not always the best global decision
 
 ## Faur.Andrei:
 
