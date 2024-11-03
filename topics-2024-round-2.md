@@ -11,7 +11,10 @@ To be discussed in the seminar of November 7.
 
 
 ## Agolli.Selaudin:
-
+- Data Lakes vs. Data Warehouses
+- Internet of Things - The Connected World 
+- NLP - Teaching Computers to Understand Human Language
+- Reinforcement Learning - Learning through rewards or penalties
 
 ## Ajorian.Ali:
 
@@ -23,7 +26,10 @@ To be discussed in the seminar of November 7.
 
 
 ## Du.Jue:
-
+- What is a Compiler? (Translating Code into Machine Language)
+- Compiled vs Interpreted Languages (How Code Gets Executed)
+- Browser/Server Framework (Explain the B/S Model in Web Applications)
+- How Search Engines Work (Crawling, Indexing, and Ranking)
 
 ## Dudler.Fabian:
 
@@ -75,6 +81,9 @@ To be discussed in the seminar of November 7.
 
 
 ## Shandilya.Parth:
+- Describing the difference of A in `CAP` vs A in `ACID`
+- What is a URL?
+- What is web accessibility?
 
 
 ## Sulima.Ivan:
