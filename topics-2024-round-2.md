@@ -32,6 +32,8 @@ To be discussed in the seminar of November 7.
 - How Search Engines Work (Crawling, Indexing, and Ranking)
 
 ## Dudler.Fabian:
+- Software aging / Malleability in Software
+- De morgans rules
 
 
 ## Engist.Laura Maria:
