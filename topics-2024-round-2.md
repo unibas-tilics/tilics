@@ -53,7 +53,9 @@ To be discussed in the seminar of November 7.
 
 
 ## Macejková.Miroslava:  
-
+- Holy Grail of Programmers(Stack Overflow)
+- How does LLM works
+- What is NLP
 
 ## Manaa.Salman:
 
