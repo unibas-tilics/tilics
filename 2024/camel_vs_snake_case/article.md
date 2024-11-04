@@ -1,4 +1,4 @@
-# CamelCase vs. snake_case, why coding conventions matter 
+# camelCase vs. snake_case, why coding conventions matter 
  
 Naming conventions of variables are dependent on the programming language used. In many modern languages such as C# and Java, the established convention is camelCase, where each new word starts with a capital letter - thisGreatlyImprovesReadabilityComparedTowhenwewouldusenocapitalizationatall.
 
