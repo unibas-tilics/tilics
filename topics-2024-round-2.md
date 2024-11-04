@@ -23,7 +23,7 @@ To be discussed in the seminar of November 7.
 
 
 ## Dosku.Serxhio:
-- Hackers: White Hat VS Black Hat
+- Hackers: White Hat VS Black Hat VS Grey Hat
 
 
 ## Du.Jue:
