@@ -1,5 +1,7 @@
 # The Architecture of a Computer (John von Neumann)
 
+![test](von_neumann.png)
+
 A computer is like a little workshop with four main parts:
 
 1. **Memory**: This is like a big bookshelf where it keeps instructions (like recipes) and things to work on (like ingredients).
