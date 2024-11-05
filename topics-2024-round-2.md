@@ -81,7 +81,10 @@ To be discussed in the seminar of November 7.
 
 
 ## Schrenk.Carina:
-
+- Why are there different programming languages/styles of programming languages (functional, declarative ...), and what are they commonly used for 
+- Recycling a solution is good/Abstraction. If you have code that solves a problem and need a similar problem solved, you can extend/abstract the previous code to solve both.
+- The concept of heuristics, how rough estimates can help you navigate a big search space (using the example of Euclidian distances in route planning)
+- BFS vs DFS 
 
 ## Shandilya.Parth:
 - Describing the difference of A in `CAP` vs A in `ACID`
