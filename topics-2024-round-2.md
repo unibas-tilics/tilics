@@ -100,7 +100,7 @@ To be discussed in the seminar of November 7.
 
 
 ## Sulima.Ivan:
-
+- Evolutionary algorythms explained. Illustration idea: Rubik's cube mother and Rubik's cube father have children, which has parts of parents.
 
 ## Vazhappilly.Ashwin:
 
