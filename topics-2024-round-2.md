@@ -57,6 +57,8 @@ To be discussed in the seminar of November 7.
 
 
 ## Hyseni.Arbër:
+- Arguments and Variables, what are they, what do they differ?
+- B-Tree, the not-so-famous algorithm that MySQL uses for indexing
 
 
 ## Koca.Erdem:
