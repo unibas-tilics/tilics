@@ -6,7 +6,7 @@
 *   **Byte:** A group of 8 bits makes a _byte_, which can represent letters, colors, or sounds.
 
 **Counting in Binary:** Just like we count from 0 to 9, computers count with 0 and 1.
-Example: Imagine spelling “A” using 8 light switches. The pattern **01100001** represents "A" in binary. Computers read these patterns to interpret data!
+Example: Imagine spelling "A" using 8 light switches. The pattern 01000001 represents "A" in binary, where the ASCII value of "A" (65) is shown in binary form. Computers use these patterns to interpret data!
 
 
     ## Author
