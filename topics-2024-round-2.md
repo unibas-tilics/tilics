@@ -60,6 +60,8 @@ To be discussed in the seminar of November 7.
 
 
 ## Liu.Chengrui:
+- API: The Invisible Bridge Between Frontend and Backend
+- From URL to Website: How DNS Powers the Internet
 
 
 ## Macejková.Miroslava:  
