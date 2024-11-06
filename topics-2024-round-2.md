@@ -62,6 +62,10 @@ To be discussed in the seminar of November 7.
 
 
 ## Koca.Erdem:
+- Ethical Hacking vs. Malicious Hacking
+- Principle of Abstraction in Programming
+- Machine Learning vs. Deep Learning
+- Design Patterns in Software Engineering 
 
 
 ## Liu.Chengrui:
