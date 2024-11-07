@@ -77,6 +77,10 @@ To be discussed in the seminar of November 7.
 
 
 ## Manaa.Salman:
+- Data Privacy in the Digital Age
+- Binary Search vs Linear Search
+- Continuous Integration and Continuous Deployment (CI/CD)
+- The Basics of Blockchain
 
 
 ## Musakhanov.Diyor:
