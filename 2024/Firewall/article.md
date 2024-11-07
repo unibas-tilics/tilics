@@ -16,3 +16,6 @@ It's there to protect your network by checking who's trying to get in and only a
 If something suspicious tries to slip in without permission, the firewall blocks it, 
 just like you would close the door on an unexpected stranger.
 
+## Author
+
+Fabian Dudler
