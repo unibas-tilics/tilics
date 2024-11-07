@@ -114,7 +114,11 @@ To be discussed in the seminar of November 7.
 
 
 ## Vieira Ribeiro.André:
-
+- Functions: What are functions in programming and why do we need them
+- Loops and Iteration
+- Conditional Statements
+- Sorting Algorithms: Bubble Sort, Quicksort
+- Quality Assurance
 
 ## Vutukuri.Likhitha:
 
