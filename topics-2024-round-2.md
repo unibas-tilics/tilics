@@ -48,7 +48,7 @@ To be discussed in the seminar of November 7.
 
 
 ## Gottfrois.Philippe:
-- FA: "Two-Factor Authentication (2FA) adds an extra layer of security beyond just passwords."
+- 2FA: "Two-Factor Authentication (2FA) adds an extra layer of security beyond just passwords."
 - Infinite Loop: "An infinite loop can freeze programs, draining resources indefinitely if not controlled."
 - Technical Debt: "Technical debt builds up when shortcuts are taken in code, making future updates harder."
 - Open Source Dependencies: "Many critical IT projects rely on small, open-source projects often maintained by a single person."
