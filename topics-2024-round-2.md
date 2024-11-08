@@ -17,7 +17,9 @@ To be discussed in the seminar of November 7.
 - Reinforcement Learning - Learning through rewards or penalties
 
 ## Ajorian.Ali:
-
+- From Pixels to Pictures
+- Steganography- a way to hide your inforamtion
+- Symmetric vs. Asymmetric Cryptography
 
 ## Batsilas.Janni:
 
