@@ -1,14 +1,10 @@
 # Datatype vs Variable
 
-Think of datatype as the contents of a container that the user wants to store.
+Think of a DataType as the form or nature of the information you are handling, like numbers, text, or lists. On the other hand, a Variable is essentially a named location in memory that holds this information, acting like an address.
 
-On the other hand, the variable is essentially the container in which the datatype is stored.
+In strongly-typed languages, choosing the right DataType matters because mismatched data can cause errors or unexpected behavior. For example, trying to store a decimal value in an integer type would lead to data loss. In typeless languages, variables can store different data types flexibly, but you still need to manage data carefully.
 
-Choosing the right datatype and variable is very important. Imagine you have soup that you want to store and a paper bag and plastic container. 
-
-To store the soup, you would use the plastic container and not the plastic bag!
-
-Imagine you have 
+Imagine you want to store soup. A sturdy container, like a bowl, suits it better than a paper bag. In code, similarly, matching the right DataType with the appropriate variable ensures safe and efficient storage.
 
 ## Authors
 - Muhammad Hashim
