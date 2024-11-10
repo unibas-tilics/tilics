@@ -57,7 +57,8 @@ To be discussed in the seminar of November 7.
 - Open Source Dependencies: "Many critical IT projects rely on small, open-source projects often maintained by a single person."
 
 ## Hashim.Muhammad:
-
+- Pointers in programming
+- Travelling salesman problem
 
 ## Hyseni.Arbër:
 - Arguments and Variables, what are they, what do they differ?
