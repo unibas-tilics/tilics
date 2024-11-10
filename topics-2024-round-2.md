@@ -59,6 +59,10 @@ To be discussed in the seminar of November 7.
 
 
 ## Musakhanov.Diyor:
+1. Abstract algebra as the basis of cryptography
+2. What is penetration testing?
+3. Cybersecurity CIA triad
+
 
 
 ## Nadarajh.Subahini:
