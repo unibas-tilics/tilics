@@ -26,6 +26,7 @@ To be discussed in the seminar of November 7.
 
 ## Dosku.Serxhio:
 - Hackers: White Hat VS Black Hat VS Grey Hat
+- Local vs Global variables
 
 
 ## Du.Jue:
