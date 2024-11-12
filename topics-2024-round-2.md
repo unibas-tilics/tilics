@@ -9,6 +9,7 @@ To be discussed in the seminar of November 7.
 
 ## Adili.Arita:
 - Big Data - Making Sense of the Gigantic Digital Puzzle
+- Making Code Better - The Art of Refactoring
 
 
 ## Agolli.Selaudin:
