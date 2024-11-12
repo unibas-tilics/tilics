@@ -1,6 +1,6 @@
     # Understanding Binary - The language of computers
 
-    Computers work like tiny switches—each switch can be **on** (1) or **off** (0). This on-off system is called **binary**, and it’s how all information, from text to pictures, is stored.
+Computers work like tiny switches—each switch can be **on** (1) or **off** (0). This on-off system is called **binary**, and it’s how all information, from text to pictures, is stored.
 
 *   **Bit:** A single 0 or 1 is called a _bit_—the smallest unit of data.
 *   **Byte:** A group of 8 bits makes a _byte_, which can represent letters, colors, or sounds.
