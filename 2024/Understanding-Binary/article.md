@@ -1,4 +1,4 @@
-    # Understanding Binary - The language of computers
+# Understanding Binary - The language of computers
 
 Computers work like tiny switches—each switch can be **on** (1) or **off** (0). This on-off system is called **binary**, and it’s how all information, from text to pictures, is stored.
 
@@ -8,6 +8,5 @@ Computers work like tiny switches—each switch can be **on** (1) or **off** (0)
 **Counting in Binary:** Just like we count from 0 to 9, computers count with 0 and 1.
 Example: Imagine spelling "A" using 8 light switches. The pattern 01000001 represents "A" in binary, where the ASCII value of "A" (65) is shown in binary form. Computers use these patterns to interpret data!
 
-
-    ## Author
-    - Likhitha Vutukuri
+## Author
+- Likhitha Vutukuri
