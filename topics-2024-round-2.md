@@ -8,6 +8,7 @@ To be discussed in the seminar of November 7.
 
 
 ## Adili.Arita:
+- The Internet of Things: How everyday objects became smart 
 
 
 ## Agolli.Selaudin:
