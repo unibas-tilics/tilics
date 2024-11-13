@@ -135,4 +135,6 @@ To be discussed in the seminar of November 7.
 - Quality Assurance
 
 ## Vutukuri.Likhitha:
-
+- Indentation: The Invisible Code Keeper
+- Chips vs. Code: Understanding the Hardware/Software Divide (Debunking Tech Confusions)
+- Open Source Software
