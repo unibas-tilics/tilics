@@ -117,6 +117,14 @@ To be discussed in the seminar of November 7.
 - Evolutionary algorythms explained. Illustration idea: Rubik's cube mother and Rubik's cube father have children, which has parts of parents.
 
 ## Vazhappilly.Ashwin:
+- Hash Functions: Turning Data into Digital Fingerprints
+- Data Caching: Making Programs Faster with Temporary Storage
+- Version Control: Why Git Changed the Way We Collaborate on Code
+- Code Linting: Enforcing Style and Catching Errors Early
+- Monolithic vs. Microservices Architectures: In Software Development
+- Continuous Delivery vs. Continuous Deployment: Automating Software Release Processes
+- Peer-to-Peer Networking: Direct Connections Without Central Servers
+- Serverless Computing: Running Code Without Managing Servers
 
 
 ## Vieira Ribeiro.André:
