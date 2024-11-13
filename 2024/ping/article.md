@@ -4,7 +4,7 @@ Ping - is one of the simplest command-line utilities, which tests if one compute
 
 Ping is pre-installed on most popular operating systems, such as macOS and Windows, so you can try it out by opening a command line on your computer and typing "ping" followed by a website address.
 
-Since Google is the most popular and visited website in the world, we oftenly use simply `ping google.com` to understand, whether the computer can properly reach internet websites.
+Since google.com is the most popular and visited website in the world, we oftenly use simply `ping google.com` to understand, whether the computer can properly reach internet websites.
 
 ## Authors
 - Ivan Sulima
