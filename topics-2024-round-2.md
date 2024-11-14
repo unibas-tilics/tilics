@@ -80,7 +80,10 @@ To be discussed in the seminar of November 7.
 
 
 ## Macejková.Miroslava:  
-
+ - Why updating One line of code can ruin your Entire Day
+ - How does LLM works
+ - What is NLP
+ - Holy Grail of Programmers(Stack Overflow)
 
 ## Manaa.Salman:
 - Data Privacy in the Digital Age
