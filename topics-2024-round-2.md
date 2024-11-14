@@ -84,6 +84,10 @@ To be discussed in the seminar of November 7.
  - How does LLM works
  - What is NLP
  - Holy Grail of Programmers(Stack Overflow)
+ - Code Reviews: A Survival Guide of programmer
+ - The 7 Types of Colleagues You'll Find in Every Tech Team
+ - Copy-Paste Keyboard Shortcut
+ - The Law of bugs. Why Every Fixed Bug Creates Two New Ones
 
 ## Manaa.Salman:
 - Data Privacy in the Digital Age
