@@ -1,8 +1,8 @@
-# camelCase vs. snake_case, why coding conventions matter 
- 
-Naming conventions of variables are dependent on the programming language used. In many modern languages such as C# and Java, the established convention is camelCase, where each new word starts with a capital letter - thisGreatlyImprovesReadabilityComparedTowhenwewouldusenocapitalizationatall.
+# CamelCase vs. snake_case, why coding conventions matter
 
-On the contrary, python differentiates itself by crawling (lower case) and adding underscores after_each_word - just like a python between the legs of a camel. 
+Coding conventions are like grammar rules in natural languages. Just as you should use punctuation marks, using the correct coding conventions improves readability, maintainability, and collaboration with other programmers. 
+
+Good examples are the naming conventions for Python, to use snake_case for variables and functions, and CamelCase for classes. It is not forbidden to use another style, but using_this_style or thisStyle improves readability in incontrasttothis. 
 
 ## Authors
 Laura Engist
