@@ -1,16 +1,22 @@
-# How hard can it be? 
+# The Million Dollar Question
 
-How fast can certain problems be solved?  Can certain problems not be solved efficiently? 
-To answer such questions, computer scientists group problems together in classes like *P* and *NP*.
-P stands for *polynomial time*, meaning the solution time grows at a manageable rate, so problems in P are generally efficient to solve.
-NP on the other hand includes problems solvable in *nondeterministic polynomial time*.
-This means that if you could try out all possible solutions at once, you could find a solution in polynomial time.
-Imagine a traveling salesman who needs to visit a bunch of cities. 
-Given these cities and the distances between them, is there a route that visits every city once that is not longer than a certain distance limit?
-A non-deterministic algorithm could compute all possible routes simultaneously and check whether such a route exists.
-Since any physical computer cannot perform algorithms like the one above, all problems in NP currently cannot be solved in polynomial time.
-However, it is not known whether problems in NP could be solved faster.
-This question is so fundamental that one Million Dollars are awarded to whoever solves the question of whether P equals NP.
+A traveling salesman wants to visit $3$ cities to sell his goods.
+Can he find a route that visits every city once that is at most $100$ km?
+In his case, there are only $6$ possible routes to check.
+But what if he had to go to $10$ cities? There would be $10! \approx 3.000.000$ options! 
 
-## Authors 
+It would be handy if the salesman had a machine that could try out all routes simultaneously.
+Such a *nondeterministic* machine would be much faster! 
+The computation time of the machine is polynomial in the number of cities:
+For $3$ cities, a route consists of $3$ distances that must be added up.
+For $10$ cities, the machine takes a bit longer because $10$ distances need to be added.
+The computation time is not affected by how many potential solutions there are; it is only affected by how much effort is needed to check one.
+
+Problems like this, where solution verification is fast (polynomial time), are in a class called **NP** (nondeterministic polynomial time) because they can be solved fast by the *nondeterministic* machine. 
+Problems that real computers can solve in polynomial time are in a class called **P**.
+It is unknown if problems in NP are also in P, aka could be solved faster.
+One Million Dollars are awarded to whoever solves this question.
+
+
+## Author
 Carina Schrenk 
