@@ -60,7 +60,9 @@ To be discussed in the seminar of November 7.
 
 ## Macejková.Miroslava:  
 - Why Updating One Line of Code Can Ruin Your Entire Day
-
+- Holy Grail of Programmers(Stack Overflow)
+- How does LLM works
+- What is NLP
 
 ## Manaa.Salman:
 
