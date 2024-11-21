@@ -58,7 +58,6 @@ To be discussed in the seminar of November 7.
  - What is NLP
  - Holy Grail of Programmers(Stack Overflow)
 
-
 ## Manaa.Salman:
 
 
