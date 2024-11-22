@@ -9,7 +9,7 @@ Two common types are **for** and **while** loops.
 - A for-loop is ideal for tasks where the number of iterations is known beforehand, such as processing every item in a collection or calculating an average over a fixed dataset.
 - A while-loop works best when the number of repetitions depends on a condition, like repeatedly performing calculations until a result meets a specific criterion.
 
-Loops are more than a convenience—they’re essential for solving problems that inherently require repetition. Whether iterating through data or refining results, loops enable clear, maintainable, and efficient solutions, with exit conditions ensuring they complete as intended.
+Loops are a fundamental tool for solving repetitive tasks in programming, making our solutions both efficient and elegant while conditions ensure that loops are exited as intended.
 
 ## Author
 
