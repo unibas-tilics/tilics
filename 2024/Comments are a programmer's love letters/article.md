@@ -3,7 +3,7 @@ In the language of code, programmers leave little notes called comments—not fo
 
 Without comments, code may be a confusing maze. Sure, it works, but why? Comments give clues, like a hidden diary entry: “Here’s why I did this,” or “Don’t touch this—it’s holding everything together!” Still, balance is important: excessive commenting can clutter the code and reduce its readability, so add comments only where necessary. 
 
-Next time you see a comment, think of it as a love letter—left with care, thought, and clarity, just for you.
+So next time you see a comment, think of it as a love letter—left with care, thought, and clarity, just for you.
 
 ## Author
 
