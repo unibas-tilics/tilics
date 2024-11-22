@@ -1,10 +1,10 @@
 # Time and Space Complexity: The Soul of Algorithms
     
-Imagine you are at a restaurant trying to decide what to order. Flipping through the entire menu might take a while, but if you ask the waiter for a quick recommendation, you can make your decision much faster. In computer science, this method of seeking efficiency in algorithm is known as reducing "time complexity", which means minimizing the numbers of steps needed to find a solution. 
+In computer science, time complexity measures how the runtime of an algorithm grows with the size of its input, while space complexity tracks how much memory it uses. Both are critical when evaluating an algorithm’s efficiency.
 
-Now, consider how much easier it would be if the menu assigned numbers to each dish. This way, you only need to remember a few digits instead of the names of all the dishes. Similarly, in computer science, saving storage space is equally important when designing algorithms. Reducing "space complexity" is a necessary task for any quality algorithm.
+For example, consider sorting a list of names. If the list is short, most algorithms perform quickly. But as the list grows, the differences between algorithms become noticeable. Some might handle a million names efficiently, while others could take hours. Similarly, an algorithm that requires storing every possible combination of input might work for small data sizes but become infeasible as the input grows.
 
-Both time and space complexity are essential factors to consider when designing algorithms. Beyond just solving a problem, the ability to run efficiently is a vital requirement for any algorithm.
+The size of the problem fundamentally shapes how we design algorithms. Understanding time and space complexity helps us identify such challenges and create solutions that scale effectively.
 
 ## Author
 Chengrui Liu
