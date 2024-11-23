@@ -1,6 +1,6 @@
 # Hackers: White Hat VS Black Hat VS Grey Hat
 
-We all know what hackers are. Their hats show what they like to do!
+We all know what hackers are. Even though they don't necessary wear hats, their actions shows what type of hackers they are!
 
 A White Hat is like a good detective who gets hired to fix problems and keep everyone safe.  
 A Black Hat is like a sneaky thief who tries to break things or steal.   
