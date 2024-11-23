@@ -1,0 +1,12 @@
+# emacs files
+*~
+
+# temp files
+toc*.tex
+articles*.tex
+svg-inkscape/
+*.aux
+*.log 
+*.pdf
+*.out
+*.pdf_tex
