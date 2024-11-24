@@ -1,12 +1,6 @@
 # Understanding Unit Testing
 
-*Unit testing* is a fundamental part of software development. It involves testing small, individual pieces of code, known as "units," to make sure each one works correctly on its own. Imagine building a machine – before putting all the parts together, you’d want to test each component separately to ensure it functions as expected. That’s what unit testing is for in coding.
-
-By testing each unit separately, developers can catch errors early, before they become bigger issues in the entire application. Unit tests are automated, meaning that developers write test scripts that automatically check if each unit of code behaves as expected. This process saves time and reduces the risk of bugs in the final product.
-
-When each small unit of code works as intended, developers can confidently combine them into larger parts of the application. Unit testing serves as a strong foundation, ensuring that each piece is reliable before moving on to the next phase of development.
-
-In short, unit testing helps create reliable, high-quality software by focusing on testing the smallest components individually.
+Unit testing is a foundation of software development that ensures each piece of code works as expected. Think of it like testing the gears of a machine: every part is verified individually before assembling the entire system. This step is vital for preventing small errors from cascading into bigger problems. Automated unit tests are designed to check specific scenarios, ensuring that every unit behaves correctly. By catching issues early, developers save time and reduce the risk of bugs in the final application. Once every component is validated, they can be integrated into a reliable and fully functioning system.
 
 ## Authors
 Salman Manaa
