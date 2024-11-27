@@ -3,13 +3,13 @@
 <!-- END TITLE -->
 
 <!-- BEGIN BODY -->
-Processes and threads are essential to how operating systems run programs. 
+To understand how computers handle multiple tasks simultaneously, it's important to know about processes and threads.
 
-Imagine each process as its own building, where each building is dedicated to a specific program or task. Within each building, there are different departments - these represent “threads”. The departments within each building, handle the subtasks of the same program at the same time, allowing tasks to be completed faster and more efficiently.
+A process can be thought of as a self-contained project with its own resources and tasks, that runs independently from other processes. Within each process there are smaller units called threads that take on specific roles to accomplish the overall task. 
 
-For example, when you open a web browser, your computer creates a new process, like a seperate building, which runs independently from other programs and doesn’t interfere with them. Inside this browser “building”, the departments (threads) handle individual tasks like loading pages, diplaying images or even processing JavaScript.
+For example, imagine an ant colony focused on gathering food: the colony represents a process, while groups of ants (threads) divide the work. Some ants locate food, others transport it, and some protect the nest. 
 
-Thanks to processes and threads, computers can divide tasks efficiently, enabling them to handle many tasks at once.
+This teamwork mirrors how threads in a process collaborate, breaking down tasks for greater efficiency.
 <!-- END BODY -->
 
 ## Author
