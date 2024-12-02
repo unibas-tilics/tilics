@@ -1,20 +1,12 @@
-# This is a Draft article
+# Travelling Salesman Problem
 
-You can create ordered or unordered lists:
+At first glance, the Travelling Salesman Problem (TSP) seems simple: given a list of cities and the distances between them, what is the shortest possible route that visits each city once and returns to the starting point?
 
-- Item 1
-- Item 2
+But here is the catch: as the number of cities increases, the problem becomes exponentially harder. For example, with 3 cities, there are only 2 possible routes. With 11 cities, there are over 3.6 million! For 20 cities, the number is so huge it is practically impossible to calculate all the routes one by one.
 
-1. First
-2. Second
+TSP is called an NP-hard problem. This means there is no quick way to find the shortest route. We can easily check if a route works, but figuring out the best one takes an enormous amount of time.
 
-Or a table:
+TSP is more than a theoretical puzzle - it is used in real life for things like delivery routes, traffic planning, and even DNA sequencing. Solving it efficiently could save billions of dollars in logistics and beyond. But for now, it is one of the toughest nuts to crack in computer science.
 
-| Fruit | Color | Calories |
-|-------|-------|---------|
-| Apple | Red   | 95      |
-| Banana| Yellow| 105     |
-
-Here is a [Link to the TILICS Repo](https://github.com/unibas-tilics/tilics).
-
-Note that, images will _not_ be shown ![Placeholder](https://upload.wikimedia.org/wikipedia/commons/b/bf/Universit%C3%A4t_Basel_2018_logo.svg).
+## Authors
+- Muhammad Hashim
