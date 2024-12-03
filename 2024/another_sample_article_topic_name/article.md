@@ -1,20 +1,10 @@
-# This is a Draft article
+# Lazy Loading vs Eager Loading
 
-This article serves as a test to see if all Markdown features are rendered correctly. Markdown files will be converted into Latex files and compiled into this PDF.
+Let's say you come to a restaurant. Despite the fact that the menu is full of delicious dishes, you won't order them all, because it will cost you a lot of money, and you won't even be able to eat it all! So, most likely, you will order the dish you want to try the most, and only after you finish it, if you are still hungry, you will order another one. 
 
-You can **bold text** to emphasize important points or *italicize text* for a softer emphasis. You can also ~~cross out text~~ to indicate removal or edits.
+In software systems, similar approach, when resources are loaded immediately is called Eager Loading, and when they are loaded only when necessary is called Lazy Loading. A wise combination of these techniques allows you to save system resources and increase its performance.
 
-> This is a
-> blockquote that can be used to highlight important quotes or thoughts.
 
-Inline code can be added like this: `const x = 10;`.
-
-To include math block, use dollar signs: 
-$$a^2 + b^2 = c^2$$
-
-To include code blocks, use triple backticks:
-```python
-def greet():
-    print("Hello World!")
-```
-
+## Authors
+Any text after the first second-level header won't be included in the final PDF. This is useful for adding metadata, such as author information.
+- Ivan Sulima
