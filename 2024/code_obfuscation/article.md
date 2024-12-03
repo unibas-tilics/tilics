@@ -1,10 +1,12 @@
-# Obfuscation - Spaghetti Code Ready to Serve
+# Obfuscation - Unreadable by Design
 
-You want to share your mobile app or website with the world, but your code (e.g., Java or JavaScript) may contain intellectual properties that you don't want malicious actors to understand yet. To share or not to share: code obfuscation can help with this problem.
+Obfuscation involves scrambling your code to make it nearly unreadable to humans, while maintaining its functionality. 
 
-Obfuscation involves scrambling your code into a spaghetti hot mess to make it nearly impossible to read while preserving the logic. There are thousands of techniques, but common ones include using hard-to-read variable names (e.g., `xcf00` instead of `purchaseRecord`), control flow tricks, or adding redundant artifacts to mislead code readers.
+This is particularly useful when sharing code in mobile apps or websites that may contain intellectual property (e.g., proprietary algorithms or business logic) you want to protect from exploitation by malicious actors.
 
-Obfuscation offers some protection (but not absolute!) by preventing others from understanding your code. As useful as it can be, it can also be used to hide malicious code. Safety-critical platforms, such as the Chrome browser, would outright ban any extension that uses obfuscated code.
+There are thousands of obfuscation techniques, but common ones include using hard-to-read variable names (e.g., `xcf00` instead of `purchaseRecord`), employing control flow tricks, or adding redundant artifacts to confuse anyone attempting to analyze the code.
+
+While obfuscation can make reverse engineering more difficult, **black-box obfuscation** has been proven to be impossible. This means obfuscation does provide some protection - but **not absolute**.
 
 ## Author
 - Tri
