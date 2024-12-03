@@ -1,3 +1,9 @@
+# Lazy Loading vs Eager Loading
+
 Let's say you come to a restaurant. Despite the fact that the menu is full of delicious dishes, you won't order them all, because it will cost you a lot of money, and you won't even be able to eat it all! So, most likely, you will order the dish you want to try the most, and only after you finish it, if you are still hungry, you will order another one. 
 
 In software systems, similar approach, when resources are loaded immediately is called Eager Loading, and when they are loaded only when necessary is called Lazy Loading. A wise combination of these techniques allows you to save system resources and increase its performance.
+
+## Authors
+Any text after the first second-level header won't be included in the final PDF. This is useful for adding metadata, such as author information.
+- Ivan Sulima
