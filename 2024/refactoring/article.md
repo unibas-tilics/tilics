@@ -5,5 +5,5 @@ Think of your code as a messy bookshelf. At first, everything fits, but it’s h
 With refactored code, both performance and maintainability improve, making it easier to locate what you need, add new features, and ensure everything is well-structured.
 
 
-    ## Author
-    - Arita Adili
+  ## Author
+  - Arita Adili
