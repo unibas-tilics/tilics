@@ -1,18 +1,8 @@
-#Neurons in CS 
+#Neural Networks in CS 
 
-In computer science, artificial neurons are the fundamental building blocks of artificial neural networks (ANNs), designed to mimic the function 
-of biological neurons in the human brain. These networks come in many shapes and sizes
+The human brain processes information, learns and makes decisions by using billions of interconnected neurons. 
+Inspired by this, artificial neural networks (ANNs) use artificial neurons to solve tasks like recognizing speech or diagnosing medical conditions. 
+A voting committee offers a useful analogy for how these networks function. ANNs consists of 3 Layers, in Input layer members of the commitee (neurons) receive information, like face or suggestions. Each piece of information is given a weight based on its importance. Hidden layer/s, these members analyze refine the information, looking for patterns to make better decisions. Output layer makes the final decision, such as identifying an object in a picture or answering a question.
+To make the network smarter, training adjusts how much weight each piece of information gets. Over time, just like the brain improves with practice, the network learns from its data and becomes more accurate. 
 
-Imagine a group of people on a voting committee trying to make a decision:
-
-The first group of committee members (neurons) receives information (inputs) and votes on it, such as "yes" or "no."
-Their decisions are passed to the next group of members (hidden layer), which analyzes the combined votes, applies further criteria, and makes 
-additional decisions.
-
-This process can continue through multiple groups of members (hidden layers), where each layer refines and processes the information further.
-
-Finally, the last group of committee members (output layer) tallies the refined decisions from the hidden layers and delivers the overall result, 
-such as a single "yes" or "no," or a specific choice like selecting a category or predicting a value. 
-
-##Author
-Miroslava Macejkova
+##Miroslava Macejkova
