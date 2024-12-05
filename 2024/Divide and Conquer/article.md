@@ -1,8 +1,8 @@
 # Divide and Conquer: Solving Problems in Steps
-Imagine we decide to clean a messy room. To make it more efficiently, we can divide it into sections like the desk, bed, and floor. Clean each section one by one, and the whole room will be tidy.
+Imagine cleaning a messy room. You divide it into sections like desk, bed, floor. Clean each section one by one. This makes the task manageable and efficient.
 
-"Divide and conquer" is a strategy where big problems are broken into smaller parts to solve more easily. Although this sounds simple, it is highly effective in algorithms. For example, quicksort uses this idea to sort items. It picks a "pivot," splits items into two groups (smaller and larger), sorts each group, then merges the results.
+This is called "divide and conquer" strategy which is widely used in algorithms. For example, in merge sort, a list is repeatedly divided into smaller sublists. Each sublist is sorted individually, and the sorted parts are merged back into a complete, ordered list.
 
-Divide to simplify, conquer step by step!
+"Divide and conquer" simplifies big problems by breaking them into smaller, manageable steps. Divide to simplify, conquer step by step!
 ## Authors
 - Chengrui Liu
