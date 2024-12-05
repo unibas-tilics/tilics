@@ -19,6 +19,8 @@ export async function fetchRawFile(url: string) {
     headers: {
       Authorization: `Bearer ${api_key}`,
       "X-GitHub-Api-Version": "2022-11-28",
+      "User-Agent":
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36",
     },
   });
   const text = await response.text();
@@ -60,6 +62,8 @@ export async function getPRFiles(
         headers: {
           Authorization: `Bearer ${api_key}`,
           "X-GitHub-Api-Version": "2022-11-28",
+          "User-Agent":
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36",
         },
       }
     );
