@@ -1,4 +1,4 @@
-#The Day Data Lake and Data Warehouse: A Tale of Chaos and Order
+# The Day Data Lake and Data Warehouse: A Tale of Chaos and Order
 
 One day, the data lake and the data warehouse went to a party together. The data-lake walked in, shouting, "I’m here for the chaos—raw data, messy formats, just dump it all on me!" Meanwhile, the data-warehouse adjusted its tie and said, "I’m just here to organize the snacks and make sure everything’s labeled."
 
