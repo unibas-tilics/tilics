@@ -1,9 +1,10 @@
 # HTTP vs HTTPS
 
 While surfing the internet, you have certainly noticed the abbreviations HTTP and HTTPS at the beginning of websites. But do you know the difference between the two?
-First of all, HTTP is an abbreviation of Hyper Text Transfer Protocol. This protocol allows communication between our browser and the web server, but the messages sent in this communication are not encrypted. If we share sensitive information, such as name, address, credit card number information, with the website, we may experience security problems.
-Nowadays, most websites use HTTPS to avoid such situations. The "S" in the abbreviation stands for security, and this protocol encrypts the transferred messages using SSL and TLS protocols. This way we can move around the internet more securely.
+
+HTTP, or Hyper Text Transfer Protocol, is used to transfer information between your browser and a web server. However, this communication is not secure, as the messages sent are not encrypted. This means that sensitive information, such as your name, address, or credit card details, could be accessed by attackers and used for harmful purposes.
+
+To address this problem, most websites now use HTTPS. The "S" stands for Secure, which means the information exchanged is encrypted. This ensures that even if someone tries to access the data, they won’t be able to understand it. HTTPS provides an additional layer of security, allowing us to browse the internet with greater safety and confidence.
 
 ## Author
-
 - Evrim Firatli
