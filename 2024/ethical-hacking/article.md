@@ -1,10 +1,13 @@
-    # Ethical Hacking vs. Malicious Hacking
-    
-    Hacking means accessing a computer system, but the intention behind it determines whether it’s ethical or malicious.
-    
-    Imagine calling a locksmith to check your door locks and suggest improvements. This reflects the role of an ethical hacker, who identifies vulnerabilities to strengthen security. In contrast, a thief breaking in to steal valuables resembles a malicious hacker, exploiting weaknesses for harmful purposes.
-    
-    Ethical hackers help organizations protect their systems by fixing security flaws before they are exploited. Malicious hackers, on the other hand, aim to steal data, disrupt services, or cause harm. While their techniques may overlap, their intentions make all the difference. Ethical hacking is a crucial part of maintaining digital safety in a world shaped by digital connections.
+# Ethical Hacking vs. Malicious Hacking
 
-    ## Authors
-    - Evrim Firatli
+Hacking means accessing a computer system or its data without authorization. What makes it ethical or malicious is the intention behind it.
+
+Imagine a locksmith inspecting your locks to improve security. This reflects the role of an ethical hacker, who helps organizations identify and fix vulnerabilities to prevent them from being taken advantage of.
+
+In contrast, a burglar breaking into your home to steal valuables resembles a malicious hacker, who exploits weaknesses to cause harm. While both may use similar techniques, their intentions and the impact of their actions are what set them apart.
+
+    
+ ## Authors
+- Evrim Firatli
+
+
