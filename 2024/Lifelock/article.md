@@ -1,10 +1,8 @@
-#Lifelock
+#The awkward Sidewalk-Dance
 
-Imagine an intersection where all drivers are overly polite and insist on letting the others go first. Unfortunately, the result is that none of the cars actually proceed, leading to a situation where everyone is stuck, despite no one being actively blocked.
+Don't worry, we've all been there... you walk towards a stranger on narrow pathway or a doorway and realize that you’re both on the same lane and therefore cannot pass each other. Since you are a quick thinker, you change lanes. But surprisingly, the stranger is again in front of you, blocking your pathway as he did exactly the same. So you switch again, but so do they...
 
-A similar phenomenon can occur in computer systems when several processing units running in parallel constantly adjust their actions to avoid conflicts but never make progress. In a livelock scenario, processing units keep changing their state in response to each other, preventing any of them from completing their tasks.
-
-Since computer processes cannot observe that they’re being "too polite," rules must be implemented to ensure progress and avoid lifelocks.
+In computer science we call this phenomenon a livelock, and it occurs when several processing units running in parallel constantly adjust their actions to avoid conflicts but never make progress. In a livelock scenario, processing units keep changing their state in response to each other, preventing any of them from completing their tasks.
 
 ## Author 
 Fabian Dudler
