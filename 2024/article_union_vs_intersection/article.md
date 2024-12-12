@@ -1,10 +1,12 @@
 # Union vs. Intersection of sets of objects - "include, exclude, what?" 
 
-In the context of sets of objects, we often use the terms union and intersection. For the following explanation, we are looking at an example with two sets containing one object each. Set S1 contains {hair}, and set S2 contains {glasses}.
+In the context of mathematical foundations in Computer Science, we often work with sets, their union, and intersection respectively. A set is an unordered collection of unique objects (without duplicates). 
 
-The union (⋃) of two sets contains all objects contained in either set or both. In our example, the union of S1 and S2 (S1 ⋃ S2) could be {hair, glasses} (or {hair}, or {glasses}).
+Let's look at an example: We have two sets, S1 and S2. Set S1 contains only one object, hair: {hair}, and set S2 contains the objects glasses and hair: {glasses, hair}. We denote a set in these brackets {} and divide the objects with commas.
 
-The intersection (⋂) of two sets contains only the objects present in both sets. In our example, the intersection of S1 and S2 (S1 ⋂ S2) is empty - no hair and no glasses. If we add another set S3 containing two objects {glasses, beard}, the intersection of S2 and S3 would be {glasses}, as both sets contain {glasses}.
+The union (U) of two sets contains all objects in either set or both. In our example, the union of S1 and S2 (S1 U S2) could be {hair, glasses}, {hair}, or {glasses}.
+
+The intersection (∩) of two sets contains only the objects in both sets. In our example, the intersection of S1 and S2 (S1 ∩ S2) contains the object hair, as both S1 and S2 contain it.
 
 ## Authors
 Laura Engist
