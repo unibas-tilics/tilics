@@ -8,6 +8,6 @@ Creating a LEGO house is more than just stacking bricks; it’s all about follow
 
 These outputs become inputs for the **House Function**, which assembles them into the ultimate LEGO dream house. The beauty? The same function works with different inputs. Swap house walls for castle towers and the **House Function** builds a castle instead. 
 
-This is how functions work in programming—breaking big tasks into smaller, reusable steps for efficiency and clarity.
+This is how functions work in programming; breaking big tasks into smaller, reusable steps for efficiency and clarity.
 ## Author
 André Vieira Ribeiro
