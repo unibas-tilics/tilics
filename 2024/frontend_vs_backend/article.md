@@ -1,6 +1,6 @@
 # Frontend vs Backend
 
-Building software, especially web applications, starts with understanding the roles of frontend and backend. These two parts work together to make an app function, but they handle different tasks.
+When building software, especially web applications, frontend and backend are two essential concepts. These two parts work together to make an app function, but they handle different tasks.
 
 The frontend is everything users see and interact with - the buttons, images, text, colors, and layout. Think of it as the face of the app.
 
