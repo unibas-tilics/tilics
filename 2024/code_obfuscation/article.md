@@ -1,15 +1,15 @@
-# Obfuscation - Unreadable by Design
+# Obfuscation - Unreadable by Design  
 
-Obfuscation involves scrambling your code to make it difficult for people to understand while still allowing it to work as intended.
+Obfuscation involves scrambling code to make it difficult for people to understand while still allowing it to work as intended.  
 
-This is especially helpful for mobile apps or websites that contain sensitive information, like proprietary algorithms or business logic, that you want to protect from being stolen or misused.
+This is especially helpful for mobile apps or websites that contain sensitive information, such as proprietary algorithms or business logic, that you want to protect from being stolen or misused.  
 
-There are many ways to obfuscate code, but some common techniques include:
+Some common techniques include:  
 - Using confusing variable names (e.g., `xcf00` instead of `purchaseRecord`).  
-- Obscuring code flows using control flow tricks.
+- Reorganizing the program's structure to make its logic harder to follow.  
 - Adding extra, unnecessary code to throw off anyone trying to analyze it.  
 
-Although obfuscation makes it harder to reverse-engineer a program, it’s not perfect. A concept called black-box obfuscation—where a program’s outputs can’t reveal how they were calculated—has been proven impossible. This means while obfuscation does provide some protection, it is **not absolute**.  
+While obfuscation offers some protection to make reverse engineering practically more challenging, it can't completely prevent it. A theoretical concept called black-box obfuscation has been proven impossible, which means obfuscated code always leaks some of the intentionally hidden information.  
 
 ## Author  
 - Tri  
