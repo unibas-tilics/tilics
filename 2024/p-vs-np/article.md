@@ -1,22 +1,13 @@
-# The Million Dollar Question
+# The Million Dollar Question 
 
-A traveling salesman wants to visit $3$ cities to sell his goods.
-Can he find a route that visits every city once that is at most $100$ km?
-In his case, there are only $6$ possible routes to check.
-But what if he had to go to $10$ cities? There would be $10! \approx 3.000.000$ options! 
+Ever wondered how quickly problems can be solved? Or if some problems can’t be cracked efficiently at all? Enter the fascinating world of computer science, where problems are grouped into the categories P and NP! 
 
-It would be handy if the salesman had a machine that could try out all routes simultaneously.
-Such a *nondeterministic* machine would be much faster! 
-The computation time of the machine is polynomial in the number of cities:
-For $3$ cities, a route consists of $3$ distances that must be added up.
-For $10$ cities, the machine takes a bit longer because $10$ distances need to be added.
-The computation time is not affected by how many potential solutions there are; it is only affected by how much effort is needed to check one.
+P stands for *polynomial time*. This section of problems is easy to tackle, and we know how to find solutions efficiently. Now, NP is where things get harder! It stands for *nondeterministic polynomial time*.
+This means that if you could magically try out all possible solutions at once (this is non-determinism), you would quickly find a solution (in polynomial time). 
+Put differently, if you can quickly verify that something is indeed a solution to a problem, then that problem is in NP. 
 
-Problems like this, where solution verification is fast (polynomial time), are in a class called **NP** (nondeterministic polynomial time) because they can be solved fast by the *nondeterministic* machine. 
-Problems that real computers can solve in polynomial time are in a class called **P**.
-It is unknown if problems in NP are also in P, aka could be solved faster.
-One Million Dollars are awarded to whoever solves this question.
+Here’s the catch: no physical computer can pull this non-determinism off, which means that problems in NP currently cannot be solved efficiently. 
+Interestingly, we still don’t know if finding faster solutions for NP problems is possible. There is a million-dollar prize for the person who can determine if P equals NP, implying that solving a problem is as hard as verifying a potential solution!
 
-
-## Author
+## Authors 
 Carina Schrenk 
