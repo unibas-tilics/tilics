@@ -1,17 +1,14 @@
 # What would you choose?
 
-You are offered to play a game against another person. In each round, you have two choices: **Cooperate** or **Refuse**. 
-If both players refuse, each player gets $1$ coin. If both cooperate, each player gets $3$ coins. 
-But, if you cooperate and your opponent refuses, they get $5$ coins, and you get nothing. So what should you do?
+Want to play a game? You will play against an opponent, and you both have to make a choice in each round: **Cooperate** or **Refuse**?
+Here's how it works: If both of you refuse, you each get 1\$. If both cooperate, you score 3\$ each. 
+But if you cooperate and your opponent refuses, they get 5\$ while you get nothing. Crucially, you don't know what your opponent will choose. So, what's the smartest move? 
 
-If your opponent refuses, you should also refuse; otherwise, you will get nothing. 
-If your opponent cooperates, you should again refuse, to get $3$ coins. 
-So you might conclude that refusing is your best option.
-However, your opponent will likely reach the same conclusion, and you both will only receive $1$ coin per round.
+Say your opponent will refuse, then you should also refuse to avoid complete loss. 
+And in case your opponent will cooperate, you should also refuse to snag 3$. 
+Seems like refusing is the best choice, right? But guess what? Your opponent likely thinks the same way, and you both end up with just 1$ each. 
 
-This game is a reformulation of a problem known in Game Theory as the Prisoner's Dilemma. 
-In the 1980s, Professor Axelrod ran a tournament where different computer programs played this game against each other in several rounds.
-The program that came out on top would always copy the opponent's move, it would start by cooperating and only refuse if the opponent refused in the last round.
+This game is a classic thought experiment in Game Theory called the Prisoner's Dilemma. In the 1980s, Professor Axelrod determined the winning strategy: Start by cooperating, and then mimic your opponent's last move! So even if locally refusing is the best option. In the overall scope of the game, cooperating is better for you and your opponent!
 
 ## Author
 Carina Schrenk 
