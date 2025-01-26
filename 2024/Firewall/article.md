@@ -2,9 +2,9 @@
 
 Imagine you live in a house with a strong, secure front door. 
 To secure your home, you set up a list of rules:
-People you know can knock and come in, some people - for example delivery people - can leave packages but cannot enter the house and everyone else is not permitted to enter at all.
+People you know can knock and come in, some people - for example, delivery people - can leave packages but cannot enter the house and everyone else is not permitted to enter at all.
 
-If someone tries to come inside, you can stop them at the door, check who they are, and decide wether to let them in. 
+If someone tries to come inside, you can stop them at the door, check who they are, and decide whether to let them in. 
 This keeps your home safe from unwanted visitors.
 
 A firewall works just like your front door. 
