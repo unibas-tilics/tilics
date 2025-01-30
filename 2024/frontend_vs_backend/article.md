@@ -1,6 +1,6 @@
 # Frontend vs Backend
 
-When building software, especially web applications, the terms frontend and backend are commonly encountered. These two parts work together to make an app function, but they handle different tasks.
+When building software, especially web applications, the terms frontend and backend are commonly used. These two parts work together to make an app function while handling different tasks.
 
 The frontend is everything users see and interact with - the buttons, images, text, colors, and layout. Think of it as the face of the app.
 
