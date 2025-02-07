@@ -1,4 +1,4 @@
-# Hackers: White Hat VS Black Hat VS Grey Hat  / Three Hats of a Hacker
+# Hackers: Three Hats of a Hacker
 
 We all know what hackers are. Even though they don't necessarily wear hats, their actions show what type of hackers they are!
 
