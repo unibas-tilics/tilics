@@ -112,7 +112,8 @@
   \newpage
   \topskip 0pt  % Remove any space at the top of the page
   \vspace*{\fill}  % Fill the space above the image
-  \noindent\hfill\includesvg[width=4in]{#1}\hfill  % Center horizontally
+  \filename@parse{#1}%
+  \noindent\hfill\includesvg[inkscapepath=svg-inkscape/\filename@area,height=2.5in,width=3.5in]{#1}\hfill  % Center horizontally
   \vspace*{\fill}  % Fill the space below the image
 }
 
