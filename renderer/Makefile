@@ -16,6 +16,7 @@ endef
 define process_articles
 	@for dir in $(SRC_DIR)/*/; do \
 		echo "Processing $$dir..."; \
+		rm -f "$${dir}article.tex"; \
 		pandoc -f markdown -t latex --wrap=preserve --lua-filter=filter.lua "$${dir}article.md" > "$${dir}article.tex"; \
 	done
 endef
@@ -32,8 +33,8 @@ define create_articles_latex
 endef
 
 
-all: $(OUTPUT_PDF).pdf cropped
-
+all: articles.tex $(OUTPUT_PDF).pdf cropped
+	@rm -f articles.tex
 
 # Main PDF generation
 $(OUTPUT_PDF).pdf: main.tex intro.tex tilics.cls toc.tex articles.tex
