@@ -7,13 +7,10 @@ NUM_ARTICLES := 32
 
 define generate_toc
 	awk 'FNR==1 { sub(/^# /, ""); print }' $(SRC_DIR)/*/article.md | \
-	awk -v part1=toc_part1.tex -v part2=toc_part2.tex ' \
-		{ lines[NR] = $$0 } \
-		END { \
-			mid = 16; \
-			for (i = 1; i <= mid; i++) print i, "&&", lines[i], "&&", mid + i, "&&", lines[mid + i], "\\\\" > part1; \
-			for (i = mid + 1; i <= NR; i++) print i, "&&", lines[i], "&&", mid + i, "&&", lines[mid + i], "\\\\" > part2; \
-		}'
+	head -n $(1) | \
+	awk '{ lines[NR] = $$0 } \
+		END { mid = int((NR + 1) / 2); \
+		for (i = 1; i <= mid; i++) print i, "&&", lines[i], "&&", mid + i, "&&", lines[mid + i], "\\\\" }'
 endef
 
 define process_articles
@@ -40,21 +37,21 @@ all: articles.tex $(OUTPUT_PDF).pdf cropped
 	@rm -f articles.tex
 
 # Main PDF generation
-$(OUTPUT_PDF).pdf: main.tex intro.tex tilics.cls toc_part1.tex toc_part2.tex articles.tex
-    @echo "Generating $(OUTPUT_PDF).pdf..."
-    pdflatex --version
-    pdflatex --enable-pipes --shell-escape main
-    pdflatex --enable-pipes --shell-escape main
-    @mv main.pdf $(OUTPUT_PDF).pdf
-    pdfinfo $(OUTPUT_PDF).pdf | grep "Page size"
+$(OUTPUT_PDF).pdf: main.tex intro.tex tilics.cls toc.tex articles.tex
+	@echo "Generating $(OUTPUT_PDF).pdf..."
+	pdflatex --version
+	pdflatex --enable-pipes --shell-escape main
+	pdflatex --enable-pipes --shell-escape main
+	@mv main.pdf $(OUTPUT_PDF).pdf
+	pdfinfo $(OUTPUT_PDF).pdf | grep "Page size"
 
 cropped: $(OUTPUT_PDF).pdf
 	pdfcrop --margin '-0.25 -29.5 -0.25 -29' $(OUTPUT_PDF).pdf $(OUTPUT_PDF)-cropped.pdf
 
 
 toc.tex: 
-	@echo "Generating toc..."
-	@$(call generate_toc, $(NUM_ARTICLES))
+	@echo "Generating toc.tex..."
+	@$(call generate_toc, $(NUM_ARTICLES)) > toc.tex
 
 clean:
 	rm -f toc.tex *.aux *.log $(OUTPUT_PDF)-cropped.pdf
