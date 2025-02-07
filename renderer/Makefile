@@ -6,14 +6,14 @@ OUTPUT_PDF := 2024_TILICS
 NUM_ARTICLES := 32
 
 define generate_toc
-    awk 'FNR==1 { sub(/^# /, ""); print }' $(SRC_DIR)/*/article.md | \
-    awk -v part1=toc_part1.tex -v part2=toc_part2.tex ' \
-        { lines[NR] = $$0 } \
-        END { \
-            mid = 16; \
-            for (i = 1; i <= mid; i++) print i, "&&", lines[i], "&&", mid + i, "&&", lines[mid + i], "\\\\" > part1; \
-            for (i = mid + 1; i <= NR; i++) print i, "&&", lines[i], "&&", mid + i, "&&", lines[mid + i], "\\\\" > part2; \
-        }'
+	awk 'FNR==1 { sub(/^# /, ""); print }' $(SRC_DIR)/*/article.md | \
+	awk -v part1=toc_part1.tex -v part2=toc_part2.tex ' \
+		{ lines[NR] = $$0 } \
+		END { \
+			mid = 16; \
+			for (i = 1; i <= mid; i++) print i, "&&", lines[i], "&&", mid + i, "&&", lines[mid + i], "\\\\" > part1; \
+			for (i = mid + 1; i <= NR; i++) print i, "&&", lines[i], "&&", mid + i, "&&", lines[mid + i], "\\\\" > part2; \
+		}'
 endef
 
 define process_articles
@@ -53,8 +53,8 @@ cropped: $(OUTPUT_PDF).pdf
 
 
 toc.tex: 
-    @echo "Generating toc_part1.tex and toc_part2.tex..."
-    @$(call generate_toc, $(NUM_ARTICLES))
+	@echo "Generating toc..."
+	@$(call generate_toc, $(NUM_ARTICLES))
 
 clean:
 	rm -f toc.tex *.aux *.log $(OUTPUT_PDF)-cropped.pdf
