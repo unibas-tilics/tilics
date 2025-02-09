@@ -58,7 +58,7 @@
   \newpage%\rightBar
 
   \noindent
-  {\small\copyright\ 2019
+  {\small\copyright\ 2025
   University of Basel, Department of Mathematics and Computer Science}
 
   \vspace*{-2pt}\noindent
@@ -102,15 +102,22 @@
   % back page
   \newpage\pagecolor{UnibasMint}
 
-  \vspace*{-0.5em}
-  \noindent
-  {\Large\bf List of Topics}
-  \vskip 2em
-  \noindent
+  \begin{minipage}[t]{0.48\textwidth}
+    \vspace*{-0.5em}
+    \noindent
+    {\Large\bf List of Topics}
+    \vskip 2em
+    \noindent
+    \begin{tabular}{rp{0.5em}lp{1em}}
+      \input{toc_part1.tex}
+    \end{tabular}
+  \end{minipage}
 
-  \begin{tabular}{rp{1em}lp{3em}rp{1em}l}
-    \input{toc.tex}
-  \end{tabular}
+  \begin{minipage}[t]{0.48\textwidth}
+    \begin{tabular}{rp{0.5em}lp{1em}}
+      \input{toc_part2.tex}
+    \end{tabular}
+  \end{minipage}
 
   \ifminibooklet
   
