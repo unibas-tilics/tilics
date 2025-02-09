@@ -1,4 +1,4 @@
-# CamelCase vs. snake_case, why coding conventions matter
+# CamelCase vs. snake case, why coding conventions matter
 
 Have you ever used a light yellow marker on a whiteboard? Have you ever worked in an international team where everyone was speaking in their mother tongue? Readability and collaboration are hard.
 
