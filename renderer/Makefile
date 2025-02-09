@@ -7,15 +7,19 @@ NUM_ARTICLES := 32
 
 define generate_toc
 	awk 'FNR==1 { sub(/^# /, ""); print }' $(SRC_DIR)/*/article.md | \
-	head -n $(1) | \
-	awk '{ lines[NR] = $$0 } \
-		END { mid = int((NR + 1) / 2); \
-		for (i = 1; i <= mid; i++) print i, "&&", lines[i], "&&", mid + i, "&&", lines[mid + i], "\\\\" }'
+	awk -v part1=toc_part1.tex -v part2=toc_part2.tex ' \
+        { lines[NR] = $$0 } \
+        END { \
+            mid = 16; \
+            for (i = 1; i <= mid; i++) print i, "&&", lines[i], "\\\\" > part1; \
+            for (i = mid + 1; i <= NR; i++) print i, "&&", lines[i], "\\\\" > part2; \
+        }'
 endef
 
 define process_articles
 	@for dir in $(SRC_DIR)/*/; do \
 		echo "Processing $$dir..."; \
+		rm -f "$${dir}article.tex"; \
 		pandoc -f markdown -t latex --wrap=preserve --lua-filter=filter.lua "$${dir}article.md" > "$${dir}article.tex"; \
 	done
 endef
@@ -32,8 +36,8 @@ define create_articles_latex
 endef
 
 
-all: $(OUTPUT_PDF).pdf cropped
-
+all: articles.tex $(OUTPUT_PDF).pdf cropped
+	@rm -f articles.tex
 
 # Main PDF generation
 $(OUTPUT_PDF).pdf: main.tex intro.tex tilics.cls toc.tex articles.tex
@@ -50,7 +54,7 @@ cropped: $(OUTPUT_PDF).pdf
 
 toc.tex: 
 	@echo "Generating toc.tex..."
-	@$(call generate_toc, $(NUM_ARTICLES)) > toc.tex
+	@$(call generate_toc, $(NUM_ARTICLES))
 
 clean:
 	rm -f toc.tex *.aux *.log $(OUTPUT_PDF)-cropped.pdf
